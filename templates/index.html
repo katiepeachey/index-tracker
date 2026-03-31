@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Index Tracker — Kernel</title>
+  <style>
+    /* -----------------------------------------------------------------------
+       Design tokens — Kernel brand
+    ----------------------------------------------------------------------- */
+    :root {
+      --bg:          #f5f6f6;
+      --ink:         #343539;
+      --sage:        #b5c4b6;
+      --sage-dark:   #98a59c;
+      --sage-light:  #d5e2d6;
+      --sage-xlight: #f0f6f1;
+      --muted:       #a1a1a2;
+      --border:      #eaebee;
+      --white:       #ffffff;
+      --green:       #2d7a4f;
+      --red:         #c0392b;
+      --radius:      10px;
+      --nav-h:       56px;
+    }
+
+    /* -----------------------------------------------------------------------
+       Reset & base
+    ----------------------------------------------------------------------- */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 14px;
+      color: var(--ink);
+      background: var(--bg);
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* -----------------------------------------------------------------------
+       Navbar
+    ----------------------------------------------------------------------- */
+    .navbar {
+      height: var(--nav-h);
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+      gap: 12px;
+      flex-shrink: 0;
+      z-index: 100;
+    }
+
+    .navbar__logo {
+      height: 28px;
+      width: auto;
+    }
+
+    .navbar__divider {
+      width: 1px;
+      height: 20px;
+      background: var(--border);
+    }
+
+    .navbar__subtitle {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink);
+      letter-spacing: 0.01em;
+    }
+
+    .navbar__spacer { flex: 1; }
+
+    /* -----------------------------------------------------------------------
+       Buttons
+    ----------------------------------------------------------------------- */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 7px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+      transition: background 0.15s, color 0.15s, opacity 0.15s;
+      text-decoration: none;
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .btn-sage {
+      background: var(--sage);
+      color: var(--white);
+    }
+    .btn-sage:hover:not(:disabled) { background: var(--sage-dark); }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--ink);
+      border: 1px solid var(--border);
+    }
+    .btn-ghost:hover:not(:disabled) {
+      background: var(--sage-xlight);
+      border-color: var(--sage);
+      color: var(--sage-dark);
+    }
+
+    /* -----------------------------------------------------------------------
+       Main layout
+    ----------------------------------------------------------------------- */
+    .layout {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    /* -----------------------------------------------------------------------
+       Sidebar
+    ----------------------------------------------------------------------- */
+    .sidebar {
+      width: 280px;
+      flex-shrink: 0;
+      background: var(--white);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .sidebar__header {
+      padding: 12px 16px 10px;
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+
+    .sidebar__title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--muted);
+    }
+
+    .sidebar__list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 4px 0;
+    }
+
+    /* Custom scrollbar */
+    .sidebar__list::-webkit-scrollbar { width: 4px; }
+    .sidebar__list::-webkit-scrollbar-track { background: transparent; }
+    .sidebar__list::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 4px;
+    }
+
+    .sidebar__item {
+      display: flex;
+      align-items: center;
+      padding: 9px 14px 9px 16px;
+      cursor: pointer;
+      transition: background 0.1s;
+      border-left: 3px solid transparent;
+      gap: 8px;
+    }
+
+    .sidebar__item:hover {
+      background: var(--sage-xlight);
+    }
+
+    .sidebar__item.active {
+      background: var(--sage-xlight);
+      border-left-color: var(--sage);
+    }
+
+    .sidebar__item-body {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .sidebar__item-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .sidebar__item-meta {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 1px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .chip-manual {
+      font-size: 9px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1px 5px;
+      flex-shrink: 0;
+    }
+
+    /* Status dot */
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .status-dot--empty  { background: var(--border); }
+    .status-dot--loaded { background: var(--green); }
+    .status-dot--loading {
+      background: var(--sage);
+      animation: pulse 1.2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    /* -----------------------------------------------------------------------
+       Main panel
+    ----------------------------------------------------------------------- */
+    .main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background: var(--bg);
+    }
+
+    /* Panel header */
+    .panel-header {
+      height: 52px;
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .panel-header__title-block {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .panel-header__title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1.2;
+    }
+
+    .panel-header__subtitle {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 1px;
+    }
+
+    .panel-header__actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Panel body */
+    .panel-body {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+    }
+
+    .panel-body::-webkit-scrollbar { width: 6px; }
+    .panel-body::-webkit-scrollbar-track { background: transparent; }
+    .panel-body::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 4px;
+    }
+
+    /* -----------------------------------------------------------------------
+       Empty / no-data states
+    ----------------------------------------------------------------------- */
+    .state-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      gap: 12px;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .state-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: var(--sage-xlight);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--sage-dark);
+      font-size: 22px;
+    }
+
+    .state-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    .state-body {
+      font-size: 13px;
+      color: var(--muted);
+      max-width: 300px;
+      line-height: 1.5;
+    }
+
+    .info-box {
+      background: var(--sage-xlight);
+      border: 1px solid var(--sage-light);
+      border-radius: var(--radius);
+      padding: 10px 14px;
+      font-size: 12px;
+      color: var(--sage-dark);
+      max-width: 360px;
+      line-height: 1.5;
+      text-align: left;
+    }
+
+    /* Upload drop zone */
+    .drop-zone {
+      border: 2px dashed var(--border);
+      border-radius: var(--radius);
+      padding: 32px 24px;
+      text-align: center;
+      cursor: pointer;
+      transition: border-color 0.15s, background 0.15s;
+      max-width: 400px;
+    }
+
+    .drop-zone:hover, .drop-zone.drag-over {
+      border-color: var(--sage);
+      background: var(--sage-xlight);
+    }
+
+    .drop-zone__icon {
+      font-size: 28px;
+      margin-bottom: 8px;
+      color: var(--muted);
+    }
+
+    .drop-zone__title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 4px;
+    }
+
+    .drop-zone__sub {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* -----------------------------------------------------------------------
+       Data table card
+    ----------------------------------------------------------------------- */
+    .card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .data-table thead {
+      background: var(--bg);
+    }
+
+    .data-table th {
+      padding: 9px 14px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    .data-table th:first-child { width: 52px; }
+
+    .data-table td {
+      padding: 9px 14px;
+      font-size: 13px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: middle;
+    }
+
+    .data-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .data-table tbody tr:hover td {
+      background: var(--sage-xlight);
+    }
+
+    .td-rank {
+      color: var(--muted);
+      font-size: 12px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .td-name {
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    .td-ticker {
+      font-family: 'SF Mono', 'Fira Mono', 'Menlo', monospace;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .td-url a {
+      font-size: 12px;
+      color: var(--sage-dark);
+      text-decoration: none;
+    }
+    .td-url a:hover { text-decoration: underline; }
+
+    .td-null {
+      color: var(--border);
+      font-size: 14px;
+    }
+
+    /* -----------------------------------------------------------------------
+       Toast notifications
+    ----------------------------------------------------------------------- */
+    .toast-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      z-index: 9999;
+    }
+
+    .toast {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--white);
+      background: #1e1f21;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.18);
+      animation: toastIn 0.2s ease;
+      min-width: 220px;
+      max-width: 380px;
+    }
+
+    .toast--success { background: #1e6640; }
+    .toast--error   { background: #8b1f1f; }
+
+    @keyframes toastIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* -----------------------------------------------------------------------
+       Loading spinner (inline)
+    ----------------------------------------------------------------------- */
+    .spinner {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 2px solid rgba(255,255,255,0.4);
+      border-top-color: currentColor;
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+      flex-shrink: 0;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Hidden file input */
+    #csv-input { display: none; }
+
+    /* Error banner inside panel body */
+    .error-banner {
+      background: #fff0f0;
+      border: 1px solid #f5c6c6;
+      border-radius: var(--radius);
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #8b1f1f;
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+
+    /* Table summary row */
+    .table-footer {
+      padding: 8px 14px;
+      font-size: 11px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      background: var(--bg);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===================================================================
+       Navbar
+  =================================================================== -->
+  <nav class="navbar">
+    <img src="/static/kernel-logo.png" alt="Kernel" class="navbar__logo" />
+    <div class="navbar__divider"></div>
+    <span class="navbar__subtitle">Index Tracker</span>
+    <div class="navbar__spacer"></div>
+    <button class="btn btn-sage" onclick="exportAll()">
+      &#x2193;&nbsp; Export All
+    </button>
+  </nav>
+
+  <!-- ===================================================================
+       Layout
+  =================================================================== -->
+  <div class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar__header">
+        <div class="sidebar__title">Indices ({{ indices|length }})</div>
+      </div>
+      <div class="sidebar__list" id="sidebar-list">
+        {% for idx in indices %}
+        <div
+          class="sidebar__item"
+          id="sidebar-item-{{ idx.id }}"
+          onclick="selectIndex('{{ idx.id }}')"
+          title="{{ idx.name }}"
+        >
+          <div class="sidebar__item-body">
+            <div class="sidebar__item-name">
+              {{ idx.name }}
+              {% if idx.manual %}
+              <span class="chip-manual">manual</span>
+              {% endif %}
+            </div>
+            <div class="sidebar__item-meta" id="sidebar-meta-{{ idx.id }}">
+              {% if idx.has_data %}
+                {{ idx.count }} compan{{ 'y' if idx.count == 1 else 'ies' }}
+                &middot;
+                {% if idx.last_updated %}
+                  {{ idx.last_updated[:10] }}
+                {% endif %}
+              {% else %}
+                No data &middot; Never updated
+              {% endif %}
+            </div>
+          </div>
+          <div
+            class="status-dot {{ 'status-dot--loaded' if idx.has_data else 'status-dot--empty' }}"
+            id="status-dot-{{ idx.id }}"
+          ></div>
+        </div>
+        {% endfor %}
+      </div>
+    </aside>
+
+    <!-- Main panel -->
+    <main class="main">
+      <!-- Panel header -->
+      <div class="panel-header" id="panel-header">
+        <div class="panel-header__title-block">
+          <div class="panel-header__title" id="panel-title">Index Tracker</div>
+          <div class="panel-header__subtitle" id="panel-subtitle">Select an index from the sidebar</div>
+        </div>
+        <div class="panel-header__actions" id="panel-actions">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- Panel body -->
+      <div class="panel-body" id="panel-body">
+        <div class="state-center">
+          <div class="state-icon">&#x25A6;</div>
+          <div class="state-title">No index selected</div>
+          <div class="state-body">Choose an index from the sidebar to view its composition.</div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Hidden CSV file input -->
+  <input type="file" id="csv-input" accept=".csv,text/csv" onchange="handleFileInputChange(event)" />
+
+  <!-- Toast container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- ===================================================================
+       JavaScript
+  =================================================================== -->
+  <script>
+    // ------------------------------------------------------------------
+    // Data from Flask (injected at render time)
+    // ------------------------------------------------------------------
+    const INDICES = {{ indices | tojson }};
+
+    // Map id → config info
+    const INDICES_MAP = {};
+    INDICES.forEach(idx => { INDICES_MAP[idx.id] = idx; });
+
+    // ------------------------------------------------------------------
+    // State
+    // ------------------------------------------------------------------
+    let activeIndexId = null;
+    let activeIndexData = null;  // The full company list currently shown
+
+    // ------------------------------------------------------------------
+    // Sidebar helpers
+    // ------------------------------------------------------------------
+
+    function setDotState(indexId, state) {
+      // state: 'empty' | 'loaded' | 'loading'
+      const dot = document.getElementById('status-dot-' + indexId);
+      if (!dot) return;
+      dot.className = 'status-dot status-dot--' + state;
+    }
+
+    function setSidebarMeta(indexId, text) {
+      const el = document.getElementById('sidebar-meta-' + indexId);
+      if (el) el.textContent = text;
+    }
+
+    function setActiveSidebarItem(indexId) {
+      document.querySelectorAll('.sidebar__item').forEach(el => {
+        el.classList.remove('active');
+      });
+      const item = document.getElementById('sidebar-item-' + indexId);
+      if (item) item.classList.add('active');
+    }
+
+    // ------------------------------------------------------------------
+    // Panel header builder
+    // ------------------------------------------------------------------
+
+    function renderPanelHeader(indexId, companyCount) {
+      const meta = INDICES_MAP[indexId];
+      if (!meta) return;
+
+      document.getElementById('panel-title').textContent = meta.name;
+      document.getElementById('panel-subtitle').textContent =
+        companyCount != null
+          ? companyCount + ' compan' + (companyCount === 1 ? 'y' : 'ies')
+          : 'No data yet';
+
+      const actionsEl = document.getElementById('panel-actions');
+      actionsEl.innerHTML = '';
+
+      if (meta.manual) {
+        // Upload button
+        const uploadBtn = document.createElement('button');
+        uploadBtn.className = 'btn btn-ghost';
+        uploadBtn.innerHTML = '&#x2191;&nbsp; Upload CSV';
+        uploadBtn.onclick = () => triggerCSVUpload(indexId);
+        actionsEl.appendChild(uploadBtn);
+      } else {
+        // Refresh button
+        const refreshBtn = document.createElement('button');
+        refreshBtn.id = 'refresh-btn-' + indexId;
+        refreshBtn.className = 'btn btn-ghost';
+        refreshBtn.innerHTML = '&#x21BB;&nbsp; Refresh';
+        refreshBtn.onclick = () => refreshIndex(indexId);
+        actionsEl.appendChild(refreshBtn);
+      }
+
+      // Export button (only shown when data exists)
+      if (companyCount && companyCount > 0) {
+        const exportBtn = document.createElement('button');
+        exportBtn.className = 'btn btn-sage';
+        exportBtn.innerHTML = '&#x2193;&nbsp; Export CSV';
+        exportBtn.onclick = () => exportIndex(indexId);
+        actionsEl.appendChild(exportBtn);
+      }
+    }
+
+    // ------------------------------------------------------------------
+    // Select index
+    // ------------------------------------------------------------------
+
+    async function selectIndex(indexId) {
+      if (activeIndexId === indexId) return;
+
+      activeIndexId = indexId;
+      setActiveSidebarItem(indexId);
+
+      const meta = INDICES_MAP[indexId];
+      renderPanelHeader(indexId, null);
+      renderLoading();
+
+      try {
+        const resp = await fetch('/api/indices/' + indexId);
+        const data = await resp.json();
+
+        if (data.error && !data.companies?.length) {
+          renderError(data.error, indexId, meta);
+          renderPanelHeader(indexId, 0);
+          return;
+        }
+
+        activeIndexData = data;
+        renderPanelHeader(indexId, data.companies?.length || 0);
+
+        if (!data.companies || data.companies.length === 0) {
+          renderNoData(indexId, meta);
+        } else {
+          renderTable(data.companies, data.error);
+        }
+      } catch (err) {
+        renderError('Failed to load index data: ' + err.message, indexId, meta);
+      }
+    }
+
+    // ------------------------------------------------------------------
+    // Refresh (scrape) an index
+    // ------------------------------------------------------------------
+
+    async function refreshIndex(indexId) {
+      const meta = INDICES_MAP[indexId];
+      if (!meta) return;
+
+      // Show loading state
+      setDotState(indexId, 'loading');
+      setSidebarMeta(indexId, 'Refreshing…');
+
+      const refreshBtn = document.getElementById('refresh-btn-' + indexId);
+      if (refreshBtn) {
+        refreshBtn.disabled = true;
+        refreshBtn.innerHTML = '<span class="spinner"></span>&nbsp; Refreshing…';
+      }
+
+      // If this is the active index, also show loading in panel body
+      if (activeIndexId === indexId) {
+        renderLoading();
+      }
+
+      try {
+        const resp = await fetch('/api/refresh/' + indexId, { method: 'POST' });
+        const data = await resp.json();
+
+        if (!resp.ok || data.error) {
+          setDotState(indexId, 'empty');
+          setSidebarMeta(indexId, 'Scrape failed');
+          toast('Scrape failed: ' + (data.error || 'Unknown error'), 'error');
+          if (activeIndexId === indexId) {
+            renderError(data.error || 'Scrape failed', indexId, meta);
+            renderPanelHeader(indexId, 0);
+          }
+          return;
+        }
+
+        // Success
+        setDotState(indexId, 'loaded');
+        const count = data.count;
+        const dateStr = data.last_updated ? data.last_updated.slice(0, 10) : '';
+        setSidebarMeta(indexId, count + ' compan' + (count === 1 ? 'y' : 'ies') + ' · ' + dateStr);
+        toast(meta.name + ': ' + count + ' companies loaded', 'success');
+
+        // Update sidebar meta in INDICES_MAP
+        INDICES_MAP[indexId].has_data = true;
+        INDICES_MAP[indexId].count = count;
+
+        if (activeIndexId === indexId) {
+          await selectIndex(indexId);
+          // Re-select to refresh panel
+        }
+
+      } catch (err) {
+        setDotState(indexId, 'empty');
+        setSidebarMeta(indexId, 'Error');
+        toast('Request failed: ' + err.message, 'error');
+      } finally {
+        if (refreshBtn) {
+          refreshBtn.disabled = false;
+          refreshBtn.innerHTML = '&#x21BB;&nbsp; Refresh';
+        }
+      }
+    }
+
+    // ------------------------------------------------------------------
+    // CSV Upload
+    // ------------------------------------------------------------------
+
+    let uploadTargetId = null;
+
+    function triggerCSVUpload(indexId) {
+      uploadTargetId = indexId;
+      const input = document.getElementById('csv-input');
+      input.value = '';
+      input.click();
+    }
+
+    function handleFileInputChange(event) {
+      const file = event.target.files[0];
+      if (file && uploadTargetId) {
+        uploadCSV(uploadTargetId, file);
+      }
+    }
+
+    async function uploadCSV(indexId, file) {
+      const meta = INDICES_MAP[indexId];
+      setDotState(indexId, 'loading');
+      setSidebarMeta(indexId, 'Uploading…');
+
+      const formData = new FormData();
+      formData.append('file', file);
+
+      try {
+        const resp = await fetch('/api/upload/' + indexId, {
+          method: 'POST',
+          body: formData,
+        });
+        const data = await resp.json();
+
+        if (!resp.ok || data.error) {
+          setDotState(indexId, 'empty');
+          setSidebarMeta(indexId, 'Upload failed');
+          toast('Upload failed: ' + (data.error || 'Unknown error'), 'error');
+          return;
+        }
+
+        const count = data.count;
+        const dateStr = data.last_updated ? data.last_updated.slice(0, 10) : '';
+        setDotState(indexId, 'loaded');
+        setSidebarMeta(indexId, count + ' compan' + (count === 1 ? 'y' : 'ies') + ' · ' + dateStr);
+        toast(meta.name + ': ' + count + ' companies uploaded', 'success');
+
+        INDICES_MAP[indexId].has_data = true;
+        INDICES_MAP[indexId].count = count;
+
+        if (activeIndexId === indexId) {
+          selectIndex(indexId);
+        }
+
+      } catch (err) {
+        setDotState(indexId, 'empty');
+        setSidebarMeta(indexId, 'Error');
+        toast('Upload failed: ' + err.message, 'error');
+      }
+    }
+
+    // Drag-and-drop on the drop zone
+    function setupDropZone(el, indexId) {
+      el.addEventListener('dragover', e => {
+        e.preventDefault();
+        el.classList.add('drag-over');
+      });
+      el.addEventListener('dragleave', () => el.classList.remove('drag-over'));
+      el.addEventListener('drop', e => {
+        e.preventDefault();
+        el.classList.remove('drag-over');
+        const file = e.dataTransfer.files[0];
+        if (file) uploadCSV(indexId, file);
+      });
+      el.addEventListener('click', () => triggerCSVUpload(indexId));
+    }
+
+    // ------------------------------------------------------------------
+    // Export helpers
+    // ------------------------------------------------------------------
+
+    function exportIndex(indexId) {
+      window.location.href = '/api/export/csv/' + indexId;
+    }
+
+    function exportAll() {
+      window.location.href = '/api/export/csv';
+    }
+
+    // ------------------------------------------------------------------
+    // Panel body renderers
+    // ------------------------------------------------------------------
+
+    function renderLoading() {
+      document.getElementById('panel-body').innerHTML = `
+        <div class="state-center">
+          <div class="status-dot status-dot--loading" style="width:24px;height:24px;"></div>
+          <div class="state-body">Loading…</div>
+        </div>`;
+    }
+
+    function renderNoData(indexId, meta) {
+      const isManual = meta && meta.manual;
+      const notes = meta && meta.notes ? meta.notes : '';
+
+      let notesHtml = '';
+      if (notes) {
+        notesHtml = `<div class="info-box">&#x2139;&#xFE0F; ${escapeHtml(notes)}</div>`;
+      }
+
+      let content;
+      if (isManual) {
+        const dropZoneId = 'drop-zone-' + indexId;
+        content = `
+          <div class="state-center">
+            <div class="state-icon">&#x2191;</div>
+            <div class="state-title">No data yet</div>
+            <div class="state-body">Upload a CSV to populate this index.</div>
+            ${notesHtml}
+            <div class="drop-zone" id="${dropZoneId}">
+              <div class="drop-zone__icon">&#x1F4C2;</div>
+              <div class="drop-zone__title">Drop a CSV here or click Upload CSV above</div>
+              <div class="drop-zone__sub">Expected columns: name, ticker, url (optional), rank (optional)</div>
+            </div>
+          </div>`;
+      } else {
+        content = `
+          <div class="state-center">
+            <div class="state-icon">&#x25A6;</div>
+            <div class="state-title">No data yet</div>
+            <div class="state-body">Click Refresh to fetch this index from ${escapeHtml(meta?.source || 'the source')}.</div>
+            ${notesHtml}
+          </div>`;
+      }
+
+      document.getElementById('panel-body').innerHTML = content;
+
+      if (isManual) {
+        const dropZone = document.getElementById('drop-zone-' + indexId);
+        if (dropZone) setupDropZone(dropZone, indexId);
+      }
+    }
+
+    function renderError(errorMsg, indexId, meta) {
+      const isManual = meta && meta.manual;
+      const notes = meta && meta.notes ? meta.notes : '';
+      let notesHtml = notes
+        ? `<div class="info-box">&#x2139;&#xFE0F; ${escapeHtml(notes)}</div>`
+        : '';
+
+      let dropZoneHtml = '';
+      if (isManual) {
+        const dropZoneId = 'drop-zone-err-' + indexId;
+        dropZoneHtml = `
+          <div class="drop-zone" id="${dropZoneId}">
+            <div class="drop-zone__icon">&#x1F4C2;</div>
+            <div class="drop-zone__title">Drop a CSV here or click Upload CSV above</div>
+            <div class="drop-zone__sub">Expected columns: name, ticker, url (optional), rank (optional)</div>
+          </div>`;
+      }
+
+      document.getElementById('panel-body').innerHTML = `
+        <div class="state-center">
+          <div class="state-icon" style="background:#fff0f0;color:#c0392b;">&#x26A0;</div>
+          <div class="state-title">Scrape failed</div>
+          <div class="error-banner">${escapeHtml(errorMsg)}</div>
+          ${notesHtml}
+          ${dropZoneHtml}
+        </div>`;
+
+      if (isManual) {
+        const dz = document.getElementById('drop-zone-err-' + indexId);
+        if (dz) setupDropZone(dz, indexId);
+      }
+    }
+
+    function renderTable(companies, errorMsg) {
+      const panelBody = document.getElementById('panel-body');
+
+      let errorHtml = '';
+      if (errorMsg) {
+        errorHtml = `<div class="error-banner">&#x26A0; Last refresh had a warning: ${escapeHtml(errorMsg)}</div>`;
+      }
+
+      const rows = companies.map(c => {
+        const name   = escapeHtml(c.name   || '');
+        const ticker = escapeHtml(c.ticker || '');
+        const url    = c.url || '';
+        const rank   = c.rank || '';
+
+        let urlCell;
+        if (url) {
+          // Try to show just the hostname
+          let display = url;
+          try { display = new URL(url).hostname.replace(/^www\./, ''); } catch(e) {}
+          urlCell = `<a href="${escapeAttr(url)}" target="_blank" rel="noopener">${escapeHtml(display)}</a>`;
+        } else {
+          urlCell = `<span class="td-null">&mdash;</span>`;
+        }
+
+        return `
+          <tr>
+            <td class="td-rank">${rank}</td>
+            <td class="td-name">${name}</td>
+            <td class="td-ticker">${ticker}</td>
+            <td class="td-url">${urlCell}</td>
+          </tr>`;
+      }).join('');
+
+      panelBody.innerHTML = `
+        ${errorHtml}
+        <div class="card">
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Ticker</th>
+                  <th>Website</th>
+                </tr>
+              </thead>
+              <tbody>${rows}</tbody>
+            </table>
+          </div>
+          <div class="table-footer">${companies.length} compan${companies.length === 1 ? 'y' : 'ies'}</div>
+        </div>`;
+    }
+
+    // ------------------------------------------------------------------
+    // Toast
+    // ------------------------------------------------------------------
+
+    function toast(message, type) {
+      // type: '' | 'success' | 'error'
+      const container = document.getElementById('toast-container');
+      const el = document.createElement('div');
+      el.className = 'toast' + (type ? ' toast--' + type : '');
+
+      const icon = type === 'success' ? '&#x2713;' : type === 'error' ? '&#x2715;' : '&#x2022;';
+      el.innerHTML = `<span>${icon}</span><span>${escapeHtml(message)}</span>`;
+      container.appendChild(el);
+
+      setTimeout(() => {
+        el.style.transition = 'opacity 0.3s ease';
+        el.style.opacity = '0';
+        setTimeout(() => el.remove(), 350);
+      }, 3000);
+    }
+
+    // ------------------------------------------------------------------
+    // Utility
+    // ------------------------------------------------------------------
+
+    function escapeHtml(str) {
+      if (str == null) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function escapeAttr(str) {
+      if (str == null) return '';
+      return String(str).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    }
+  </script>
+</body>
+</html>
