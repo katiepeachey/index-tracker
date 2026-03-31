@@ -93,8 +93,9 @@ INDICES_CONFIG = {
     },
     'stoxx_global_1800': {
         'name': 'STOXX Global 1800',
-        'source': 'manual',
-        'manual': True,
+        'source': 'ishares',
+        # iShares STOXX Global 1800 UCITS ETF (ISWD) holdings CSV
+        'url': 'https://www.ishares.com/uk/individual/en/products/251892/ishares-stoxx-global-1800-ucits-etf/1478372549651.ajax?fileType=csv&fileName=ISWD_holdings&dataType=fund',
     },
     'msci_world': {
         'name': 'MSCI World',
@@ -103,8 +104,9 @@ INDICES_CONFIG = {
     },
     's_p_global_1200': {
         'name': 'S&P Global 1200',
-        'source': 'manual',
-        'manual': True,
+        'source': 'ishares',
+        # iShares Core S&P Global 1200 UCITS ETF (ISSP) holdings CSV
+        'url': 'https://www.ishares.com/uk/individual/en/products/264119/ishares-sp-global-1200-ucits-etf/1478372549651.ajax?fileType=csv&fileName=ISSP_holdings&dataType=fund',
     },
     'cac_40': {
         'name': 'CAC 40',
@@ -130,15 +132,15 @@ INDICES_CONFIG = {
     },
     'fortune_500': {
         'name': 'Fortune 500',
-        'source': 'manual',
-        'manual': True,
-        'notes': 'Annual. Download from fortune.com/ranking/fortune500/ and upload CSV.',
+        'source': 'fortune',
+        'url': 'https://fortune.com/ranking/fortune500/',
+        'limit': 500,
     },
     'fortune_1000': {
         'name': 'Fortune 1000',
-        'source': 'manual',
-        'manual': True,
-        'notes': 'Annual. Download from fortune.com/ranking/fortune500/ and upload CSV.',
+        'source': 'fortune',
+        'url': 'https://fortune.com/ranking/fortune500/',
+        'limit': 1000,
     },
     's_p_500': {
         'name': 'S&P 500',
@@ -148,14 +150,23 @@ INDICES_CONFIG = {
     },
     'forbes_2000': {
         'name': 'Forbes Global 2000',
-        'source': 'manual',
-        'manual': True,
-        'notes': 'Annual. Download from forbes.com and upload CSV.',
+        'source': 'forbes',
+        'url': 'https://www.forbes.com/lists/global2000/',
     },
     'tecdax': {
         'name': 'TecDAX',
         'source': 'tradingview',
         'url': 'https://www.tradingview.com/symbols/XETR-TDXP/components/',
+    },
+    'ftse_100': {
+        'name': 'FTSE 100',
+        'source': 'tradingview',
+        'url': 'https://www.tradingview.com/symbols/FTSE-UKX/components/',
+    },
+    'ftse_250': {
+        'name': 'FTSE 250',
+        'source': 'tradingview',
+        'url': 'https://www.tradingview.com/symbols/FTSE-MCX/components/',
     },
     'ftse_350': {
         'name': 'FTSE 350',
@@ -643,6 +654,321 @@ def scrape_euronext(url: str) -> List[dict]:
 
 
 # ---------------------------------------------------------------------------
+# iShares ETF holdings CSV scraper
+# ---------------------------------------------------------------------------
+
+def scrape_ishares(url: str) -> List[dict]:
+    """
+    Fetch an iShares ETF holdings CSV and extract constituent companies.
+
+    iShares CSV files have several metadata rows at the top before the
+    actual data header row. We scan for the header row by looking for
+    a line containing 'Name' or 'Issuer', then parse from there.
+
+    Returns a list of dicts: {rank, name, ticker, url}
+    """
+    headers = {
+        'User-Agent': (
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+            'AppleWebKit/537.36 (KHTML, like Gecko) '
+            'Chrome/120.0.0.0 Safari/537.36'
+        ),
+        'Referer': 'https://www.ishares.com/',
+        'Accept': 'text/csv,application/csv,text/plain,*/*',
+    }
+
+    try:
+        resp = requests.get(url, headers=headers, timeout=60)
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        raise Exception(f'iShares request failed: {e}')
+
+    import csv as csv_module
+    import io as io_module
+
+    lines = resp.text.splitlines()
+
+    # Find the header row — iShares CSVs have a few metadata lines first
+    header_idx = None
+    for i, line in enumerate(lines):
+        # The data header row contains 'Name' and 'Ticker' or 'Asset Class'
+        if re.search(r'\bName\b', line) and re.search(r'\bTicker\b|\bAsset Class\b|\bISIN\b', line):
+            header_idx = i
+            break
+
+    if header_idx is None:
+        raise Exception(
+            f'Could not find data header row in iShares CSV from {url}. '
+            'The file format may have changed.'
+        )
+
+    reader = csv_module.DictReader(
+        io_module.StringIO('\n'.join(lines[header_idx:]))
+    )
+
+    companies = []
+    rank = 1
+    # Asset classes to skip (cash, futures, derivatives etc.)
+    skip_asset_classes = {'cash', 'money market', 'future', 'forward', 'option', 'swap', 'other'}
+
+    for row in reader:
+        name = (row.get('Name') or row.get('Issuer') or '').strip()
+        ticker = (row.get('Ticker') or '').strip()
+        asset_class = (row.get('Asset Class') or '').strip().lower()
+
+        if not name or name in ('-', '', 'N/A'):
+            continue
+        if asset_class in skip_asset_classes:
+            continue
+        # Skip rows that are clearly totals/headers
+        if name.lower().startswith('total') or name.lower() == 'name':
+            continue
+
+        companies.append({
+            'rank': rank,
+            'name': name,
+            'ticker': ticker,
+            'url': '',
+        })
+        rank += 1
+
+    if not companies:
+        raise Exception(
+            f'iShares scraper found no equity holdings in the CSV from {url}. '
+            'Check the URL is correct and still active.'
+        )
+
+    return companies
+
+
+# ---------------------------------------------------------------------------
+# Fortune 500 / 1000 scraper
+# ---------------------------------------------------------------------------
+
+def scrape_fortune(url: str, limit: int = 500) -> List[dict]:
+    """
+    Scrape the Fortune 500/1000 ranking from fortune.com.
+
+    First tries Fortune's internal franchise API (fast, no browser).
+    Falls back to Playwright if the API is unavailable.
+
+    Returns a list of dicts: {rank, name, ticker, url}
+    """
+    # Try the internal franchise API first
+    api_url = (
+        'https://fortune.com/franchise-api/v1/items/fortune500'
+        f'?genre=fortune500&count={limit}&field=rank&field=company'
+        '&field=url&field=revenues&field=title'
+    )
+    try:
+        resp = requests.get(
+            api_url,
+            headers={'User-Agent': 'Mozilla/5.0', 'Referer': 'https://fortune.com/'},
+            timeout=30,
+        )
+        if resp.status_code == 200:
+            data = resp.json()
+            items = data.get('items', data) if isinstance(data, dict) else data
+            companies = []
+            for item in items[:limit]:
+                title = (
+                    item.get('company') or item.get('title') or
+                    item.get('fields', {}).get('company') or ''
+                ).strip()
+                rank_val = item.get('rank') or item.get('fields', {}).get('rank') or len(companies) + 1
+                company_url = item.get('url') or item.get('fields', {}).get('url') or ''
+                if title:
+                    companies.append({
+                        'rank': int(rank_val) if str(rank_val).isdigit() else len(companies) + 1,
+                        'name': title,
+                        'ticker': '',
+                        'url': company_url,
+                    })
+            if companies:
+                return companies
+    except Exception:
+        pass  # Fall through to Playwright
+
+    # Playwright fallback
+    from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
+
+    companies = []
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=['--no-sandbox', '--disable-dev-shm-usage'],
+        )
+        try:
+            page = browser.new_page(
+                user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+            )
+            page.goto(url, wait_until='networkidle', timeout=60000)
+
+            # Try to find ranking table rows
+            try:
+                page.wait_for_selector(
+                    '[class*="rank"], [class*="company"], table tr, [data-testid*="row"]',
+                    timeout=15000,
+                )
+            except PlaywrightTimeout:
+                pass
+
+            page.wait_for_timeout(3000)
+
+            # Extract company names from the page
+            rows = page.evaluate(f"""
+                () => {{
+                    const results = [];
+                    // Try table rows
+                    const tableRows = document.querySelectorAll('table tr, [class*="listItem"], [class*="rankRow"], [class*="company-row"]');
+                    tableRows.forEach((row, idx) => {{
+                        if (results.length >= {limit}) return;
+                        const nameEl = row.querySelector('[class*="company"], [class*="name"], td:nth-child(2), td:first-child a');
+                        const rankEl = row.querySelector('[class*="rank"], td:first-child');
+                        if (nameEl) {{
+                            const name = nameEl.textContent.trim();
+                            const rank = rankEl ? rankEl.textContent.trim() : String(idx + 1);
+                            const link = nameEl.closest('a') || nameEl.querySelector('a');
+                            if (name && name.length > 1 && !/^\\d+$/.test(name)) {{
+                                results.push({{ rank: rank, name: name, url: link ? link.href : '' }});
+                            }}
+                        }}
+                    }});
+                    return results;
+                }}
+            """)
+
+            for i, r in enumerate(rows[:limit]):
+                rank_str = str(r.get('rank', i + 1))
+                rank_val = int(rank_str) if rank_str.isdigit() else i + 1
+                companies.append({
+                    'rank': rank_val,
+                    'name': r.get('name', '').strip(),
+                    'ticker': '',
+                    'url': r.get('url', ''),
+                })
+
+        finally:
+            browser.close()
+
+    if not companies:
+        raise Exception(
+            f'Fortune scraper returned no data from {url}. '
+            'The page structure may have changed.'
+        )
+
+    return companies[:limit]
+
+
+# ---------------------------------------------------------------------------
+# Forbes Global 2000 scraper
+# ---------------------------------------------------------------------------
+
+def scrape_forbes(url: str) -> List[dict]:
+    """
+    Scrape the Forbes Global 2000 ranking from forbes.com.
+
+    First tries Forbes' internal forbesapi (fast, no browser).
+    Falls back to Playwright if the API is unavailable.
+
+    Returns a list of dicts: {rank, name, ticker, url}
+    """
+    # Try the internal Forbes API first
+    current_year = 2025  # Update annually or derive dynamically
+    api_url = (
+        f'https://www.forbes.com/forbesapi/org/global2000/{current_year}'
+        '/position/true.json?fields=rank,organizationName,publicStatus,uri&limit=2000'
+    )
+    try:
+        resp = requests.get(
+            api_url,
+            headers={'User-Agent': 'Mozilla/5.0', 'Referer': 'https://www.forbes.com/'},
+            timeout=30,
+        )
+        if resp.status_code == 200:
+            data = resp.json()
+            items = data.get('organizationList', {}).get('organizationsLists', [])
+            if not items:
+                items = data if isinstance(data, list) else []
+            companies = []
+            for item in items:
+                name = (item.get('organizationName') or item.get('name') or '').strip()
+                rank_val = item.get('rank') or len(companies) + 1
+                uri = item.get('uri') or ''
+                company_url = f'https://www.forbes.com{uri}' if uri.startswith('/') else uri
+                if name:
+                    companies.append({
+                        'rank': int(rank_val) if str(rank_val).isdigit() else len(companies) + 1,
+                        'name': name,
+                        'ticker': '',
+                        'url': company_url,
+                    })
+            if companies:
+                return companies
+    except Exception:
+        pass  # Fall through to Playwright
+
+    # Playwright fallback
+    from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
+
+    companies = []
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=['--no-sandbox', '--disable-dev-shm-usage'],
+        )
+        try:
+            page = browser.new_page(
+                user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+            )
+            page.goto(url, wait_until='networkidle', timeout=60000)
+
+            try:
+                page.wait_for_selector('table tr, [class*="listItem"], [class*="row"]', timeout=15000)
+            except PlaywrightTimeout:
+                pass
+
+            page.wait_for_timeout(3000)
+
+            rows = page.evaluate("""
+                () => {
+                    const results = [];
+                    const rows = document.querySelectorAll('table tr, [class*="listItem"], [class*="rankRow"]');
+                    rows.forEach((row, idx) => {
+                        const nameEl = row.querySelector('[class*="name"], [class*="org"], td:nth-child(2), a');
+                        if (nameEl) {
+                            const name = nameEl.textContent.trim();
+                            const link = nameEl.closest('a') || nameEl.querySelector('a');
+                            if (name && name.length > 1 && !/^\\d+$/.test(name)) {
+                                results.push({ rank: idx + 1, name: name, url: link ? link.href : '' });
+                            }
+                        }
+                    });
+                    return results;
+                }
+            """)
+
+            for i, r in enumerate(rows):
+                companies.append({
+                    'rank': r.get('rank', i + 1),
+                    'name': r.get('name', '').strip(),
+                    'ticker': '',
+                    'url': r.get('url', ''),
+                })
+
+        finally:
+            browser.close()
+
+    if not companies:
+        raise Exception(
+            f'Forbes scraper returned no data from {url}. '
+            'The page structure may have changed.'
+        )
+
+    return companies
+
+
+# ---------------------------------------------------------------------------
 # Dispatcher
 # ---------------------------------------------------------------------------
 
@@ -672,5 +998,14 @@ def scrape_index(index_id: str, config: dict) -> List[dict]:
 
     if source == 'euronext':
         return scrape_euronext(config['url'])
+
+    if source == 'ishares':
+        return scrape_ishares(config['url'])
+
+    if source == 'fortune':
+        return scrape_fortune(config['url'], config.get('limit', 500))
+
+    if source == 'forbes':
+        return scrape_forbes(config['url'])
 
     raise Exception(f'Unknown source "{source}" for index "{index_id}".')
