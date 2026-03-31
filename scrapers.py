@@ -561,10 +561,23 @@ def scrape_wikipedia_navbox(
             f'Could not find a navbox with index constituents on: {url}'
         )
 
-    # Extract unique company links (preserving order)
+    # Extract unique company links from list cells only (skip title/header cells
+    # which contain geography links like "Japan" or "Germany")
+    list_cells = navbox.find_all(
+        ['td', 'li'],
+        class_=re.compile(r'navbox-list|hlist'),
+    )
+    link_elements = []
+    if list_cells:
+        for cell in list_cells:
+            link_elements.extend(cell.find_all('a'))
+    else:
+        # Fallback: all links in the navbox
+        link_elements = navbox.find_all('a')
+
     seen = set()
     entries = []
-    for a in navbox.find_all('a'):
+    for a in link_elements:
         href = a.get('href', '')
         name = a.get_text(strip=True)
         if (not href.startswith('/wiki/')
