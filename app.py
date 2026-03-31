@@ -24,6 +24,7 @@ import os
 import csv
 import io
 from datetime import datetime
+from typing import Optional, Dict
 
 from scrapers import scrape_index, INDICES_CONFIG
 
@@ -37,7 +38,7 @@ os.makedirs(DATA_DIR, exist_ok=True)
 # JSON storage helpers
 # ---------------------------------------------------------------------------
 
-def load_index_data(index_id: str) -> dict | None:
+def load_index_data(index_id: str) -> Optional[dict]:
     """Load stored index data from disk. Returns None if not yet scraped."""
     path = os.path.join(DATA_DIR, f'{index_id}.json')
     if os.path.exists(path):
@@ -293,7 +294,7 @@ def api_export_all():
 
     # Build a master company map: key → {name, url, field_values}
     # Key is normalised URL (if present) or lowercased name
-    company_map: dict[str, dict] = {}
+    company_map: Dict[str, dict] = {}
 
     for field_id in all_fields:
         stored = load_index_data(field_id)

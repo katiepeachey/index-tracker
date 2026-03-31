@@ -13,6 +13,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import re
+from typing import List
 
 # ---------------------------------------------------------------------------
 # Index Configuration
@@ -183,7 +184,7 @@ INDICES_CONFIG = {
 # TradingView scraper (Playwright)
 # ---------------------------------------------------------------------------
 
-def scrape_tradingview(url: str) -> list[dict]:
+def scrape_tradingview(url: str) -> List[dict]:
     """
     Scrape index components from a TradingView components page.
 
@@ -340,7 +341,7 @@ def scrape_tradingview(url: str) -> list[dict]:
 # Wikipedia scraper
 # ---------------------------------------------------------------------------
 
-def scrape_wikipedia(url: str, table_index: int = 0) -> list[dict]:
+def scrape_wikipedia(url: str, table_index: int = 0) -> List[dict]:
     """
     Scrape index components from a Wikipedia article.
 
@@ -364,7 +365,7 @@ def scrape_wikipedia(url: str, table_index: int = 0) -> list[dict]:
     if not tables:
         raise Exception(f'No wikitable found on Wikipedia page: {url}')
 
-    def parse_table(table) -> list[dict]:
+    def parse_table(table) -> List[dict]:
         """Try to extract company rows from a single table."""
         rows = table.find_all('tr')
         if len(rows) < 2:
@@ -444,7 +445,7 @@ def scrape_wikipedia(url: str, table_index: int = 0) -> list[dict]:
 # MarketScreener scraper
 # ---------------------------------------------------------------------------
 
-def scrape_marketscreener(url: str) -> list[dict]:
+def scrape_marketscreener(url: str) -> List[dict]:
     """
     Scrape index components from MarketScreener.
 
@@ -551,7 +552,7 @@ def scrape_marketscreener(url: str) -> list[dict]:
 # Euronext scraper
 # ---------------------------------------------------------------------------
 
-def scrape_euronext(url: str) -> list[dict]:
+def scrape_euronext(url: str) -> List[dict]:
     """
     Scrape index composition from a Euronext live index-composition page.
 
@@ -645,7 +646,7 @@ def scrape_euronext(url: str) -> list[dict]:
 # Dispatcher
 # ---------------------------------------------------------------------------
 
-def scrape_index(index_id: str, config: dict) -> list[dict]:
+def scrape_index(index_id: str, config: dict) -> List[dict]:
     """
     Route to the correct scraper based on config['source'].
 
