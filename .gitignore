@@ -5,3 +5,6 @@ __pycache__/
 venv/
 *.egg-info/
 dist/
+.claude/
+test_tv.py
+test_tv2.py

@@ -1,0 +1,7010 @@
+{
+  "id": "fortune_1000",
+  "name": "Fortune 1000",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Walmart",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 2,
+      "name": "Amazon",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 3,
+      "name": "UnitedHealth Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 4,
+      "name": "Apple",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 5,
+      "name": "CVS Health",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 6,
+      "name": "Berkshire Hathaway",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 7,
+      "name": "Alphabet",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 8,
+      "name": "Exxon Mobil",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 9,
+      "name": "McKesson",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 10,
+      "name": "Cencora",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 11,
+      "name": "JPMorgan Chase",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 12,
+      "name": "Costco Wholesale",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 13,
+      "name": "Cigna Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 14,
+      "name": "Microsoft",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 15,
+      "name": "Cardinal Health",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 16,
+      "name": "Chevron",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 17,
+      "name": "Bank of America",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 18,
+      "name": "General Motors",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 19,
+      "name": "Ford Motor",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 20,
+      "name": "Elevance Health",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 21,
+      "name": "Citigroup",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 22,
+      "name": "Meta Platforms",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 23,
+      "name": "Centene",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 24,
+      "name": "Home Depot",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 25,
+      "name": "Fannie Mae",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 26,
+      "name": "Walgreens Boots Alliance",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 27,
+      "name": "Kroger",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 28,
+      "name": "Phillips 66",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 29,
+      "name": "Marathon Petroleum",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 30,
+      "name": "Verizon Communications",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 31,
+      "name": "Nvidia",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 32,
+      "name": "Goldman Sachs Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 33,
+      "name": "Wells Fargo",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 34,
+      "name": "Valero Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 35,
+      "name": "Comcast",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 36,
+      "name": "State Farm Insurance",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 37,
+      "name": "AT&T",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 38,
+      "name": "Freddie Mac",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 39,
+      "name": "Humana",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 40,
+      "name": "Morgan Stanley",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 41,
+      "name": "Target",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 42,
+      "name": "StoneX Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 43,
+      "name": "Tesla",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 44,
+      "name": "Dell Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 45,
+      "name": "PepsiCo",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 46,
+      "name": "Walt Disney",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 47,
+      "name": "UPS",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 48,
+      "name": "Johnson & Johnson",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 49,
+      "name": "FedEx",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 50,
+      "name": "Archer Daniels Midland",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 51,
+      "name": "Procter & Gamble",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 52,
+      "name": "Lowe's",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 53,
+      "name": "Energy Transfer",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 54,
+      "name": "RTX",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 55,
+      "name": "Albertsons",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 56,
+      "name": "Sysco",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 57,
+      "name": "Progressive",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 58,
+      "name": "American Express",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 59,
+      "name": "Lockheed Martin",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 60,
+      "name": "MetLife",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 61,
+      "name": "HCA Healthcare",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 62,
+      "name": "Prudential Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 63,
+      "name": "Boeing",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 64,
+      "name": "Caterpillar",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 65,
+      "name": "Merck",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 66,
+      "name": "Allstate",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 67,
+      "name": "Pfizer",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 68,
+      "name": "IBM",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 69,
+      "name": "New York Life Insurance",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 70,
+      "name": "Delta Air Lines",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 71,
+      "name": "Publix Super Markets",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 72,
+      "name": "Nationwide",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 73,
+      "name": "TD Synnex",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 74,
+      "name": "United Airlines Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 75,
+      "name": "ConocoPhillips",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 76,
+      "name": "TJX",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 77,
+      "name": "AbbVie",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 78,
+      "name": "Enterprise Products Partners",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 79,
+      "name": "Charter Communications",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 80,
+      "name": "Performance Food Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 81,
+      "name": "American Airlines Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 82,
+      "name": "Capital One Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 83,
+      "name": "Cisco Systems",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 84,
+      "name": "HP",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 85,
+      "name": "Tyson Foods",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 86,
+      "name": "Intel",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 87,
+      "name": "Oracle",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 88,
+      "name": "Broadcom",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 89,
+      "name": "Deere",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 90,
+      "name": "Nike",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 91,
+      "name": "Liberty Mutual Insurance Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 92,
+      "name": "Plains GP Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 93,
+      "name": "USAA",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 94,
+      "name": "Bristol-Myers Squibb",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 95,
+      "name": "Ingram Micro Holding",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 96,
+      "name": "General Dynamics",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 97,
+      "name": "Coca-Cola",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 98,
+      "name": "TIAA",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 99,
+      "name": "Travelers",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 100,
+      "name": "Eli Lilly",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 101,
+      "name": "Uber Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 102,
+      "name": "Massachusetts Mutual Life Insurance",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 103,
+      "name": "Dow",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 104,
+      "name": "Thermo Fisher Scientific",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 105,
+      "name": "U.S. Bancorp",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 106,
+      "name": "World Kinect",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 107,
+      "name": "Abbott Laboratories",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 108,
+      "name": "Best Buy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 109,
+      "name": "Northwestern Mutual",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 110,
+      "name": "Northrop Grumman",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 111,
+      "name": "Molina Healthcare",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 112,
+      "name": "Dollar General",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 113,
+      "name": "Bank of New York (BNY)",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 114,
+      "name": "Warner Bros. Discovery",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 115,
+      "name": "CHS",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 116,
+      "name": "Netflix",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 117,
+      "name": "Qualcomm",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 118,
+      "name": "General Electric (GE Aerospace)",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 119,
+      "name": "Honeywell International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 120,
+      "name": "Salesforce",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 121,
+      "name": "Philip Morris International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 122,
+      "name": "US Foods Holding",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 123,
+      "name": "D.R. Horton",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 124,
+      "name": "Lithia Motors",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 125,
+      "name": "Mondelez International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 126,
+      "name": "Starbucks",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 127,
+      "name": "Visa",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 128,
+      "name": "CBRE Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 129,
+      "name": "Lennar",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 130,
+      "name": "GE Vernova",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 131,
+      "name": "PNC Financial Services Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 132,
+      "name": "Cummins",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 133,
+      "name": "Paccar",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 134,
+      "name": "Amgen",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 135,
+      "name": "PBF Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 136,
+      "name": "GuideWell Mutual Holding",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 137,
+      "name": "PayPal Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 138,
+      "name": "United Natural Foods",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 139,
+      "name": "Dollar Tree",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 140,
+      "name": "Nucor",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 141,
+      "name": "Penske Automotive Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 142,
+      "name": "Coupang",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 143,
+      "name": "Hewlett Packard Enterprise",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 144,
+      "name": "Duke Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 145,
+      "name": "KKR",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 146,
+      "name": "Ferguson Enterprises",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 147,
+      "name": "Paramount Global",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 148,
+      "name": "Jabil",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 149,
+      "name": "Gilead Sciences",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 150,
+      "name": "HF Sinclair",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 151,
+      "name": "CarMax",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 152,
+      "name": "Mastercard",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 153,
+      "name": "NRG Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 154,
+      "name": "Arrow Electronics",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 155,
+      "name": "Baker Hughes",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 156,
+      "name": "Southwest Airlines",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 157,
+      "name": "AIG",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 158,
+      "name": "Applied Materials",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 159,
+      "name": "Occidental Petroleum",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 160,
+      "name": "AutoNation",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 161,
+      "name": "Southern",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 162,
+      "name": "Hartford Insurance Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 163,
+      "name": "Apollo Global Management",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 164,
+      "name": "Charles Schwab",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 165,
+      "name": "McDonald's",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 166,
+      "name": "Kraft Heinz",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 167,
+      "name": "Advanced Micro Devices",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 168,
+      "name": "Truist Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 169,
+      "name": "Freeport-McMoRan",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 170,
+      "name": "Micron Technology",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 171,
+      "name": "Marriott International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 172,
+      "name": "Carrier Global",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 173,
+      "name": "NextEra Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 174,
+      "name": "3M",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 175,
+      "name": "Marsh & McLennan",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 176,
+      "name": "PG&E",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 177,
+      "name": "Union Pacific",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 178,
+      "name": "Synchrony Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 179,
+      "name": "Block",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 180,
+      "name": "Danaher",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 181,
+      "name": "Avnet",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 182,
+      "name": "Booking Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 183,
+      "name": "EOG Resources",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 184,
+      "name": "Quanta Services",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 185,
+      "name": "Discover",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 186,
+      "name": "Constellation Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 187,
+      "name": "Genuine Parts",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 188,
+      "name": "Jones Lang LaSalle",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 189,
+      "name": "Lear",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 190,
+      "name": "Live Nation Entertainment",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 191,
+      "name": "Sherwin-Williams",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 192,
+      "name": "Exelon",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 193,
+      "name": "Macy's",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 194,
+      "name": "Halliburton",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 195,
+      "name": "Stryker",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 196,
+      "name": "Reinsurance Group of America",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 197,
+      "name": "Waste Management",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 198,
+      "name": "State Street",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 199,
+      "name": "WESCO International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 200,
+      "name": "Oneok",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 201,
+      "name": "Adobe",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 202,
+      "name": "American Family Insurance Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 203,
+      "name": "L3Harris Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 204,
+      "name": "Ross Stores",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 205,
+      "name": "CDW",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 206,
+      "name": "Tenet Healthcare",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 207,
+      "name": "BJ's Wholesale Club",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 208,
+      "name": "Fiserv",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 209,
+      "name": "Altria Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 210,
+      "name": "BlackRock",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 211,
+      "name": "Becton Dickinson",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 212,
+      "name": "Colgate-Palmolive",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 213,
+      "name": "Kimberly-Clark",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 214,
+      "name": "Group 1 Automotive",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 215,
+      "name": "Parker-Hannifin",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 216,
+      "name": "General Mills",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 217,
+      "name": "Cognizant Technology Solutions",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 218,
+      "name": "American Electric Power",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 219,
+      "name": "GE HealthCare Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 220,
+      "name": "Automatic Data Processing",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 221,
+      "name": "Cleveland-Cliffs",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 222,
+      "name": "Aflac",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 223,
+      "name": "Goodyear Tire & Rubber",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 224,
+      "name": "Corebridge Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 225,
+      "name": "Newmont",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 226,
+      "name": "International Paper",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 227,
+      "name": "AutoZone",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 228,
+      "name": "Lincoln National",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 229,
+      "name": "PulteGroup",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 230,
+      "name": "Ameriprise Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 231,
+      "name": "Murphy USA",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 232,
+      "name": "ManpowerGroup",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 233,
+      "name": "C.H. Robinson Worldwide",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 234,
+      "name": "PPG Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 235,
+      "name": "Edison International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 236,
+      "name": "Steel Dynamics",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 237,
+      "name": "Loews",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 238,
+      "name": "Emerson Electric",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 239,
+      "name": "Aramark",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 240,
+      "name": "MGM Resorts International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 241,
+      "name": "Vistra",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 242,
+      "name": "Asbury Automotive Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 243,
+      "name": "W.W. Grainger",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 244,
+      "name": "Global Partners",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 245,
+      "name": "Jacobs Solutions",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 246,
+      "name": "Corteva",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 247,
+      "name": "Peter Kiewit Sons'",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 248,
+      "name": "Boston Scientific",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 249,
+      "name": "O'Reilly Automotive",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 250,
+      "name": "Leidos Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 251,
+      "name": "Markel Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 252,
+      "name": "Whirlpool",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 253,
+      "name": "Guardian Life Ins. Co. of America",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 254,
+      "name": "Builders FirstSource",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 255,
+      "name": "Ally Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 256,
+      "name": "Targa Resources",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 257,
+      "name": "Fluor",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 258,
+      "name": "Intuit",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 259,
+      "name": "AECOM",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 260,
+      "name": "Jones Financial (Edward Jones)",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 261,
+      "name": "Kohl's",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 262,
+      "name": "Land O'Lakes",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 263,
+      "name": "Principal Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 264,
+      "name": "Dominion Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 265,
+      "name": "Kyndryl Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 266,
+      "name": "Republic Services",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 267,
+      "name": "Devon Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 268,
+      "name": "Illinois Tool Works",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 269,
+      "name": "Northern Trust",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 270,
+      "name": "Auto-Owners Insurance",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 271,
+      "name": "Universal Health Services",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 272,
+      "name": "Pacific Life",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 273,
+      "name": "EchoStar",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 274,
+      "name": "Ecolab",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 275,
+      "name": "Cheniere Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 276,
+      "name": "Omnicom Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 277,
+      "name": "Texas Instruments",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 278,
+      "name": "United States Steel",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 279,
+      "name": "Estee Lauder",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 280,
+      "name": "Farmers Insurance Exchange",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 281,
+      "name": "Kenvue",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 282,
+      "name": "IQVIA Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 283,
+      "name": "Stanley Black & Decker",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 284,
+      "name": "Keurig Dr Pepper",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 285,
+      "name": "United Rentals",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 286,
+      "name": "Consolidated Edison",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 287,
+      "name": "Amphenol",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 288,
+      "name": "Baxter International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 289,
+      "name": "Kinder Morgan",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 290,
+      "name": "Gap",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 291,
+      "name": "Nordstrom",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 292,
+      "name": "Super Micro Computer",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 293,
+      "name": "First Citizens BancShares",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 294,
+      "name": "Raymond James Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 295,
+      "name": "Lam Research",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 296,
+      "name": "Tractor Supply",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 297,
+      "name": "Casey's General Stores",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 298,
+      "name": "Viatris",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 299,
+      "name": "Mutual of Omaha",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 300,
+      "name": "EMCOR Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 301,
+      "name": "CSX",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 302,
+      "name": "LKQ",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 303,
+      "name": "Otis Worldwide",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 304,
+      "name": "Sonic Automotive",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 305,
+      "name": "S&P Global",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 306,
+      "name": "Regeneron Pharmaceuticals",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 307,
+      "name": "BorgWarner",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 308,
+      "name": "Fox",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 309,
+      "name": "Reliance",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 310,
+      "name": "Western & Southern Financial Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 311,
+      "name": "Textron",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 312,
+      "name": "Expedia Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 313,
+      "name": "Fidelity National Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 314,
+      "name": "Carvana",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 315,
+      "name": "DXC Technology",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 316,
+      "name": "W.R. Berkley",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 317,
+      "name": "M&T Bank",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 318,
+      "name": "Dick's Sporting Goods",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 319,
+      "name": "Xcel Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 320,
+      "name": "Fifth Third Bancorp",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 321,
+      "name": "Blackstone",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 322,
+      "name": "Sempra",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 323,
+      "name": "Erie Insurance Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 324,
+      "name": "Corning",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 325,
+      "name": "Lumen Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 326,
+      "name": "FirstEnergy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 327,
+      "name": "Hess",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 328,
+      "name": "Labcorp Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 329,
+      "name": "Western Digital",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 330,
+      "name": "Unum Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 331,
+      "name": "DaVita",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 332,
+      "name": "Kellanova",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 333,
+      "name": "Henry Schein",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 334,
+      "name": "Ryder System",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 335,
+      "name": "Community Health Systems",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 336,
+      "name": "Delek US Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 337,
+      "name": "DTE Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 338,
+      "name": "Equitable Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 339,
+      "name": "DuPont",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 340,
+      "name": "LPL Financial Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 341,
+      "name": "Citizens Financial Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 342,
+      "name": "MasTec",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 343,
+      "name": "AES",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 344,
+      "name": "Berry Global Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 345,
+      "name": "Westlake",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 346,
+      "name": "Norfolk Southern",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 347,
+      "name": "Air Products & Chemicals",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 348,
+      "name": "J.B. Hunt Transport Services",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 349,
+      "name": "Ball",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 350,
+      "name": "Conagra Brands",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 351,
+      "name": "Huntington Bancshares",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 352,
+      "name": "Hormel Foods",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 353,
+      "name": "Eversource Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 354,
+      "name": "Alcoa",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 355,
+      "name": "Entergy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 356,
+      "name": "Assurant",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 357,
+      "name": "Chewy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 358,
+      "name": "Wayfair",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 359,
+      "name": "Crown Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 360,
+      "name": "Avis Budget Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 361,
+      "name": "Intercontinental Exchange",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 362,
+      "name": "Alaska Air Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 363,
+      "name": "GXO Logistics",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 364,
+      "name": "AGCO",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 365,
+      "name": "Graybar Electric",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 366,
+      "name": "Molson Coors Beverage",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 367,
+      "name": "Arthur J. Gallagher",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 368,
+      "name": "Huntington Ingalls Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 369,
+      "name": "International Flavors & Fragrances",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 370,
+      "name": "Darden Restaurants",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 371,
+      "name": "Cincinnati Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 372,
+      "name": "Chipotle Mexican Grill",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 373,
+      "name": "Yum China Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 374,
+      "name": "Las Vegas Sands",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 375,
+      "name": "Ulta Beauty",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 376,
+      "name": "Caesars Entertainment",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 377,
+      "name": "BrightSpring Health Services",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 378,
+      "name": "Andersons",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 379,
+      "name": "Hershey",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 380,
+      "name": "Hilton Worldwide Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 381,
+      "name": "Mosaic",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 382,
+      "name": "Airbnb",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 383,
+      "name": "Diamondback Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 384,
+      "name": "American Tower",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 385,
+      "name": "Vertex Pharmaceuticals",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 386,
+      "name": "ServiceNow",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 387,
+      "name": "Owens Corning",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 388,
+      "name": "Thrivent Financial for Lutherans",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 389,
+      "name": "Advance Auto Parts",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 390,
+      "name": "Toll Brothers",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 391,
+      "name": "Mohawk Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 392,
+      "name": "Motorola Solutions",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 393,
+      "name": "Oshkosh",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 394,
+      "name": "DoorDash",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 395,
+      "name": "Owens & Minor",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 396,
+      "name": "NVR",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 397,
+      "name": "Interpublic Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 398,
+      "name": "Booz Allen Hamilton Holding",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 399,
+      "name": "Burlington Stores",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 400,
+      "name": "Expeditors Intl. of Washington",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 401,
+      "name": "Lululemon athletica",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 402,
+      "name": "Fidelity National Information Services",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 403,
+      "name": "Jefferies Financial Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 404,
+      "name": "Williams",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 405,
+      "name": "VF",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 406,
+      "name": "FM",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 407,
+      "name": "Autoliv",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 408,
+      "name": "Westinghouse Air Brake Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 409,
+      "name": "Public Service Enterprise Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 410,
+      "name": "Dana",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 411,
+      "name": "Ebay",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 412,
+      "name": "Celanese",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 413,
+      "name": "Global Payments",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 414,
+      "name": "News Corp.",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 415,
+      "name": "Thor Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 416,
+      "name": "QVC Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 417,
+      "name": "Icahn Enterprises",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 418,
+      "name": "Constellation Brands",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 419,
+      "name": "Quest Diagnostics",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 420,
+      "name": "KLA",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 421,
+      "name": "QXO Building Products",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 422,
+      "name": "APA",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 423,
+      "name": "A-Mark Precious Metals",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 424,
+      "name": "Biogen",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 425,
+      "name": "Campbell's",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 426,
+      "name": "Concentrix",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 427,
+      "name": "Cintas",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 428,
+      "name": "SpartanNash",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 429,
+      "name": "Ace Hardware",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 430,
+      "name": "Analog Devices",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 431,
+      "name": "Eastman Chemical",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 432,
+      "name": "Interactive Brokers Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 433,
+      "name": "Regions Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 434,
+      "name": "JetBlue Airways",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 435,
+      "name": "Zoetis",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 436,
+      "name": "KeyCorp",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 437,
+      "name": "Oscar Health",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 438,
+      "name": "Ovintiv",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 439,
+      "name": "Seaboard",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 440,
+      "name": "Hertz Global Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 441,
+      "name": "Skechers U.S.A.",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 442,
+      "name": "Altice USA",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 443,
+      "name": "NOV",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 444,
+      "name": "Graphic Packaging Holding",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 445,
+      "name": "Avery Dennison",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 446,
+      "name": "Equinix",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 447,
+      "name": "Insight Enterprises",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 448,
+      "name": "Sirius XM Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 449,
+      "name": "PVH",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 450,
+      "name": "CenterPoint Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 451,
+      "name": "WEC Energy Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 452,
+      "name": "Xylem",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 453,
+      "name": "Franklin Resources",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 454,
+      "name": "PPL",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 455,
+      "name": "Workday",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 456,
+      "name": "Dover",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 457,
+      "name": "Packaging Corp. of America",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 458,
+      "name": "ABM Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 459,
+      "name": "Intuitive Surgical",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 460,
+      "name": "American Financial Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 461,
+      "name": "Rockwell Automation",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 462,
+      "name": "Solventum",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 463,
+      "name": "Old Republic International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 464,
+      "name": "Securian Financial Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 465,
+      "name": "Prologis",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 466,
+      "name": "J.M. Smucker",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 467,
+      "name": "Taylor Morrison Home",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 468,
+      "name": "XPO",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 469,
+      "name": "Voya Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 470,
+      "name": "Palo Alto Networks",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 471,
+      "name": "Vertiv Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 472,
+      "name": "Welltower",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 473,
+      "name": "Foot Locker",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 474,
+      "name": "Par Pacific Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 475,
+      "name": "TransDigm Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 476,
+      "name": "Commercial Metals",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 477,
+      "name": "Post Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 478,
+      "name": "Masco",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 479,
+      "name": "Rush Enterprises",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 480,
+      "name": "KBR",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 481,
+      "name": "Sprouts Farmers Market",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 482,
+      "name": "Williams-Sonoma",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 483,
+      "name": "Zimmer Biomet Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 484,
+      "name": "CACI International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 485,
+      "name": "Microchip Technology",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 486,
+      "name": "Watsco",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 487,
+      "name": "Newell Brands",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 488,
+      "name": "ARKO",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 489,
+      "name": "Sanmina",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 490,
+      "name": "Electronic Arts",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 491,
+      "name": "Yum Brands",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 492,
+      "name": "Fastenal",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 493,
+      "name": "CMS Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 494,
+      "name": "Monster Beverage",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 495,
+      "name": "Endeavor Group Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 496,
+      "name": "Science Applications International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 497,
+      "name": "Core & Main",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 498,
+      "name": "Howmet Aerospace",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 498,
+      "name": "Ingredion",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 500,
+      "name": "Vulcan Materials",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 501,
+      "name": "Knight-Swift Transportation Hldgs.",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 502,
+      "name": "Nasdaq",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 503,
+      "name": "Continental Resources",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 504,
+      "name": "RPM International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 505,
+      "name": "Ameren",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 506,
+      "name": "Bath & Body Works",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 507,
+      "name": "Genworth Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 508,
+      "name": "Polaris",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 509,
+      "name": "Ingersoll Rand",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 510,
+      "name": "UGI",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 511,
+      "name": "Domtar",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 512,
+      "name": "Penn Mutual Life Insurance",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 513,
+      "name": "Wynn Resorts",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 514,
+      "name": "Weyerhaeuser",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 515,
+      "name": "T. Rowe Price",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 516,
+      "name": "Clorox",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 517,
+      "name": "Moody's",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 518,
+      "name": "ON Semiconductor",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 519,
+      "name": "Roper Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 520,
+      "name": "Comfort Systems USA",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 521,
+      "name": "APi Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 522,
+      "name": "Arista Networks",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 523,
+      "name": "ODP",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 524,
+      "name": "NGL Energy Partners",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 525,
+      "name": "Ametek",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 526,
+      "name": "KB Home",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 527,
+      "name": "Select Medical Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 528,
+      "name": "Coca-Cola Consolidated",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 529,
+      "name": "Avantor",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 530,
+      "name": "Resideo Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 531,
+      "name": "Parsons",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 532,
+      "name": "Boise Cascade",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 533,
+      "name": "McCormick",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 534,
+      "name": "Tapestry",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 535,
+      "name": "UFP Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 536,
+      "name": "Hyatt Hotels",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 537,
+      "name": "Ralph Lauren",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 538,
+      "name": "Sonoco Products",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 539,
+      "name": "Synopsys",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 540,
+      "name": "Dillard's",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 541,
+      "name": "Insperity",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 542,
+      "name": "PENN Entertainment",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 543,
+      "name": "Patterson",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 544,
+      "name": "Crown Castle",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 545,
+      "name": "Coinbase Global",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 546,
+      "name": "Olin",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 547,
+      "name": "Martin Marietta Materials",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 548,
+      "name": "O-I Glass",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 549,
+      "name": "Agilent Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 550,
+      "name": "Broadridge Financial Solutions",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 551,
+      "name": "Lamb Weston Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 552,
+      "name": "Warner Music Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 553,
+      "name": "Organon",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 554,
+      "name": "Meritage Homes",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 555,
+      "name": "Primoris Services",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 556,
+      "name": "Levi Strauss",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 557,
+      "name": "Flagstar Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 558,
+      "name": "Amkor Technology",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 559,
+      "name": "Spirit AeroSystems Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 560,
+      "name": "NetApp",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 561,
+      "name": "Gartner",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 562,
+      "name": "Hanover Insurance Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 563,
+      "name": "Fortive",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 564,
+      "name": "Victoria's Secret",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 565,
+      "name": "Xerox Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 566,
+      "name": "Edwards Lifesciences",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 567,
+      "name": "Iron Mountain",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 568,
+      "name": "Autodesk",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 569,
+      "name": "CME Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 570,
+      "name": "First American Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 571,
+      "name": "American Axle & Manufacturing",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 572,
+      "name": "Coty",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 573,
+      "name": "Petco Health and Wellness",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 574,
+      "name": "Church & Dwight",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 575,
+      "name": "Camping World Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 576,
+      "name": "Agilon health",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 577,
+      "name": "Huntsman",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 578,
+      "name": "Regal Rexnord",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 579,
+      "name": "Ardent Health Partners",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 580,
+      "name": "Simon Property Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 581,
+      "name": "Fortinet",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 582,
+      "name": "Stifel Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 583,
+      "name": "Frontier Communications",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 584,
+      "name": "CF Industries Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 585,
+      "name": "Academy Sports and Outdoors",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 586,
+      "name": "Clean Harbors",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 587,
+      "name": "SS&C Technologies Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 588,
+      "name": "Silgan Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 589,
+      "name": "Evergy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 590,
+      "name": "Annaly Capital Management",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 591,
+      "name": "Old Dominion Freight Line",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 592,
+      "name": "Robert Half",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 593,
+      "name": "Lyft",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 594,
+      "name": "Chemours",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 595,
+      "name": "Globe Life",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 596,
+      "name": "Marvell Technology",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 597,
+      "name": "Darling Ingredients",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 598,
+      "name": "Under Armour",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 599,
+      "name": "Anywhere Real Estate",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 600,
+      "name": "OneMain Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 601,
+      "name": "Host Hotels & Resorts",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 602,
+      "name": "Equifax",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 603,
+      "name": "Teledyne Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 604,
+      "name": "Ingles Markets",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 605,
+      "name": "Compass",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 606,
+      "name": "Hubbell",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 607,
+      "name": "U-Haul Holding",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 608,
+      "name": "CUNA Mutual Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 609,
+      "name": "Digital Realty Trust",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 610,
+      "name": "Urban Outfitters",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 611,
+      "name": "CommScope Holding",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 612,
+      "name": "GMS",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 613,
+      "name": "Mercury General",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 614,
+      "name": "Sentry Insurance Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 615,
+      "name": "Coterra Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 616,
+      "name": "NiSource",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 617,
+      "name": "Greif",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 618,
+      "name": "Carlyle Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 619,
+      "name": "Rocket Companies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 620,
+      "name": "Nexstar Media Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 621,
+      "name": "Sealed Air",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 622,
+      "name": "Mattel",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 623,
+      "name": "Patterson-UTI Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 624,
+      "name": "Albemarle",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 625,
+      "name": "Texas Roadhouse",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 626,
+      "name": "Encompass Health",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 627,
+      "name": "Snap",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 628,
+      "name": "Take-Two Interactive Software",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 629,
+      "name": "Lennox International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 630,
+      "name": "Lineage",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 631,
+      "name": "Carlisle",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 632,
+      "name": "TopBuild",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 633,
+      "name": "American Eagle Outfitters",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 634,
+      "name": "Pool",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 635,
+      "name": "Maximus",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 636,
+      "name": "Cornerstone Building Brands",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 637,
+      "name": "Schneider National",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 638,
+      "name": "Paychex",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 639,
+      "name": "EQT",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 640,
+      "name": "Realty Income",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 641,
+      "name": "Chord Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 642,
+      "name": "StandardAero",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 643,
+      "name": "Brunswick",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 644,
+      "name": "Civitas Resources",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 645,
+      "name": "Rithm Capital",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 646,
+      "name": "Tetra Tech",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 647,
+      "name": "Veralto",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 648,
+      "name": "Ares Management",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 649,
+      "name": "Harley-Davidson",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 650,
+      "name": "Opendoor Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 651,
+      "name": "Primo Brands",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 652,
+      "name": "Terex",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 653,
+      "name": "Pinnacle West Capital",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 654,
+      "name": "Southwest Gas Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 655,
+      "name": "Snap-on",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 656,
+      "name": "Flowers Foods",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 657,
+      "name": "Western Alliance Bancorp.",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 658,
+      "name": "Juniper Networks",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 659,
+      "name": "TelevisaUnivision",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 660,
+      "name": "TriNet Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 661,
+      "name": "First Horizon",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 662,
+      "name": "Brink's",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 663,
+      "name": "Permian Resources",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 664,
+      "name": "Option Care Health",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 665,
+      "name": "Comerica",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 665,
+      "name": "Zions Bancorp.",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 667,
+      "name": "Hilton Grand Vacations",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 667,
+      "name": "Zebra Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 669,
+      "name": "Keysight Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 670,
+      "name": "Venture Global",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 671,
+      "name": "Rivian Automotive",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 672,
+      "name": "Marriott Vacations Worldwide",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 673,
+      "name": "Telephone & Data Systems",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 674,
+      "name": "Toast",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 675,
+      "name": "Country Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 676,
+      "name": "Abercrombie & Fitch",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 677,
+      "name": "Somnigroup International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 678,
+      "name": "Ventas",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 679,
+      "name": "ADT",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 680,
+      "name": "PriceSmart",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 681,
+      "name": "Spirit Aviation Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 682,
+      "name": "Hanesbrands",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 683,
+      "name": "Selective Insurance Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 684,
+      "name": "Puget Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 685,
+      "name": "Landstar System",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 686,
+      "name": "Brown & Brown",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 687,
+      "name": "Bread Financial Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 688,
+      "name": "Weis Markets",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 689,
+      "name": "Graham Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 690,
+      "name": "DraftKings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 691,
+      "name": "EPAM Systems",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 692,
+      "name": "Brighthouse Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 693,
+      "name": "AppLovin",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 694,
+      "name": "Coherent",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 695,
+      "name": "Domino's Pizza",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 696,
+      "name": "Dycom Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 697,
+      "name": "Public Storage",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 698,
+      "name": "ResMed",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 699,
+      "name": "American Water Works",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 700,
+      "name": "Zoom Communications",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 701,
+      "name": "Cadence Design Systems",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 702,
+      "name": "Kemper",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 703,
+      "name": "AMC Entertainment Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 704,
+      "name": "Fortune Brands Innovations",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 705,
+      "name": "Ryerson Holding",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 706,
+      "name": "Toro",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 707,
+      "name": "GoDaddy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 708,
+      "name": "Timken",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 709,
+      "name": "eXp World Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 710,
+      "name": "Flowserve",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 711,
+      "name": "RXO",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 712,
+      "name": "SiteOne Landscape Supply",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 713,
+      "name": "East West Bancorp",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 714,
+      "name": "M/I Homes",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 715,
+      "name": "Tri Pointe Homes",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 716,
+      "name": "Applied Industrial Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 717,
+      "name": "Bloomin' Brands",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 718,
+      "name": "Twilio",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 719,
+      "name": "Floor & Decor Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 720,
+      "name": "Dream Finders Homes",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 721,
+      "name": "CNO Financial Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 722,
+      "name": "Elanco Animal Health",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 723,
+      "name": "Navient",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 724,
+      "name": "Brinker International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 725,
+      "name": "Century Communities",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 726,
+      "name": "Leggett & Platt",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 727,
+      "name": "Catalent",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 728,
+      "name": "Illumina",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 729,
+      "name": "Grocery Outlet Holding",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 730,
+      "name": "ATI",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 731,
+      "name": "Atlassian",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 732,
+      "name": "Popular",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 733,
+      "name": "Kelly Services",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 734,
+      "name": "Medical Mutual of Ohio",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 735,
+      "name": "Tutor Perini",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 736,
+      "name": "Antero Resources",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 737,
+      "name": "V2X",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 738,
+      "name": "Upbound Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 739,
+      "name": "NCR Atleos",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 740,
+      "name": "Liberty Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 741,
+      "name": "Hyster-Yale",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 742,
+      "name": "Generac Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 743,
+      "name": "Deckers Outdoor",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 744,
+      "name": "Viasat",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 745,
+      "name": "Ensign Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 746,
+      "name": "FMC",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 747,
+      "name": "Incyte",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 748,
+      "name": "Topgolf Callaway Brands",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 749,
+      "name": "Copart",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 750,
+      "name": "Peabody Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 751,
+      "name": "Expand Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 752,
+      "name": "Western Union",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 753,
+      "name": "First Solar",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 754,
+      "name": "Calumet",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 755,
+      "name": "Service Corp. International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 756,
+      "name": "TransUnion",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 757,
+      "name": "Webster Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 758,
+      "name": "ArcBest",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 759,
+      "name": "Brown-Forman",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 759,
+      "name": "Skyworks Solutions",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 761,
+      "name": "Atmos Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 762,
+      "name": "Chart Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 763,
+      "name": "Hasbro",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 764,
+      "name": "Roku",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 765,
+      "name": "Crocs",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 766,
+      "name": "ASGN",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 767,
+      "name": "Cboe Global Markets",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 768,
+      "name": "Valmont Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 769,
+      "name": "Charles River Laboratories International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 770,
+      "name": "NLV Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 771,
+      "name": "DexCom",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 772,
+      "name": "Hologic",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 773,
+      "name": "Ciena",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 774,
+      "name": "Lincoln Electric Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 775,
+      "name": "Granite Construction",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 776,
+      "name": "Align Technology",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 777,
+      "name": "Cabot",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 778,
+      "name": "Akamai Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 779,
+      "name": "Euronet Worldwide",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 780,
+      "name": "Alliant Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 781,
+      "name": "Corpay",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 782,
+      "name": "Wintrust Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 783,
+      "name": "Plexus",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 784,
+      "name": "CrowdStrike Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 785,
+      "name": "Hub Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 786,
+      "name": "Boyd Gaming",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 787,
+      "name": "AGNC Investment",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 788,
+      "name": "IDEXX Laboratories",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 789,
+      "name": "Cooper Cos.",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 790,
+      "name": "Five Below",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 791,
+      "name": "Middleby",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 792,
+      "name": "Mettler-Toledo International",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 793,
+      "name": "Visteon",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 794,
+      "name": "Travel + Leisure",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 795,
+      "name": "HEICO",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 796,
+      "name": "iHeartMedia",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 797,
+      "name": "VICI Properties",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 798,
+      "name": "Acuity",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 799,
+      "name": "GameStop",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 800,
+      "name": "MSC Industrial Direct",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 801,
+      "name": "A.O. Smith",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 802,
+      "name": "Gen Digital",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 803,
+      "name": "IAC",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 804,
+      "name": "Chefs' Warehouse",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 805,
+      "name": "Dentsply Sirona",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 806,
+      "name": "CrossAmerica Partners",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 807,
+      "name": "JELD-WEN Holding",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 808,
+      "name": "Frontier Group Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 809,
+      "name": "Sylvamo",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 810,
+      "name": "Qorvo",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 811,
+      "name": "Mueller Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 812,
+      "name": "SoFi Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 813,
+      "name": "Diebold Nixdorf",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 814,
+      "name": "LCI Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 815,
+      "name": "Sally Beauty Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 816,
+      "name": "Patrick Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 817,
+      "name": "FTI Consulting",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 818,
+      "name": "Trimble",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 819,
+      "name": "PennyMac Financial Services",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 820,
+      "name": "Liberty Media",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 821,
+      "name": "Advantage Solutions",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 822,
+      "name": "Pinterest",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 823,
+      "name": "Gray Media",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 824,
+      "name": "Hawaiian Electric Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 825,
+      "name": "ChampionX",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 826,
+      "name": "ITT",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 827,
+      "name": "MillerKnoll",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 828,
+      "name": "Snowflake",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 829,
+      "name": "H&R Block",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 830,
+      "name": "Moog",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 831,
+      "name": "Western Midstream Partners",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 832,
+      "name": "Roblox",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 833,
+      "name": "Donaldson",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 834,
+      "name": "MKS",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 835,
+      "name": "AptarGroup",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 836,
+      "name": "Valley National Bancorp",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 837,
+      "name": "EnerSys",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 838,
+      "name": "Cheesecake Factory",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 839,
+      "name": "H.B. Fuller",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 840,
+      "name": "Herc Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 841,
+      "name": "Scotts Miracle-Gro",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 842,
+      "name": "Sinclair",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 843,
+      "name": "Greenbrier",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 844,
+      "name": "SkyWest",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 845,
+      "name": "Matador Resources",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 846,
+      "name": "Federated Mutual Insurance",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 847,
+      "name": "TPG",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 848,
+      "name": "Bakkt Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 849,
+      "name": "Match Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 850,
+      "name": "BOK Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 851,
+      "name": "Garrett Motion",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 852,
+      "name": "Cracker Barrel Old Country Store",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 853,
+      "name": "Portland General Electric",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 854,
+      "name": "Synovus Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 855,
+      "name": "Worthington Steel",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 856,
+      "name": "Matson",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 857,
+      "name": "BXP",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 858,
+      "name": "Phinia",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 859,
+      "name": "Rollins",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 860,
+      "name": "FirstCash Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 861,
+      "name": "Extra Space Storage",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 862,
+      "name": "Instacart",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 863,
+      "name": "Columbia Sportswear",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 864,
+      "name": "Bruker",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 865,
+      "name": "MYR Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 866,
+      "name": "Conduent",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 867,
+      "name": "TreeHouse Foods",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 868,
+      "name": "Shift4 Payments",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 869,
+      "name": "Woodward",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 870,
+      "name": "NCR Voyix",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 871,
+      "name": "Jackson Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 872,
+      "name": "IDEX",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 873,
+      "name": "Kirby",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 874,
+      "name": "AdaptHealth",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 875,
+      "name": "ScanSource",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 876,
+      "name": "Entegris",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 877,
+      "name": "Avient",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 878,
+      "name": "Moderna",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 879,
+      "name": "First National of Nebraska",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 880,
+      "name": "Allison Transmission Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 881,
+      "name": "Sun Communities",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 882,
+      "name": "Saia",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 883,
+      "name": "Amica Mutual Insurance",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 884,
+      "name": "Atkore",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 885,
+      "name": "Central Garden & Pet",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 886,
+      "name": "California Resources",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 887,
+      "name": "Light & Wonder",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 888,
+      "name": "Hillenbrand",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 889,
+      "name": "G-III Apparel Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 890,
+      "name": "RH",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 891,
+      "name": "Pure Storage",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 892,
+      "name": "Steelcase",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 893,
+      "name": "Acadia Healthcare",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 894,
+      "name": "Lazard",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 895,
+      "name": "Brookdale Senior Living",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 896,
+      "name": "MRC Global",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 897,
+      "name": "Primerica",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 898,
+      "name": "Curtiss-Wright",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 899,
+      "name": "Surgery Partners",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 900,
+      "name": "TEGNA",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 901,
+      "name": "Trinity Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 902,
+      "name": "Pinnacle Financial Partners",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 903,
+      "name": "Alexandria Real Estate Equities",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 904,
+      "name": "Cinemark Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 905,
+      "name": "Teleflex",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 906,
+      "name": "Werner Enterprises",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 907,
+      "name": "Sabre",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 908,
+      "name": "Murphy Oil",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 909,
+      "name": "Kaiser Aluminum",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 910,
+      "name": "Designer Brands",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 911,
+      "name": "Hovnanian Enterprises",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 912,
+      "name": "Evercore",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 913,
+      "name": "Guess",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 914,
+      "name": "SLM",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 915,
+      "name": "OGE Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 916,
+      "name": "AMN Healthcare Services",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 917,
+      "name": "Equity Residential",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 918,
+      "name": "Vontier",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 919,
+      "name": "DocuSign",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 920,
+      "name": "Winnebago Industries",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 921,
+      "name": "Genesis Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 922,
+      "name": "Columbia Banking System",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 923,
+      "name": "Spectrum Brands Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 924,
+      "name": "Waters",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 925,
+      "name": "Alpha Metallurgical Resources",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 926,
+      "name": "Old National Bancorp",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 927,
+      "name": "BlueLinx Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 928,
+      "name": "Robinhood Markets",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 929,
+      "name": "Installed Building Products",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 930,
+      "name": "Louisiana-Pacific",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 931,
+      "name": "Vishay Intertechnology",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 932,
+      "name": "Crescent Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 933,
+      "name": "AvalonBay Communities",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 934,
+      "name": "Alight",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 935,
+      "name": "Cadence Bank",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 936,
+      "name": "Knife River",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 937,
+      "name": "West Pharmaceutical Services",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 938,
+      "name": "Energizer Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 939,
+      "name": "Vail Resorts",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 940,
+      "name": "IES Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 941,
+      "name": "Verisk Analytics",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 942,
+      "name": "United Therapeutics",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 943,
+      "name": "Virtu Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 944,
+      "name": "Advanced Drainage Systems",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 945,
+      "name": "UL Solutions",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 946,
+      "name": "Palantir Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 947,
+      "name": "MSCI",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 948,
+      "name": "BioMarin Pharmaceutical",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 949,
+      "name": "Cullen/Frost Bankers",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 950,
+      "name": "Everus Construction Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 951,
+      "name": "Carter's",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 952,
+      "name": "Stagwell",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 953,
+      "name": "Teradyne",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 954,
+      "name": "F5",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 955,
+      "name": "Etsy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 956,
+      "name": "Vestis",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 957,
+      "name": "Fortrea Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 958,
+      "name": "PC Connection",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 959,
+      "name": "UMB Financial",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 960,
+      "name": "Korn Ferry",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 961,
+      "name": "Amneal Pharmaceuticals",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 962,
+      "name": "ModivCare",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 963,
+      "name": "NewMarket",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 964,
+      "name": "QuidelOrtho",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 965,
+      "name": "Bank OZK",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 966,
+      "name": "BrightView Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 967,
+      "name": "Carpenter Technology",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 968,
+      "name": "Exact Sciences",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 969,
+      "name": "Helmerich & Payne",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 970,
+      "name": "Pitney Bowes",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 971,
+      "name": "Revvity",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 972,
+      "name": "Universal",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 973,
+      "name": "Veeva Systems",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 974,
+      "name": "Vista Outdoor",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 975,
+      "name": "ESAB",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 976,
+      "name": "Radius Recycling",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 977,
+      "name": "Newmark Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 978,
+      "name": "Rackspace Technology",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 979,
+      "name": "CoStar Group",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 980,
+      "name": "Churchill Downs",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 981,
+      "name": "Air Lease",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 982,
+      "name": "Cooper-Standard Holdings",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 983,
+      "name": "Caleres",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 984,
+      "name": "Six Flags Entertainment",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 985,
+      "name": "WK Kellogg",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 986,
+      "name": "BWX Technologies",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 987,
+      "name": "Alignment Healthcare",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 988,
+      "name": "Titan Machinery",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 989,
+      "name": "Peloton Interactive",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 990,
+      "name": "Healthpeak Properties",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 991,
+      "name": "MasterBrand",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 992,
+      "name": "Fluence Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 993,
+      "name": "SM Energy",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 994,
+      "name": "Nordson",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 995,
+      "name": "Bright Horizons Family Solutions",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 996,
+      "name": "Datadog",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 997,
+      "name": "SBA Communications",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 998,
+      "name": "Quad/Graphics",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 999,
+      "name": "Americold Realty Trust",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1000,
+      "name": "KinderCare Learning",
+      "ticker": "",
+      "url": "",
+      "country": "United States"
+    }
+  ],
+  "snapshot_date": "2026-04-07",
+  "count": 1000,
+  "source": "us500.com (Playwright scroll)",
+  "notes": "Ties at ranks 498, 665, 667, 759. Rank numbers 499, 666, 668, 760 intentionally skipped. Walmart #1 (official 2025 list, FY2024 revenue)."
+}

@@ -1,0 +1,8409 @@
+{
+  "id": "s_p_global_1200",
+  "name": "S&P Global 1200",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Hanwha Aerospace Co Ltd",
+      "ticker": "012450",
+      "url": "",
+      "country": "South Korea"
+    },
+    {
+      "rank": 2,
+      "name": "Hyundai Motor Co",
+      "ticker": "005380",
+      "url": "",
+      "country": "South Korea"
+    },
+    {
+      "rank": 3,
+      "name": "SoftBank Group Corp",
+      "ticker": "9984",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 4,
+      "name": "Chocoladefabriken Lindt & Spru",
+      "ticker": "LISN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 5,
+      "name": "Kia Corp",
+      "ticker": "000270",
+      "url": "",
+      "country": "South Korea"
+    },
+    {
+      "rank": 6,
+      "name": "Nitori Holdings Co Ltd",
+      "ticker": "9843",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 7,
+      "name": "Lasertec Corp",
+      "ticker": "6920",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 8,
+      "name": "Admiral Group PLC",
+      "ticker": "ADM",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 9,
+      "name": "Nexon Co Ltd",
+      "ticker": "3659",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 10,
+      "name": "London Stock Exchange Group PL",
+      "ticker": "LSEG",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 11,
+      "name": "AstraZeneca PLC",
+      "ticker": "AZN",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 12,
+      "name": "Falabella SA",
+      "ticker": "FALAB",
+      "url": "",
+      "country": "China"
+    },
+    {
+      "rank": 13,
+      "name": "Sumitomo Mitsui Financial Grou",
+      "ticker": "8316",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 14,
+      "name": "M3 Inc",
+      "ticker": "2413",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 15,
+      "name": "Oriental Land Co Ltd/Japan",
+      "ticker": "4661",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 16,
+      "name": "Ashtead Group PLC",
+      "ticker": "AHT",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 17,
+      "name": "Next PLC",
+      "ticker": "NXT",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 18,
+      "name": "Booking Holdings Inc",
+      "ticker": "BKNG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 19,
+      "name": "Rheinmetall AG",
+      "ticker": "RHM",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 20,
+      "name": "BAE Systems PLC",
+      "ticker": "BA/",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 21,
+      "name": "Johnson Matthey PLC",
+      "ticker": "JMAT",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 22,
+      "name": "Tokyo Gas Co Ltd",
+      "ticker": "9531",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 23,
+      "name": "British American Tobacco PLC",
+      "ticker": "BATS",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 24,
+      "name": "Netflix Inc",
+      "ticker": "NFLX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 25,
+      "name": "Coca-Cola HBC AG",
+      "ticker": "CCH",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 26,
+      "name": "Shin-Etsu Chemical Co Ltd",
+      "ticker": "4063",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 27,
+      "name": "Texas Pacific Land Corp",
+      "ticker": "TPL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 28,
+      "name": "Mizuho Financial Group Inc",
+      "ticker": "8411",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 29,
+      "name": "Severn Trent PLC",
+      "ticker": "SVT",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 30,
+      "name": "Toyota Industries Corp",
+      "ticker": "6201",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 31,
+      "name": "MS&AD Insurance Group Holdings",
+      "ticker": "8725",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 32,
+      "name": "Cencosud SA",
+      "ticker": "CENCOSUD",
+      "url": "",
+      "country": "China"
+    },
+    {
+      "rank": 33,
+      "name": "RELX PLC",
+      "ticker": "REL",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 34,
+      "name": "ORIX Corp",
+      "ticker": "8591",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 35,
+      "name": "Kirin Holdings Co Ltd",
+      "ticker": "2503",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 36,
+      "name": "Saab AB",
+      "ticker": "SAABB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 37,
+      "name": "Genmab A/S",
+      "ticker": "GMAB",
+      "url": "",
+      "country": "Denmark"
+    },
+    {
+      "rank": 38,
+      "name": "MediaTek Inc",
+      "ticker": "2454",
+      "url": "",
+      "country": "Taiwan"
+    },
+    {
+      "rank": 39,
+      "name": "Sumitomo Mitsui Trust Group In",
+      "ticker": "8309",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 40,
+      "name": "Rolls-Royce Holdings PLC",
+      "ticker": "RR/",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 41,
+      "name": "St James's Place PLC",
+      "ticker": "STJ",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 42,
+      "name": "Pro Medicus Ltd",
+      "ticker": "PME",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 43,
+      "name": "National Grid PLC",
+      "ticker": "NG/",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 44,
+      "name": "DCC PLC",
+      "ticker": "DCC",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 45,
+      "name": "NIDEC CORP",
+      "ticker": "6594",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 46,
+      "name": "United Utilities Group PLC",
+      "ticker": "UU/",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 47,
+      "name": "Experian PLC",
+      "ticker": "EXPN",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 48,
+      "name": "Imperial Brands PLC",
+      "ticker": "IMB",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 49,
+      "name": "Aviva PLC",
+      "ticker": "AV/",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 50,
+      "name": "SSE PLC",
+      "ticker": "SSE",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 51,
+      "name": "Mitsubishi UFJ Financial Group",
+      "ticker": "8306",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 52,
+      "name": "Empresas Copec SA",
+      "ticker": "COPEC",
+      "url": "",
+      "country": "China"
+    },
+    {
+      "rank": 53,
+      "name": "Spirax Group PLC",
+      "ticker": "SPX",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 54,
+      "name": "Ferrari NV",
+      "ticker": "RACE",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 55,
+      "name": "Evolution AB",
+      "ticker": "EVO",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 56,
+      "name": "Eli Lilly & Co",
+      "ticker": "LLY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 57,
+      "name": "Resona Holdings Inc",
+      "ticker": "8308",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 58,
+      "name": "NatWest Group PLC",
+      "ticker": "NWG",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 59,
+      "name": "Zealand Pharma A/S",
+      "ticker": "ZEAL",
+      "url": "",
+      "country": "Denmark"
+    },
+    {
+      "rank": 60,
+      "name": "Swiss Life Holding AG",
+      "ticker": "SLHN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 61,
+      "name": "Sekisui House Ltd",
+      "ticker": "1928",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 62,
+      "name": "Takeda Pharmaceutical Co Ltd",
+      "ticker": "4502",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 63,
+      "name": "Prudential PLC",
+      "ticker": "PRU",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 64,
+      "name": "Regeneron Pharmaceuticals Inc",
+      "ticker": "REGN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 65,
+      "name": "Segro PLC",
+      "ticker": "SGRO",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 66,
+      "name": "Zurich Insurance Group AG",
+      "ticker": "ZURN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 67,
+      "name": "Nomura Research Institute Ltd",
+      "ticker": "4307",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 68,
+      "name": "Kansai Electric Power Co Inc/T",
+      "ticker": "9503",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 69,
+      "name": "Melrose Industries PLC",
+      "ticker": "MRO",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 70,
+      "name": "Phoenix Group Holdings PLC",
+      "ticker": "PHNX",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 71,
+      "name": "MTU Aero Engines AG",
+      "ticker": "MTX",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 72,
+      "name": "Allianz SE",
+      "ticker": "ALV",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 73,
+      "name": "Costco Wholesale Corp",
+      "ticker": "COST",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 74,
+      "name": "ENEOS Holdings Inc",
+      "ticker": "5020",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 75,
+      "name": "Centrica PLC",
+      "ticker": "CNA",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 76,
+      "name": "Thales SA",
+      "ticker": "HO",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 77,
+      "name": "Argenx SE",
+      "ticker": "ARGX",
+      "url": "",
+      "country": "Belgium"
+    },
+    {
+      "rank": 78,
+      "name": "Meta Platforms Inc",
+      "ticker": "META",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 79,
+      "name": "Amazon.com Inc",
+      "ticker": "AMZN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 80,
+      "name": "Marks & Spencer Group PLC",
+      "ticker": "MKS",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 81,
+      "name": "Informa PLC",
+      "ticker": "INF",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 82,
+      "name": "WPP PLC",
+      "ticker": "WPP",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 83,
+      "name": "Compass Group PLC",
+      "ticker": "CPG",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 84,
+      "name": "Verisk Analytics Inc",
+      "ticker": "VRSK",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 85,
+      "name": "Skanska AB",
+      "ticker": "SKAB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 86,
+      "name": "Schindler Holding AG",
+      "ticker": "SCHP",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 87,
+      "name": "Rakuten Group Inc",
+      "ticker": "4755",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 88,
+      "name": "Chubu Electric Power Co Inc",
+      "ticker": "9502",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 89,
+      "name": "Airbus SE",
+      "ticker": "AIR",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 90,
+      "name": "Safran SA",
+      "ticker": "SAF",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 91,
+      "name": "Investor AB",
+      "ticker": "INVEA",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 92,
+      "name": "Tencent Holdings Ltd",
+      "ticker": "700",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 93,
+      "name": "Hermes International SCA",
+      "ticker": "RMS",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 94,
+      "name": "Schneider Electric SE",
+      "ticker": "SU",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 95,
+      "name": "UCB SA",
+      "ticker": "UCB",
+      "url": "",
+      "country": "Belgium"
+    },
+    {
+      "rank": 96,
+      "name": "Kongsberg Gruppen ASA",
+      "ticker": "KOG",
+      "url": "",
+      "country": "Norway"
+    },
+    {
+      "rank": 97,
+      "name": "Baloise Holding AG",
+      "ticker": "BALN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 98,
+      "name": "Legal & General Group PLC",
+      "ticker": "LGEN",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 99,
+      "name": "Nordea Bank Abp",
+      "ticker": "NDA",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 100,
+      "name": "Macquarie Group Ltd",
+      "ticker": "MQG",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 101,
+      "name": "Japan Post Holdings Co Ltd",
+      "ticker": "6178",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 102,
+      "name": "M&G PLC",
+      "ticker": "MNG",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 103,
+      "name": "Mitsubishi Chemical Group Corp",
+      "ticker": "4188",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 104,
+      "name": "Insulet Corp",
+      "ticker": "PODD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 105,
+      "name": "LVMH Moet Hennessy Louis Vuitt",
+      "ticker": "MC",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 106,
+      "name": "Live Nation Entertainment Inc",
+      "ticker": "LYV",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 107,
+      "name": "Ameriprise Financial Inc",
+      "ticker": "AMP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 108,
+      "name": "Swedbank AB",
+      "ticker": "SWEDA",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 109,
+      "name": "Siemens AG",
+      "ticker": "SIE",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 110,
+      "name": "Whitbread PLC",
+      "ticker": "WTB",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 111,
+      "name": "Air Liquide SA",
+      "ticker": "AI",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 112,
+      "name": "TKO Group Holdings Inc",
+      "ticker": "TKO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 113,
+      "name": "Microsoft Corp",
+      "ticker": "MSFT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 114,
+      "name": "AbbVie Inc",
+      "ticker": "ABBV",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 115,
+      "name": "Trip.com Group Ltd",
+      "ticker": "9961",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 116,
+      "name": "Assa Abloy AB",
+      "ticker": "ASSAB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 117,
+      "name": "Atlas Copco AB",
+      "ticker": "ATCOA",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 118,
+      "name": "Constellation Energy Corp",
+      "ticker": "CEG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 119,
+      "name": "Gildan Activewear Inc",
+      "ticker": "GIL",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 120,
+      "name": "Deutsche Boerse AG",
+      "ticker": "DB1",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 121,
+      "name": "Charles Schwab Corp/The",
+      "ticker": "SCHW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 122,
+      "name": "ANTA Sports Products Ltd",
+      "ticker": "2020",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 123,
+      "name": "Euronext NV",
+      "ticker": "ENX",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 124,
+      "name": "EQT AB",
+      "ticker": "EQT",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 125,
+      "name": "General Electric Co",
+      "ticker": "GE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 126,
+      "name": "LEG Immobilien SE",
+      "ticker": "LEG",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 127,
+      "name": "McKesson Corp",
+      "ticker": "MCK",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 128,
+      "name": "ASML Holding NV",
+      "ticker": "ASML",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 129,
+      "name": "Industrivarden AB",
+      "ticker": "INDUC",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 130,
+      "name": "Alfa Laval AB",
+      "ticker": "ALFA",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 131,
+      "name": "Westpac Banking Corp",
+      "ticker": "WBC",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 132,
+      "name": "Volvo AB",
+      "ticker": "VOLVB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 133,
+      "name": "JPMorgan Chase & Co",
+      "ticker": "JPM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 134,
+      "name": "Danske Bank A/S",
+      "ticker": "DANSKE",
+      "url": "",
+      "country": "Denmark"
+    },
+    {
+      "rank": 135,
+      "name": "Sun Hung Kai Properties Ltd",
+      "ticker": "16",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 136,
+      "name": "Alphabet Inc",
+      "ticker": "GOOGL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 137,
+      "name": "Cigna Group/The",
+      "ticker": "CI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 138,
+      "name": "James Hardie Industries PLC",
+      "ticker": "JHX",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 139,
+      "name": "Electronic Arts Inc",
+      "ticker": "EA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 140,
+      "name": "Svenska Handelsbanken AB",
+      "ticker": "SHBA",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 141,
+      "name": "Wolters Kluwer NV",
+      "ticker": "WKL",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 142,
+      "name": "DNB Bank ASA",
+      "ticker": "DNB",
+      "url": "",
+      "country": "Norway"
+    },
+    {
+      "rank": 143,
+      "name": "L3Harris Technologies Inc",
+      "ticker": "LHX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 144,
+      "name": "Schroders PLC",
+      "ticker": "SDR",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 145,
+      "name": "Amgen Inc",
+      "ticker": "AMGN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 146,
+      "name": "Tele2 AB",
+      "ticker": "TEL2B",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 147,
+      "name": "QUALCOMM Inc",
+      "ticker": "QCOM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 148,
+      "name": "Legrand SA",
+      "ticker": "LR",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 149,
+      "name": "Mondi PLC",
+      "ticker": "MNDI",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 150,
+      "name": "Telenor ASA",
+      "ticker": "TEL",
+      "url": "",
+      "country": "Norway"
+    },
+    {
+      "rank": 151,
+      "name": "State Street Corp",
+      "ticker": "STT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 152,
+      "name": "Cardinal Health Inc",
+      "ticker": "CAH",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 153,
+      "name": "Geberit AG",
+      "ticker": "GEBN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 154,
+      "name": "Fubon Financial Holding Co Ltd",
+      "ticker": "2881",
+      "url": "",
+      "country": "Taiwan"
+    },
+    {
+      "rank": 155,
+      "name": "Barclays PLC",
+      "ticker": "BARC",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 156,
+      "name": "Thomson Reuters Corp",
+      "ticker": "TRI",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 157,
+      "name": "CME Group Inc",
+      "ticker": "CME",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 158,
+      "name": "Vinci SA",
+      "ticker": "DG",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 159,
+      "name": "Heidelberg Materials AG",
+      "ticker": "HEI",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 160,
+      "name": "Intercontinental Exchange Inc",
+      "ticker": "ICE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 161,
+      "name": "FedEx Corp",
+      "ticker": "FDX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 162,
+      "name": "Bank of New York Mellon Corp/T",
+      "ticker": "BK",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 163,
+      "name": "EssilorLuxottica SA",
+      "ticker": "EL",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 164,
+      "name": "ACS Actividades de Construccio",
+      "ticker": "ACS",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 165,
+      "name": "Skandinaviska Enskilda Banken",
+      "ticker": "SEBA",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 166,
+      "name": "CAR Group Ltd",
+      "ticker": "CAR",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 167,
+      "name": "REA Group Ltd",
+      "ticker": "REA",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 168,
+      "name": "Northern Trust Corp",
+      "ticker": "NTRS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 169,
+      "name": "CoStar Group Inc",
+      "ticker": "CSGP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 170,
+      "name": "Ping An Insurance Group Co of",
+      "ticker": "2318",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 171,
+      "name": "Leonardo SpA",
+      "ticker": "LDO",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 172,
+      "name": "Uber Technologies Inc",
+      "ticker": "UBER",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 173,
+      "name": "Novartis AG",
+      "ticker": "NOVN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 174,
+      "name": "Wells Fargo & Co",
+      "ticker": "WFC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 175,
+      "name": "George Weston Ltd",
+      "ticker": "WN",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 176,
+      "name": "Hon Hai Precision Industry Co",
+      "ticker": "2317",
+      "url": "",
+      "country": "Taiwan"
+    },
+    {
+      "rank": 177,
+      "name": "Kao Corp",
+      "ticker": "4452",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 178,
+      "name": "Eisai Co Ltd",
+      "ticker": "4523",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 179,
+      "name": "BNP Paribas SA",
+      "ticker": "BNP",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 180,
+      "name": "Sartorius Stedim Biotech",
+      "ticker": "DIM",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 181,
+      "name": "Lonza Group AG",
+      "ticker": "LONN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 182,
+      "name": "Standard Chartered PLC",
+      "ticker": "STAN",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 183,
+      "name": "WiseTech Global Ltd",
+      "ticker": "WTC",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 184,
+      "name": "Intact Financial Corp",
+      "ticker": "IFC",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 185,
+      "name": "Cie de Saint-Gobain SA",
+      "ticker": "SGO",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 186,
+      "name": "Oracle Corp",
+      "ticker": "ORCL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 187,
+      "name": "Eiffage SA",
+      "ticker": "FGR",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 188,
+      "name": "Cathay Financial Holding Co Lt",
+      "ticker": "2882",
+      "url": "",
+      "country": "Taiwan"
+    },
+    {
+      "rank": 189,
+      "name": "Dollarama Inc",
+      "ticker": "DOL",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 190,
+      "name": "Canadian Imperial Bank of Comm",
+      "ticker": "CM",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 191,
+      "name": "Verbund AG",
+      "ticker": "VER",
+      "url": "",
+      "country": "Austria"
+    },
+    {
+      "rank": 192,
+      "name": "Ferrovial SE",
+      "ticker": "FER",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 193,
+      "name": "Cameco Corp",
+      "ticker": "CCO",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 194,
+      "name": "Amadeus IT Group SA",
+      "ticker": "AMS",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 195,
+      "name": "Progressive Corp/The",
+      "ticker": "PGR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 196,
+      "name": "AddTech AB",
+      "ticker": "ADDTB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 197,
+      "name": "Tryg A/S",
+      "ticker": "TRYG",
+      "url": "",
+      "country": "Denmark"
+    },
+    {
+      "rank": 198,
+      "name": "KBC Group NV",
+      "ticker": "KBC",
+      "url": "",
+      "country": "Belgium"
+    },
+    {
+      "rank": 199,
+      "name": "Auto Trader Group PLC",
+      "ticker": "AUTO",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 200,
+      "name": "Lifco AB",
+      "ticker": "LIFCOB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 201,
+      "name": "HCA Healthcare Inc",
+      "ticker": "HCA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 202,
+      "name": "Emera Inc",
+      "ticker": "EMA",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 203,
+      "name": "Societe Generale SA",
+      "ticker": "GLE",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 204,
+      "name": "Origin Energy Ltd",
+      "ticker": "ORG",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 205,
+      "name": "Suncorp Group Ltd",
+      "ticker": "SUN",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 206,
+      "name": "United Parcel Service Inc",
+      "ticker": "UPS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 207,
+      "name": "National Australia Bank Ltd",
+      "ticker": "NAB",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 208,
+      "name": "Wesfarmers Ltd",
+      "ticker": "WES",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 209,
+      "name": "Eurofins Scientific SE",
+      "ticker": "ERF",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 210,
+      "name": "Power Corp of Canada",
+      "ticker": "POW",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 211,
+      "name": "Prysmian SpA",
+      "ticker": "PRY",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 212,
+      "name": "SKF AB",
+      "ticker": "SKFB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 213,
+      "name": "Enel Americas SA",
+      "ticker": "ENELAM",
+      "url": "",
+      "country": "China"
+    },
+    {
+      "rank": 214,
+      "name": "Computershare Ltd",
+      "ticker": "CPU",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 215,
+      "name": "Commerzbank AG",
+      "ticker": "CBK",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 216,
+      "name": "CVS Health Corp",
+      "ticker": "CVS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 217,
+      "name": "Syensqo SA",
+      "ticker": "SYENS",
+      "url": "",
+      "country": "Belgium"
+    },
+    {
+      "rank": 218,
+      "name": "Generali",
+      "ticker": "G",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 219,
+      "name": "Veolia Environnement SA",
+      "ticker": "VIE",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 220,
+      "name": "Capital One Financial Corp",
+      "ticker": "COF",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 221,
+      "name": "SAP SE",
+      "ticker": "SAP",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 222,
+      "name": "Publicis Groupe SA",
+      "ticker": "PUB",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 223,
+      "name": "Broadcom Inc",
+      "ticker": "AVGO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 224,
+      "name": "Royal Bank of Canada",
+      "ticker": "RY",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 225,
+      "name": "Banco do Brasil SA",
+      "ticker": "BBAS3",
+      "url": "",
+      "country": "Brazil"
+    },
+    {
+      "rank": 226,
+      "name": "ANZ Group Holdings Ltd",
+      "ticker": "ANZ",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 227,
+      "name": "Visa Inc",
+      "ticker": "V",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 228,
+      "name": "Grupo Cibest SA",
+      "ticker": "CIB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 229,
+      "name": "Telia Co AB",
+      "ticker": "TELIA",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 230,
+      "name": "L'Oreal SA",
+      "ticker": "OR",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 231,
+      "name": "Roche Holding AG",
+      "ticker": "RO",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 232,
+      "name": "Continental AG",
+      "ticker": "CON",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 233,
+      "name": "GEA Group AG",
+      "ticker": "G1A",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 234,
+      "name": "Industria de Diseno Textil SA",
+      "ticker": "ITX",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 235,
+      "name": "Cie Financiere Richemont SA",
+      "ticker": "CFR",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 236,
+      "name": "Vonovia SE",
+      "ticker": "VNA",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 237,
+      "name": "UniCredit SpA",
+      "ticker": "UCG",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 238,
+      "name": "CSL Ltd",
+      "ticker": "CSL",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 239,
+      "name": "Arch Capital Group Ltd",
+      "ticker": "ACGL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 240,
+      "name": "Enbridge Inc",
+      "ticker": "ENB",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 241,
+      "name": "Sartorius AG",
+      "ticker": "SRT3",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 242,
+      "name": "Yum! Brands Inc",
+      "ticker": "YUM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 243,
+      "name": "Groupe Bruxelles Lambert NV",
+      "ticker": "GBLB",
+      "url": "",
+      "country": "Belgium"
+    },
+    {
+      "rank": 244,
+      "name": "KLA Corp",
+      "ticker": "KLAC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 245,
+      "name": "Northrop Grumman Corp",
+      "ticker": "NOC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 246,
+      "name": "Loblaw Cos Ltd",
+      "ticker": "L",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 247,
+      "name": "Sonic Healthcare Ltd",
+      "ticker": "SHL",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 248,
+      "name": "Erie Indemnity Co",
+      "ticker": "ERIE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 249,
+      "name": "Deutsche Bank AG",
+      "ticker": "DBK",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 250,
+      "name": "AIA Group Ltd",
+      "ticker": "1299",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 251,
+      "name": "BT Group PLC",
+      "ticker": "BT/A",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 252,
+      "name": "Fresenius SE & Co KGaA",
+      "ticker": "FRE",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 253,
+      "name": "Land Securities Group PLC",
+      "ticker": "LAND",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 254,
+      "name": "Orkla ASA",
+      "ticker": "ORK",
+      "url": "",
+      "country": "Norway"
+    },
+    {
+      "rank": 255,
+      "name": "Sandvik AB",
+      "ticker": "SAND",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 256,
+      "name": "Teleperformance SE",
+      "ticker": "TEP",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 257,
+      "name": "Yara International ASA",
+      "ticker": "YAR",
+      "url": "",
+      "country": "Norway"
+    },
+    {
+      "rank": 258,
+      "name": "Bouygues SA",
+      "ticker": "EN",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 259,
+      "name": "Goodman Group",
+      "ticker": "GMG",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 260,
+      "name": "Fortis Inc/Canada",
+      "ticker": "FTS",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 261,
+      "name": "Rede D'Or Sao Luiz SA",
+      "ticker": "RDOR3",
+      "url": "",
+      "country": "Brazil"
+    },
+    {
+      "rank": 262,
+      "name": "Endesa SA",
+      "ticker": "ELE",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 263,
+      "name": "Amphenol Corp",
+      "ticker": "APH",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 264,
+      "name": "Rogers Communications Inc",
+      "ticker": "RCI/B",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 265,
+      "name": "NN Group NV",
+      "ticker": "NN",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 266,
+      "name": "Ageas SA/NV",
+      "ticker": "AGS",
+      "url": "",
+      "country": "Belgium"
+    },
+    {
+      "rank": 267,
+      "name": "EXOR NV",
+      "ticker": "EXO",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 268,
+      "name": "Imperial Oil Ltd",
+      "ticker": "IMO",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 269,
+      "name": "News Corp",
+      "ticker": "NWS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 270,
+      "name": "Raymond James Financial Inc",
+      "ticker": "RJF",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 271,
+      "name": "Boston Scientific Corp",
+      "ticker": "BSX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 272,
+      "name": "British Land Co PLC/The",
+      "ticker": "BLND",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 273,
+      "name": "Symrise AG",
+      "ticker": "SY1",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 274,
+      "name": "Mercedes-Benz Group AG",
+      "ticker": "MBG",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 275,
+      "name": "Galderma Group AG",
+      "ticker": "GALD",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 276,
+      "name": "ArcelorMittal SA",
+      "ticker": "MT",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 277,
+      "name": "Canadian Tire Corp Ltd",
+      "ticker": "CTC/A",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 278,
+      "name": "Fox Corp",
+      "ticker": "FOX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 279,
+      "name": "Merck & Co Inc",
+      "ticker": "MRK",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 280,
+      "name": "Lam Research Corp",
+      "ticker": "LRCX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 281,
+      "name": "Sanofi SA",
+      "ticker": "SAN",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 282,
+      "name": "Aristocrat Leisure Ltd",
+      "ticker": "ALL",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 283,
+      "name": "TC Energy Corp",
+      "ticker": "TRP",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 284,
+      "name": "Iberdrola SA",
+      "ticker": "IBE",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 285,
+      "name": "BCE Inc",
+      "ticker": "BCE",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 286,
+      "name": "ASR Nederland NV",
+      "ticker": "ASRNL",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 287,
+      "name": "Banco Bilbao Vizcaya Argentari",
+      "ticker": "BBVA",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 288,
+      "name": "Temenos AG",
+      "ticker": "TEMN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 289,
+      "name": "Arkema SA",
+      "ticker": "AKE",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 290,
+      "name": "Siemens Healthineers AG",
+      "ticker": "SHL",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 291,
+      "name": "Pembina Pipeline Corp",
+      "ticker": "PPL",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 292,
+      "name": "B3 SA - Brasil Bolsa Balcao",
+      "ticker": "B3SA3",
+      "url": "",
+      "country": "Brazil"
+    },
+    {
+      "rank": 293,
+      "name": "Aena SME SA",
+      "ticker": "AENA",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 294,
+      "name": "Neste Oyj",
+      "ticker": "NESTE",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 295,
+      "name": "Deutsche Telekom AG",
+      "ticker": "DTE",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 296,
+      "name": "Bank of Ireland Group PLC",
+      "ticker": "BIRG",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 297,
+      "name": "Airbnb Inc",
+      "ticker": "ABNB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 298,
+      "name": "OMV AG",
+      "ticker": "OMV",
+      "url": "",
+      "country": "Austria"
+    },
+    {
+      "rank": 299,
+      "name": "Kuaishou Technology",
+      "ticker": "1024",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 300,
+      "name": "EQT Corp",
+      "ticker": "EQT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 301,
+      "name": "Manulife Financial Corp",
+      "ticker": "MFC",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 302,
+      "name": "Danaher Corp",
+      "ticker": "DHR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 303,
+      "name": "Cellnex Telecom SA",
+      "ticker": "CLNX",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 304,
+      "name": "ABB Ltd",
+      "ticker": "ABBN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 305,
+      "name": "Incyte Corp",
+      "ticker": "INCY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 306,
+      "name": "GoDaddy Inc",
+      "ticker": "GDDY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 307,
+      "name": "MetLife Inc",
+      "ticker": "MET",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 308,
+      "name": "Toronto-Dominion Bank/The",
+      "ticker": "TD",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 309,
+      "name": "Hydro One Ltd",
+      "ticker": "H",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 310,
+      "name": "AXA SA",
+      "ticker": "CS",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 311,
+      "name": "Open Text Corp",
+      "ticker": "OTEX",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 312,
+      "name": "UBS Group AG",
+      "ticker": "UBSG",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 313,
+      "name": "Northern Star Resources Ltd",
+      "ticker": "NST",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 314,
+      "name": "AIB Group PLC",
+      "ticker": "AIBG",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 315,
+      "name": "Skyworks Solutions Inc",
+      "ticker": "SWKS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 316,
+      "name": "Bayerische Motoren Werke AG",
+      "ticker": "BMW3",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 317,
+      "name": "Kerry Group PLC",
+      "ticker": "KYGA",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 318,
+      "name": "CTBC Financial Holding Co Ltd",
+      "ticker": "2891",
+      "url": "",
+      "country": "Taiwan"
+    },
+    {
+      "rank": 319,
+      "name": "Koninklijke Ahold Delhaize NV",
+      "ticker": "AD",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 320,
+      "name": "Redeia Corp SA",
+      "ticker": "RED",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 321,
+      "name": "Woolworths Group Ltd",
+      "ticker": "WOW",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 322,
+      "name": "General Motors Co",
+      "ticker": "GM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 323,
+      "name": "NRG Energy Inc",
+      "ticker": "NRG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 324,
+      "name": "Dr Ing hc F Porsche AG",
+      "ticker": "P911",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 325,
+      "name": "Volkswagen AG",
+      "ticker": "VOW",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 326,
+      "name": "Western Digital Corp",
+      "ticker": "WDC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 327,
+      "name": "Wartsila OYJ Abp",
+      "ticker": "WRT1V",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 328,
+      "name": "QBE Insurance Group Ltd",
+      "ticker": "QBE",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 329,
+      "name": "Covestro AG",
+      "ticker": "1COV",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 330,
+      "name": "Akzo Nobel NV",
+      "ticker": "AKZA",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 331,
+      "name": "BASF SE",
+      "ticker": "BAS",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 332,
+      "name": "Danone SA",
+      "ticker": "BN",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 333,
+      "name": "Telefonica Brasil SA",
+      "ticker": "VIV",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 334,
+      "name": "CH Robinson Worldwide Inc",
+      "ticker": "CHRW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 335,
+      "name": "United Overseas Bank Ltd",
+      "ticker": "UOB",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 336,
+      "name": "Baxter International Inc",
+      "ticker": "BAX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 337,
+      "name": "ING Groep NV",
+      "ticker": "INGA",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 338,
+      "name": "Tourmaline Oil Corp",
+      "ticker": "TOU",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 339,
+      "name": "Tenaris SA",
+      "ticker": "TEN",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 340,
+      "name": "Ryanair Holdings PLC",
+      "ticker": "RYA",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 341,
+      "name": "NVIDIA Corp",
+      "ticker": "NVDA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 342,
+      "name": "PG&E Corp",
+      "ticker": "PCG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 343,
+      "name": "Dexus",
+      "ticker": "DXS",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 344,
+      "name": "Lloyds Banking Group PLC",
+      "ticker": "LLOY",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 345,
+      "name": "Dow Inc",
+      "ticker": "DOW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 346,
+      "name": "Viatris Inc",
+      "ticker": "VTRS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 347,
+      "name": "BlueScope Steel Ltd",
+      "ticker": "BSL",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 348,
+      "name": "CAE Inc",
+      "ticker": "CAE",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 349,
+      "name": "Prosus NV",
+      "ticker": "PRX",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 350,
+      "name": "Algonquin Power & Utilities Co",
+      "ticker": "AQN",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 351,
+      "name": "Accor SA",
+      "ticker": "AC",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 352,
+      "name": "Enagas SA",
+      "ticker": "ENG",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 353,
+      "name": "Take-Two Interactive Software",
+      "ticker": "TTWO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 354,
+      "name": "Getlink SE",
+      "ticker": "GET",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 355,
+      "name": "Oversea-Chinese Banking Corp L",
+      "ticker": "OCBC",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 356,
+      "name": "Orange SA",
+      "ticker": "ORA",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 357,
+      "name": "AT&T Inc",
+      "ticker": "T",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 358,
+      "name": "Credit Agricole SA",
+      "ticker": "ACA",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 359,
+      "name": "FinecoBank Banca Fineco SpA",
+      "ticker": "FBK",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 360,
+      "name": "Intel Corp",
+      "ticker": "INTC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 361,
+      "name": "Terna - Rete Elettrica Naziona",
+      "ticker": "TRN",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 362,
+      "name": "Insurance Australia Group Ltd",
+      "ticker": "IAG",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 363,
+      "name": "Meituan",
+      "ticker": "3690",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 364,
+      "name": "Grupo Carso SAB de CV",
+      "ticker": "GCARSOA1",
+      "url": "",
+      "country": "Mexico"
+    },
+    {
+      "rank": 365,
+      "name": "Banco BPM SpA",
+      "ticker": "BAMI",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 366,
+      "name": "Bank of America Corp",
+      "ticker": "BAC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 367,
+      "name": "Mediobanca Banca di Credito Fi",
+      "ticker": "MB",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 368,
+      "name": "Banco Santander SA",
+      "ticker": "SAN",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 369,
+      "name": "Sun Life Financial Inc",
+      "ticker": "SLF",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 370,
+      "name": "Dell Technologies Inc",
+      "ticker": "DELL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 371,
+      "name": "SGS SA",
+      "ticker": "SGSN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 372,
+      "name": "Bureau Veritas SA",
+      "ticker": "BVI",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 373,
+      "name": "Naturgy Energy Group SA",
+      "ticker": "NTGY",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 374,
+      "name": "TELUS Corp",
+      "ticker": "T",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 375,
+      "name": "Intesa Sanpaolo SpA",
+      "ticker": "ISP",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 376,
+      "name": "Sampo Oyj",
+      "ticker": "SAMPO",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 377,
+      "name": "Enel SpA",
+      "ticker": "ENEL",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 378,
+      "name": "Walgreens Boots Alliance Inc",
+      "ticker": "WBA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 379,
+      "name": "Cia de Saneamento Basico do Es",
+      "ticker": "SBSP3",
+      "url": "",
+      "country": "Brazil"
+    },
+    {
+      "rank": 380,
+      "name": "Corning Inc",
+      "ticker": "GLW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 381,
+      "name": "Kesko Oyj",
+      "ticker": "KESKOB",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 382,
+      "name": "Aegon Ltd",
+      "ticker": "AGN",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 383,
+      "name": "Snam SpA",
+      "ticker": "SRG",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 384,
+      "name": "CSX Corp",
+      "ticker": "CSX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 385,
+      "name": "Logitech International SA",
+      "ticker": "LOGN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 386,
+      "name": "Micron Technology Inc",
+      "ticker": "MU",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 387,
+      "name": "TotalEnergies SE",
+      "ticker": "TTE",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 388,
+      "name": "Itausa SA",
+      "ticker": "ITSA4",
+      "url": "",
+      "country": "Brazil"
+    },
+    {
+      "rank": 389,
+      "name": "Coterra Energy Inc",
+      "ticker": "CTRA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 390,
+      "name": "CaixaBank SA",
+      "ticker": "CABK",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 391,
+      "name": "America Movil SAB de CV",
+      "ticker": "AMXB",
+      "url": "",
+      "country": "Mexico"
+    },
+    {
+      "rank": 392,
+      "name": "Medibank Pvt Ltd",
+      "ticker": "MPL",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 393,
+      "name": "United Microelectronics Corp",
+      "ticker": "2303",
+      "url": "",
+      "country": "Taiwan"
+    },
+    {
+      "rank": 394,
+      "name": "Stellantis NV",
+      "ticker": "STLAM",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 395,
+      "name": "Telefonica SA",
+      "ticker": "TEF",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 396,
+      "name": "Grupo Financiero Banorte SAB d",
+      "ticker": "GFNORTEO",
+      "url": "",
+      "country": "Mexico"
+    },
+    {
+      "rank": 397,
+      "name": "Carrefour SA",
+      "ticker": "CA",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 398,
+      "name": "GPT Group/The",
+      "ticker": "GPT",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 399,
+      "name": "Mirvac Group",
+      "ticker": "MGR",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 400,
+      "name": "Eni SpA",
+      "ticker": "ENI",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 401,
+      "name": "EDP SA",
+      "ticker": "EDP",
+      "url": "",
+      "country": "Portugal"
+    },
+    {
+      "rank": 402,
+      "name": "Randstad NV",
+      "ticker": "RAND",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 403,
+      "name": "NEXTDC Ltd",
+      "ticker": "NXT",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 404,
+      "name": "Treasury Wine Estates Ltd",
+      "ticker": "TWE",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 405,
+      "name": "Ecopetrol SA",
+      "ticker": "EC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 406,
+      "name": "Coles Group Ltd",
+      "ticker": "COL",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 407,
+      "name": "Zoetis Inc",
+      "ticker": "ZTS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 408,
+      "name": "SEEK Ltd",
+      "ticker": "SEK",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 409,
+      "name": "Banco de Sabadell SA",
+      "ticker": "SAB",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 410,
+      "name": "Telecom Italia SpA/Milano",
+      "ticker": "TITR",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 411,
+      "name": "Kinder Morgan Inc",
+      "ticker": "KMI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 412,
+      "name": "Dayforce Inc",
+      "ticker": "DAY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 413,
+      "name": "Nasdaq Inc",
+      "ticker": "NDAQ",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 414,
+      "name": "PetroChina Co Ltd",
+      "ticker": "857",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 415,
+      "name": "Singapore Telecommunications L",
+      "ticker": "ST",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 416,
+      "name": "Santos Ltd",
+      "ticker": "STO",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 417,
+      "name": "Fresenius Medical Care AG",
+      "ticker": "FME",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 418,
+      "name": "Koninklijke KPN NV",
+      "ticker": "KPN",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 419,
+      "name": "Itau Unibanco Holding SA",
+      "ticker": "ITUB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 420,
+      "name": "Agricultural Bank of China Ltd",
+      "ticker": "1288",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 421,
+      "name": "Chunghwa Telecom Co Ltd",
+      "ticker": "2412",
+      "url": "",
+      "country": "Taiwan"
+    },
+    {
+      "rank": 422,
+      "name": "Asahi Kasei Corp",
+      "ticker": "3407",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 423,
+      "name": "China Merchants Bank Co Ltd",
+      "ticker": "3968",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 424,
+      "name": "TOPPAN Holdings Inc",
+      "ticker": "7911",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 425,
+      "name": "Mitsui OSK Lines Ltd",
+      "ticker": "9104",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 426,
+      "name": "NTT Data Group Corp",
+      "ticker": "9613",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 427,
+      "name": "Beiersdorf AG",
+      "ticker": "BEI",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 428,
+      "name": "Cboe Global Markets Inc",
+      "ticker": "CBOE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 429,
+      "name": "Cadence Design Systems Inc",
+      "ticker": "CDNS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 430,
+      "name": "Essity AB",
+      "ticker": "ESSITYB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 431,
+      "name": "Getinge AB",
+      "ticker": "GETIB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 432,
+      "name": "ICG PLC",
+      "ticker": "ICG",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 433,
+      "name": "Infineon Technologies AG",
+      "ticker": "IFX",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 434,
+      "name": "Johnson & Johnson",
+      "ticker": "JNJ",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 435,
+      "name": "Pearson PLC",
+      "ticker": "PSON",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 436,
+      "name": "Sigma Healthcare Ltd",
+      "ticker": "SIG",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 437,
+      "name": "Smith & Nephew PLC",
+      "ticker": "SN/",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 438,
+      "name": "Transurban Group",
+      "ticker": "TCL",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 439,
+      "name": "Nexi SpA",
+      "ticker": "NEXI",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 440,
+      "name": "Banco Bradesco SA",
+      "ticker": "BBD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 441,
+      "name": "Credicorp Ltd",
+      "ticker": "BAP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 442,
+      "name": "T-Mobile US Inc",
+      "ticker": "TMUS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 443,
+      "name": "Industrial & Commercial Bank o",
+      "ticker": "1398",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 444,
+      "name": "Cie Generale des Etablissement",
+      "ticker": "ML",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 445,
+      "name": "Lottery Corp Ltd/The",
+      "ticker": "TLC",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 446,
+      "name": "E.ON SE",
+      "ticker": "EOAN",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 447,
+      "name": "Alstom SA",
+      "ticker": "ALO",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 448,
+      "name": "Woodside Energy Group Ltd",
+      "ticker": "WDS",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 449,
+      "name": "DSM-Firmenich AG",
+      "ticker": "DSFIR",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 450,
+      "name": "Nokia Oyj",
+      "ticker": "NOKIA",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 451,
+      "name": "Ambev SA",
+      "ticker": "ABEV",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 452,
+      "name": "Stockland",
+      "ticker": "SGP",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 453,
+      "name": "American International Group I",
+      "ticker": "AIG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 454,
+      "name": "Elisa Oyj",
+      "ticker": "ELISA",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 455,
+      "name": "Gerdau SA",
+      "ticker": "GGB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 456,
+      "name": "Metso Oyj",
+      "ticker": "METSO",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 457,
+      "name": "China Construction Bank Corp",
+      "ticker": "939",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 458,
+      "name": "Cemex SAB de CV",
+      "ticker": "CEMEXCPO",
+      "url": "",
+      "country": "Mexico"
+    },
+    {
+      "rank": 459,
+      "name": "NiSource Inc",
+      "ticker": "NI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 460,
+      "name": "Kinross Gold Corp",
+      "ticker": "K",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 461,
+      "name": "Bank of Nova Scotia/The",
+      "ticker": "BNS",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 462,
+      "name": "Kingspan Group PLC",
+      "ticker": "KSP",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 463,
+      "name": "Xiaomi Corp",
+      "ticker": "1810",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 464,
+      "name": "Sodexo SA",
+      "ticker": "SW",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 465,
+      "name": "Evolution Mining Ltd",
+      "ticker": "EVN",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 466,
+      "name": "Scentre Group",
+      "ticker": "SCG",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 467,
+      "name": "American Water Works Co Inc",
+      "ticker": "AWK",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 468,
+      "name": "Altria Group Inc",
+      "ticker": "MO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 469,
+      "name": "Engie SA",
+      "ticker": "ENGI",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 470,
+      "name": "QIAGEN NV",
+      "ticker": "QIA",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 471,
+      "name": "PPL Corp",
+      "ticker": "PPL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 472,
+      "name": "ABN AMRO Bank NV",
+      "ticker": "ABN",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 473,
+      "name": "Adecco Group AG",
+      "ticker": "ADEN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 474,
+      "name": "Qantas Airways Ltd",
+      "ticker": "QAN",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 475,
+      "name": "Repsol SA",
+      "ticker": "REP",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 476,
+      "name": "Bank of China Ltd",
+      "ticker": "3988",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 477,
+      "name": "Kone Oyj",
+      "ticker": "KNEBV",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 478,
+      "name": "Koninklijke Philips NV",
+      "ticker": "PHIA",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 479,
+      "name": "Deutsche Post AG",
+      "ticker": "DHL",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 480,
+      "name": "Porsche Automobil Holding SE",
+      "ticker": "PAH3",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 481,
+      "name": "Pfizer Inc",
+      "ticker": "PFE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 482,
+      "name": "Devon Energy Corp",
+      "ticker": "DVN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 483,
+      "name": "Bank of Communications Co Ltd",
+      "ticker": "3328",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 484,
+      "name": "APA Group",
+      "ticker": "APA",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 485,
+      "name": "Jeronimo Martins SGPS SA",
+      "ticker": "JMT",
+      "url": "",
+      "country": "Portugal"
+    },
+    {
+      "rank": 486,
+      "name": "Zalando SE",
+      "ticker": "ZAL",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 487,
+      "name": "Telefonaktiebolaget LM Ericsso",
+      "ticker": "ERICB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 488,
+      "name": "Wal-Mart de Mexico SAB de CV",
+      "ticker": "WALMEX*",
+      "url": "",
+      "country": "Mexico"
+    },
+    {
+      "rank": 489,
+      "name": "STMicroelectronics NV",
+      "ticker": "STMMI",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 490,
+      "name": "Citizens Financial Group Inc",
+      "ticker": "CFG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 491,
+      "name": "Cenovus Energy Inc",
+      "ticker": "CVE",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 492,
+      "name": "Universal Music Group NV",
+      "ticker": "UMG",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 493,
+      "name": "Sempra",
+      "ticker": "SRE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 494,
+      "name": "Atmos Energy Corp",
+      "ticker": "ATO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 495,
+      "name": "General Mills Inc",
+      "ticker": "GIS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 496,
+      "name": "Swiss Prime Site AG",
+      "ticker": "SPSN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 497,
+      "name": "Walmart Inc",
+      "ticker": "WMT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 498,
+      "name": "Petroleo Brasileiro SA - Petro",
+      "ticker": "PBR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 499,
+      "name": "Howmet Aerospace Inc",
+      "ticker": "HWM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 500,
+      "name": "Merck KGaA",
+      "ticker": "MRK",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 501,
+      "name": "Williams Cos Inc/The",
+      "ticker": "WMB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 502,
+      "name": "Keurig Dr Pepper Inc",
+      "ticker": "KDP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 503,
+      "name": "Fortum Oyj",
+      "ticker": "FORTUM",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 504,
+      "name": "Suncor Energy Inc",
+      "ticker": "SU",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 505,
+      "name": "Grifols SA",
+      "ticker": "GRF",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 506,
+      "name": "Grupo Bimbo SAB de CV",
+      "ticker": "BIMBOA",
+      "url": "",
+      "country": "Mexico"
+    },
+    {
+      "rank": 507,
+      "name": "Delivery Hero SE",
+      "ticker": "DHER",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 508,
+      "name": "Kellanova",
+      "ticker": "K",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 509,
+      "name": "APA Corp",
+      "ticker": "APA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 510,
+      "name": "WEG SA",
+      "ticker": "WEGE3",
+      "url": "",
+      "country": "Brazil"
+    },
+    {
+      "rank": 511,
+      "name": "Banco de Chile",
+      "ticker": "CHILE",
+      "url": "",
+      "country": "China"
+    },
+    {
+      "rank": 512,
+      "name": "Daimler Truck Holding AG",
+      "ticker": "DTG",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 513,
+      "name": "Nestle SA",
+      "ticker": "NESN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 514,
+      "name": "Baker Hughes Co",
+      "ticker": "BKR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 515,
+      "name": "Renault SA",
+      "ticker": "RNO",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 516,
+      "name": "Telstra Group Ltd",
+      "ticker": "TLS",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 517,
+      "name": "Dassault Systemes SE",
+      "ticker": "DSY",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 518,
+      "name": "EOG Resources Inc",
+      "ticker": "EOG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 519,
+      "name": "Abbott Laboratories",
+      "ticker": "ABT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 520,
+      "name": "Edenred SE",
+      "ticker": "EDEN",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 521,
+      "name": "Pernod Ricard SA",
+      "ticker": "RI",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 522,
+      "name": "Ford Motor Co",
+      "ticker": "F",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 523,
+      "name": "KeyCorp",
+      "ticker": "KEY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 524,
+      "name": "adidas AG",
+      "ticker": "ADS",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 525,
+      "name": "Grupo Mexico SAB de CV",
+      "ticker": "GMEXICOB",
+      "url": "",
+      "country": "Mexico"
+    },
+    {
+      "rank": 526,
+      "name": "Regions Financial Corp",
+      "ticker": "RF",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 527,
+      "name": "SIG Group AG",
+      "ticker": "SIGN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 528,
+      "name": "Brambles Ltd",
+      "ticker": "BXB",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 529,
+      "name": "Centene Corp",
+      "ticker": "CNC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 530,
+      "name": "Heineken Holding NV",
+      "ticker": "HEIO",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 531,
+      "name": "Monster Beverage Corp",
+      "ticker": "MNST",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 532,
+      "name": "Citigroup Inc",
+      "ticker": "C",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 533,
+      "name": "Huntington Bancshares Inc/OH",
+      "ticker": "HBAN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 534,
+      "name": "Heineken NV",
+      "ticker": "HEIA",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 535,
+      "name": "South32 Ltd",
+      "ticker": "S32",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 536,
+      "name": "Edison International",
+      "ticker": "EIX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 537,
+      "name": "Comcast Corp",
+      "ticker": "CMCSA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 538,
+      "name": "Bayer AG",
+      "ticker": "BAYN",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 539,
+      "name": "UPM-Kymmene Oyj",
+      "ticker": "UPM",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 540,
+      "name": "CenterPoint Energy Inc",
+      "ticker": "CNP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 541,
+      "name": "The Campbell's Company",
+      "ticker": "CPB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 542,
+      "name": "Realty Income Corp",
+      "ticker": "O",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 543,
+      "name": "Edwards Lifesciences Corp",
+      "ticker": "EW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 544,
+      "name": "Vodafone Group PLC",
+      "ticker": "VOD",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 545,
+      "name": "Newmont Corp",
+      "ticker": "NEM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 546,
+      "name": "Conagra Brands Inc",
+      "ticker": "CAG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 547,
+      "name": "Localiza Rent a Car SA",
+      "ticker": "RENT3",
+      "url": "",
+      "country": "Brazil"
+    },
+    {
+      "rank": 548,
+      "name": "Loews Corp",
+      "ticker": "L",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 549,
+      "name": "Metro Inc/CN",
+      "ticker": "MRU",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 550,
+      "name": "Vale SA",
+      "ticker": "VALE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 551,
+      "name": "Quanta Services Inc",
+      "ticker": "PWR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 552,
+      "name": "Evergy Inc",
+      "ticker": "EVRG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 553,
+      "name": "Fibra Uno Administracion SA de",
+      "ticker": "FUNO11",
+      "url": "",
+      "country": "Mexico"
+    },
+    {
+      "rank": 554,
+      "name": "Erste Group Bank AG",
+      "ticker": "EBS",
+      "url": "",
+      "country": "Austria"
+    },
+    {
+      "rank": 555,
+      "name": "Henkel AG & Co KGaA",
+      "ticker": "HEN",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 556,
+      "name": "CK Hutchison Holdings Ltd",
+      "ticker": "1",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 557,
+      "name": "Canadian Natural Resources Ltd",
+      "ticker": "CNQ",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 558,
+      "name": "Swatch Group AG/The",
+      "ticker": "UHRN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 559,
+      "name": "Baidu Inc",
+      "ticker": "9888",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 560,
+      "name": "McDonald's Corp",
+      "ticker": "MCD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 561,
+      "name": "TJX Cos Inc/The",
+      "ticker": "TJX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 562,
+      "name": "Rollins Inc",
+      "ticker": "ROL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 563,
+      "name": "Healthpeak Properties Inc",
+      "ticker": "DOC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 564,
+      "name": "Barrick Mining Corp",
+      "ticker": "ABX",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 565,
+      "name": "LyondellBasell Industries NV",
+      "ticker": "LYB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 566,
+      "name": "American Electric Power Co Inc",
+      "ticker": "AEP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 567,
+      "name": "BHP Group Ltd",
+      "ticker": "BHP",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 568,
+      "name": "Lamb Weston Holdings Inc",
+      "ticker": "LW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 569,
+      "name": "Stora Enso Oyj",
+      "ticker": "STERV",
+      "url": "",
+      "country": ""
+    },
+    {
+      "rank": 570,
+      "name": "Humana Inc",
+      "ticker": "HUM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 571,
+      "name": "Xcel Energy Inc",
+      "ticker": "XEL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 572,
+      "name": "Saputo Inc",
+      "ticker": "SAP",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 573,
+      "name": "Host Hotels & Resorts Inc",
+      "ticker": "HST",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 574,
+      "name": "FirstEnergy Corp",
+      "ticker": "FE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 575,
+      "name": "Warner Bros Discovery Inc",
+      "ticker": "WBD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 576,
+      "name": "NetApp Inc",
+      "ticker": "NTAP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 577,
+      "name": "Linde PLC",
+      "ticker": "LIN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 578,
+      "name": "LKQ Corp",
+      "ticker": "LKQ",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 579,
+      "name": "Fifth Third Bancorp",
+      "ticker": "FITB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 580,
+      "name": "FirstService Corp",
+      "ticker": "FSV",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 581,
+      "name": "Holcim AG",
+      "ticker": "HOLN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 582,
+      "name": "Banco Santander Chile",
+      "ticker": "BSAC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 583,
+      "name": "Tractor Supply Co",
+      "ticker": "TSCO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 584,
+      "name": "Mosaic Co/The",
+      "ticker": "MOS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 585,
+      "name": "Ameren Corp",
+      "ticker": "AEE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 586,
+      "name": "Hewlett Packard Enterprise Co",
+      "ticker": "HPE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 587,
+      "name": "Johnson Controls International",
+      "ticker": "JCI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 588,
+      "name": "Moncler SpA",
+      "ticker": "MONC",
+      "url": "",
+      "country": "Italy"
+    },
+    {
+      "rank": 589,
+      "name": "Nibe Industrier AB",
+      "ticker": "NIBEB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 590,
+      "name": "NU Holdings Ltd/Cayman Islands",
+      "ticker": "NU",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 591,
+      "name": "Hartford Insurance Group Inc/T",
+      "ticker": "HIG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 592,
+      "name": "W R Berkley Corp",
+      "ticker": "WRB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 593,
+      "name": "Waste Connections Inc",
+      "ticker": "WCN",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 594,
+      "name": "Kraft Heinz Co/The",
+      "ticker": "KHC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 595,
+      "name": "National Bank of Canada",
+      "ticker": "NA",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 596,
+      "name": "Invesco Ltd",
+      "ticker": "IVZ",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 597,
+      "name": "Alliant Energy Corp",
+      "ticker": "LNT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 598,
+      "name": "Unibail-Rodamco-Westfield",
+      "ticker": "URW",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 599,
+      "name": "West Pharmaceutical Services I",
+      "ticker": "WST",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 600,
+      "name": "Bristol-Myers Squibb Co",
+      "ticker": "BMY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 601,
+      "name": "Nutrien Ltd",
+      "ticker": "NTR",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 602,
+      "name": "Exelon Corp",
+      "ticker": "EXC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 603,
+      "name": "AES Corp/The",
+      "ticker": "AES",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 604,
+      "name": "O'Reilly Automotive Inc",
+      "ticker": "ORLY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 605,
+      "name": "Fortescue Ltd",
+      "ticker": "FMG",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 606,
+      "name": "HP Inc",
+      "ticker": "HPQ",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 607,
+      "name": "VICI Properties Inc",
+      "ticker": "VICI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 608,
+      "name": "Latam Airlines Group SA",
+      "ticker": "LTM",
+      "url": "",
+      "country": "China"
+    },
+    {
+      "rank": 609,
+      "name": "Royal Caribbean Cruises Ltd",
+      "ticker": "RCL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 610,
+      "name": "Verizon Communications Inc",
+      "ticker": "VZ",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 611,
+      "name": "US Bancorp",
+      "ticker": "USB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 612,
+      "name": "Weyerhaeuser Co",
+      "ticker": "WY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 613,
+      "name": "Huntington Ingalls Industries",
+      "ticker": "HII",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 614,
+      "name": "Galp Energia SGPS SA",
+      "ticker": "GALP",
+      "url": "",
+      "country": "Portugal"
+    },
+    {
+      "rank": 615,
+      "name": "Fastenal Co",
+      "ticker": "FAST",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 616,
+      "name": "SSAB AB",
+      "ticker": "SSABB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 617,
+      "name": "Moderna Inc",
+      "ticker": "MRNA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 618,
+      "name": "Halliburton Co",
+      "ticker": "HAL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 619,
+      "name": "Sika AG",
+      "ticker": "SIKA",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 620,
+      "name": "Synchrony Financial",
+      "ticker": "SYF",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 621,
+      "name": "Centrais Eletricas Brasileiras",
+      "ticker": "ELET3",
+      "url": "",
+      "country": "Brazil"
+    },
+    {
+      "rank": 622,
+      "name": "RTX Corp",
+      "ticker": "RTX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 623,
+      "name": "Puma SE",
+      "ticker": "PUM",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 624,
+      "name": "Entergy Corp",
+      "ticker": "ETR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 625,
+      "name": "Truist Financial Corp",
+      "ticker": "TFC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 626,
+      "name": "First Quantum Minerals Ltd",
+      "ticker": "FM",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 627,
+      "name": "Franklin Resources Inc",
+      "ticker": "BEN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 628,
+      "name": "Interpublic Group of Cos Inc/T",
+      "ticker": "IPG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 629,
+      "name": "Carnival Corp",
+      "ticker": "CCL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 630,
+      "name": "Occidental Petroleum Corp",
+      "ticker": "OXY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 631,
+      "name": "Paychex Inc",
+      "ticker": "PAYX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 632,
+      "name": "Sandoz Group AG",
+      "ticker": "SDZ",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 633,
+      "name": "Invitation Homes Inc",
+      "ticker": "INVH",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 634,
+      "name": "Anheuser-Busch InBev SA/NV",
+      "ticker": "ABI",
+      "url": "",
+      "country": "Belgium"
+    },
+    {
+      "rank": 635,
+      "name": "McCormick & Co Inc/MD",
+      "ticker": "MKC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 636,
+      "name": "Brookfield Asset Management Lt",
+      "ticker": "BAM",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 637,
+      "name": "Kimco Realty Corp",
+      "ticker": "KIM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 638,
+      "name": "Las Vegas Sands Corp",
+      "ticker": "LVS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 639,
+      "name": "ASE Technology Holding Co Ltd",
+      "ticker": "3711",
+      "url": "",
+      "country": "Taiwan"
+    },
+    {
+      "rank": 640,
+      "name": "Brookfield Infrastructure Part",
+      "ticker": "BIP-U",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 641,
+      "name": "Equinor ASA",
+      "ticker": "EQNR",
+      "url": "",
+      "country": "Norway"
+    },
+    {
+      "rank": 642,
+      "name": "PTC Inc",
+      "ticker": "PTC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 643,
+      "name": "Tesco PLC",
+      "ticker": "TSCO",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 644,
+      "name": "UDR Inc",
+      "ticker": "UDR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 645,
+      "name": "Dexcom Inc",
+      "ticker": "DXCM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 646,
+      "name": "MGM Resorts International",
+      "ticker": "MGM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 647,
+      "name": "Eversource Energy",
+      "ticker": "ES",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 648,
+      "name": "Magna International Inc",
+      "ticker": "MG",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 649,
+      "name": "Hormel Foods Corp",
+      "ticker": "HRL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 650,
+      "name": "MarketAxess Holdings Inc",
+      "ticker": "MKTX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 651,
+      "name": "Aflac Inc",
+      "ticker": "AFL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 652,
+      "name": "ConocoPhillips",
+      "ticker": "COP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 653,
+      "name": "Consolidated Edison Inc",
+      "ticker": "ED",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 654,
+      "name": "Southern Co/The",
+      "ticker": "SO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 655,
+      "name": "Gecina SA",
+      "ticker": "GFC",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 656,
+      "name": "Southwest Airlines Co",
+      "ticker": "LUV",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 657,
+      "name": "Republic Services Inc",
+      "ticker": "RSG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 658,
+      "name": "Gen Digital Inc",
+      "ticker": "GEN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 659,
+      "name": "Brookfield Corp",
+      "ticker": "BN",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 660,
+      "name": "Hasbro Inc",
+      "ticker": "HAS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 661,
+      "name": "Norsk Hydro ASA",
+      "ticker": "NHY",
+      "url": "",
+      "country": "Norway"
+    },
+    {
+      "rank": 662,
+      "name": "Vistra Corp",
+      "ticker": "VST",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 663,
+      "name": "PepsiCo Inc",
+      "ticker": "PEP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 664,
+      "name": "Hong Kong Exchanges & Clearing",
+      "ticker": "388",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 665,
+      "name": "General Dynamics Corp",
+      "ticker": "GD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 666,
+      "name": "Trelleborg AB",
+      "ticker": "TRELB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 667,
+      "name": "CMS Energy Corp",
+      "ticker": "CMS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 668,
+      "name": "Pinnacle West Capital Corp",
+      "ticker": "PNW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 669,
+      "name": "Match Group Inc",
+      "ticker": "MTCH",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 670,
+      "name": "Public Service Enterprise Grou",
+      "ticker": "PEG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 671,
+      "name": "Mondelez International Inc",
+      "ticker": "MDLZ",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 672,
+      "name": "Alcon AG",
+      "ticker": "ALC",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 673,
+      "name": "Marathon Petroleum Corp",
+      "ticker": "MPC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 674,
+      "name": "NextEra Energy Inc",
+      "ticker": "NEE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 675,
+      "name": "Molson Coors Beverage Co",
+      "ticker": "TAP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 676,
+      "name": "Brown-Forman Corp",
+      "ticker": "BF/B",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 677,
+      "name": "Taylor Wimpey PLC",
+      "ticker": "TW/",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 678,
+      "name": "Copart Inc",
+      "ticker": "CPRT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 679,
+      "name": "Agnico Eagle Mines Ltd",
+      "ticker": "AEM",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 680,
+      "name": "Morgan Stanley",
+      "ticker": "MS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 681,
+      "name": "Caesars Entertainment Inc",
+      "ticker": "CZR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 682,
+      "name": "Siemens Energy AG",
+      "ticker": "ENR",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 683,
+      "name": "Prudential Financial Inc",
+      "ticker": "PRU",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 684,
+      "name": "Kroger Co/The",
+      "ticker": "KR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 685,
+      "name": "Universal Health Services Inc",
+      "ticker": "UHS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 686,
+      "name": "Eastman Chemical Co",
+      "ticker": "EMN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 687,
+      "name": "Equity Residential",
+      "ticker": "EQR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 688,
+      "name": "TE Connectivity PLC",
+      "ticker": "TEL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 689,
+      "name": "Global Payments Inc",
+      "ticker": "GPN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 690,
+      "name": "ONEOK Inc",
+      "ticker": "OKE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 691,
+      "name": "Ventas Inc",
+      "ticker": "VTR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 692,
+      "name": "Fidelity National Information",
+      "ticker": "FIS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 693,
+      "name": "Sonova Holding AG",
+      "ticker": "SOON",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 694,
+      "name": "Archer-Daniels-Midland Co",
+      "ticker": "ADM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 695,
+      "name": "Aptiv PLC",
+      "ticker": "APTV",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 696,
+      "name": "Canadian Apartment Properties",
+      "ticker": "CAR-U",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 697,
+      "name": "Expand Energy Corp",
+      "ticker": "EXE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 698,
+      "name": "Principal Financial Group Inc",
+      "ticker": "PFG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 699,
+      "name": "Philip Morris International In",
+      "ticker": "PM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 700,
+      "name": "Norwegian Cruise Line Holdings",
+      "ticker": "NCLH",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 701,
+      "name": "Julius Baer Group Ltd",
+      "ticker": "BAER",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 702,
+      "name": "Kenvue Inc",
+      "ticker": "KVUE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 703,
+      "name": "ASX Ltd",
+      "ticker": "ASX",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 704,
+      "name": "Starbucks Corp",
+      "ticker": "SBUX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 705,
+      "name": "Schlumberger NV",
+      "ticker": "SLB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 706,
+      "name": "Restaurant Brands Internationa",
+      "ticker": "QSR",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 707,
+      "name": "Exxon Mobil Corp",
+      "ticker": "XOM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 708,
+      "name": "Corteva Inc",
+      "ticker": "CTVA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 709,
+      "name": "ASM International NV",
+      "ticker": "ASM",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 710,
+      "name": "Techtronic Industries Co Ltd",
+      "ticker": "669",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 711,
+      "name": "Dominion Energy Inc",
+      "ticker": "D",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 712,
+      "name": "DuPont de Nemours Inc",
+      "ticker": "DD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 713,
+      "name": "Brenntag SE",
+      "ticker": "BNR",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 714,
+      "name": "Chubb Ltd",
+      "ticker": "CB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 715,
+      "name": "Hershey Co/The",
+      "ticker": "HSY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 716,
+      "name": "Alimentation Couche-Tard Inc",
+      "ticker": "ATD",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 717,
+      "name": "Medtronic PLC",
+      "ticker": "MDT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 718,
+      "name": "Coca-Cola Co/The",
+      "ticker": "KO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 719,
+      "name": "PNC Financial Services Group I",
+      "ticker": "PNC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 720,
+      "name": "BE Semiconductor Industries NV",
+      "ticker": "BESI",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 721,
+      "name": "Berkshire Hathaway Inc",
+      "ticker": "BRK/B",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 722,
+      "name": "Cencora Inc",
+      "ticker": "COR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 723,
+      "name": "Expedia Group Inc",
+      "ticker": "EXPE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 724,
+      "name": "Teck Resources Ltd",
+      "ticker": "TECK/B",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 725,
+      "name": "UnitedHealth Group Inc",
+      "ticker": "UNH",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 726,
+      "name": "Textron Inc",
+      "ticker": "TXT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 727,
+      "name": "Akamai Technologies Inc",
+      "ticker": "AKAM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 728,
+      "name": "Cincinnati Financial Corp",
+      "ticker": "CINF",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 729,
+      "name": "Genuine Parts Co",
+      "ticker": "GPC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 730,
+      "name": "RWE AG",
+      "ticker": "RWE",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 731,
+      "name": "NTT Inc",
+      "ticker": "9432",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 732,
+      "name": "Gilead Sciences Inc",
+      "ticker": "GILD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 733,
+      "name": "A O Smith Corp",
+      "ticker": "AOS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 734,
+      "name": "Accenture PLC",
+      "ticker": "ACN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 735,
+      "name": "Biogen Inc",
+      "ticker": "BIIB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 736,
+      "name": "Emerson Electric Co",
+      "ticker": "EMR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 737,
+      "name": "Fortive Corp",
+      "ticker": "FTV",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 738,
+      "name": "Welltower Inc",
+      "ticker": "WELL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 739,
+      "name": "Norfolk Southern Corp",
+      "ticker": "NSC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 740,
+      "name": "Mid-America Apartment Communit",
+      "ticker": "MAA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 741,
+      "name": "Duke Energy Corp",
+      "ticker": "DUK",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 742,
+      "name": "Hologic Inc",
+      "ticker": "HOLX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 743,
+      "name": "Bank of Montreal",
+      "ticker": "BMO",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 744,
+      "name": "T Rowe Price Group Inc",
+      "ticker": "TROW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 745,
+      "name": "Sociedad Quimica y Minera de C",
+      "ticker": "SQM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 746,
+      "name": "Cisco Systems Inc",
+      "ticker": "CSCO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 747,
+      "name": "DBS Group Holdings Ltd",
+      "ticker": "DBS",
+      "url": "",
+      "country": "Singapore"
+    },
+    {
+      "rank": 748,
+      "name": "Paramount Skydance Corp",
+      "ticker": "PSKY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 749,
+      "name": "Blackrock Inc",
+      "ticker": "BLK",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 750,
+      "name": "Delta Air Lines Inc",
+      "ticker": "DAL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 751,
+      "name": "Allstate Corp/The",
+      "ticker": "ALL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 752,
+      "name": "Garmin Ltd",
+      "ticker": "GRMN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 753,
+      "name": "Phillips 66",
+      "ticker": "PSX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 754,
+      "name": "Boeing Co/The",
+      "ticker": "BA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 755,
+      "name": "BXP Inc",
+      "ticker": "BXP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 756,
+      "name": "Walt Disney Co/The",
+      "ticker": "DIS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 757,
+      "name": "Everest Group Ltd",
+      "ticker": "EG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 758,
+      "name": "Freeport-McMoRan Inc",
+      "ticker": "FCX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 759,
+      "name": "Yakult Honsha Co Ltd",
+      "ticker": "2267",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 760,
+      "name": "Quanta Computer Inc",
+      "ticker": "2382",
+      "url": "",
+      "country": "Taiwan"
+    },
+    {
+      "rank": 761,
+      "name": "FUJIFILM Holdings Corp",
+      "ticker": "4901",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 762,
+      "name": "International Paper Co",
+      "ticker": "IP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 763,
+      "name": "Swisscom AG",
+      "ticker": "SCMN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 764,
+      "name": "Super Micro Computer Inc",
+      "ticker": "SMCI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 765,
+      "name": "Trimble Inc",
+      "ticker": "TRMB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 766,
+      "name": "Bio-Techne Corp",
+      "ticker": "TECH",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 767,
+      "name": "Ingersoll Rand Inc",
+      "ticker": "IR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 768,
+      "name": "Solventum Corp",
+      "ticker": "SOLV",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 769,
+      "name": "CCL Industries Inc",
+      "ticker": "CCL/B",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 770,
+      "name": "International Flavors & Fragra",
+      "ticker": "IFF",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 771,
+      "name": "VAT Group AG",
+      "ticker": "VACN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 772,
+      "name": "Wynn Resorts Ltd",
+      "ticker": "WYNN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 773,
+      "name": "DaVita Inc",
+      "ticker": "DVA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 774,
+      "name": "Haleon PLC",
+      "ticker": "HLN",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 775,
+      "name": "Diamondback Energy Inc",
+      "ticker": "FANG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 776,
+      "name": "Regency Centers Corp",
+      "ticker": "REG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 777,
+      "name": "Brown & Brown Inc",
+      "ticker": "BRO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 778,
+      "name": "Church & Dwight Co Inc",
+      "ticker": "CHD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 779,
+      "name": "Revvity Inc",
+      "ticker": "RVTY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 780,
+      "name": "M&T Bank Corp",
+      "ticker": "MTB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 781,
+      "name": "Seagate Technology Holdings PL",
+      "ticker": "STX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 782,
+      "name": "Prologis Inc",
+      "ticker": "PLD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 783,
+      "name": "Automatic Data Processing Inc",
+      "ticker": "ADP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 784,
+      "name": "Epiroc AB",
+      "ticker": "EPIA",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 785,
+      "name": "Smurfit WestRock PLC",
+      "ticker": "SW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 786,
+      "name": "Cognizant Technology Solutions",
+      "ticker": "CTSH",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 787,
+      "name": "NIKE Inc",
+      "ticker": "NKE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 788,
+      "name": "Simon Property Group Inc",
+      "ticker": "SPG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 789,
+      "name": "Sysco Corp",
+      "ticker": "SYY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 790,
+      "name": "S&P Global Inc",
+      "ticker": "SPGI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 791,
+      "name": "WEC Energy Group Inc",
+      "ticker": "WEC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 792,
+      "name": "BYD Co Ltd",
+      "ticker": "1211",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 793,
+      "name": "Mowi ASA",
+      "ticker": "MOWI",
+      "url": "",
+      "country": "Norway"
+    },
+    {
+      "rank": 794,
+      "name": "Darden Restaurants Inc",
+      "ticker": "DRI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 795,
+      "name": "Cooper Cos Inc/The",
+      "ticker": "COO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 796,
+      "name": "Albemarle Corp",
+      "ticker": "ALB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 797,
+      "name": "IMCD NV",
+      "ticker": "IMCD",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 798,
+      "name": "DTE Energy Co",
+      "ticker": "DTE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 799,
+      "name": "Kuehne + Nagel International A",
+      "ticker": "KNIN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 800,
+      "name": "Arca Continental SAB de CV",
+      "ticker": "AC*",
+      "url": "",
+      "country": "Mexico"
+    },
+    {
+      "rank": 801,
+      "name": "Omnicom Group Inc",
+      "ticker": "OMC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 802,
+      "name": "Chevron Corp",
+      "ticker": "CVX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 803,
+      "name": "Valero Energy Corp",
+      "ticker": "VLO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 804,
+      "name": "Applied Materials Inc",
+      "ticker": "AMAT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 805,
+      "name": "Gartner Inc",
+      "ticker": "IT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 806,
+      "name": "Alexandria Real Estate Equitie",
+      "ticker": "ARE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 807,
+      "name": "Bunge Global SA",
+      "ticker": "BG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 808,
+      "name": "Charles River Laboratories Int",
+      "ticker": "CRL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 809,
+      "name": "ON Semiconductor Corp",
+      "ticker": "ON",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 810,
+      "name": "Wheaton Precious Metals Corp",
+      "ticker": "WPM",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 811,
+      "name": "Canadian National Railway Co",
+      "ticker": "CNR",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 812,
+      "name": "Henry Schein Inc",
+      "ticker": "HSIC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 813,
+      "name": "Assurant Inc",
+      "ticker": "AIZ",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 814,
+      "name": "CarMax Inc",
+      "ticker": "KMX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 815,
+      "name": "Carrier Global Corp",
+      "ticker": "CARR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 816,
+      "name": "Chipotle Mexican Grill Inc",
+      "ticker": "CMG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 817,
+      "name": "Corpay Inc",
+      "ticker": "CPAY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 818,
+      "name": "Kimberly-Clark Corp",
+      "ticker": "KMB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 819,
+      "name": "Novo Nordisk A/S",
+      "ticker": "NOVOB",
+      "url": "",
+      "country": "Denmark"
+    },
+    {
+      "rank": 820,
+      "name": "Becton Dickinson & Co",
+      "ticker": "BDX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 821,
+      "name": "Amcor PLC",
+      "ticker": "AMCR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 822,
+      "name": "Texas Instruments Inc",
+      "ticker": "TXN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 823,
+      "name": "Tyson Foods Inc",
+      "ticker": "TSN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 824,
+      "name": "Zimmer Biomet Holdings Inc",
+      "ticker": "ZBH",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 825,
+      "name": "GE HealthCare Technologies Inc",
+      "ticker": "GEHC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 826,
+      "name": "Moody's Corp",
+      "ticker": "MCO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 827,
+      "name": "Capgemini SE",
+      "ticker": "CAP",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 828,
+      "name": "Eaton Corp PLC",
+      "ticker": "ETN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 829,
+      "name": "HSBC Holdings PLC",
+      "ticker": "HSBA",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 830,
+      "name": "Novonesis Novozymes B",
+      "ticker": "NSISB",
+      "url": "",
+      "country": "Denmark"
+    },
+    {
+      "rank": 831,
+      "name": "Best Buy Co Inc",
+      "ticker": "BBY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 832,
+      "name": "Colgate-Palmolive Co",
+      "ticker": "CL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 833,
+      "name": "Otis Worldwide Corp",
+      "ticker": "OTIS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 834,
+      "name": "United Airlines Holdings Inc",
+      "ticker": "UAL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 835,
+      "name": "Cintas Corp",
+      "ticker": "CTAS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 836,
+      "name": "PACCAR Inc",
+      "ticker": "PCAR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 837,
+      "name": "Quest Diagnostics Inc",
+      "ticker": "DGX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 838,
+      "name": "Federal Realty Investment Trus",
+      "ticker": "FRT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 839,
+      "name": "Microchip Technology Inc",
+      "ticker": "MCHP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 840,
+      "name": "Vulcan Materials Co",
+      "ticker": "VMC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 841,
+      "name": "Arista Networks Inc",
+      "ticker": "ANET",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 842,
+      "name": "Li Auto Inc",
+      "ticker": "2015",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 843,
+      "name": "Fiserv Inc",
+      "ticker": "FI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 844,
+      "name": "Block Inc",
+      "ticker": "XYZ",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 845,
+      "name": "Apollo Global Management Inc",
+      "ticker": "APO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 846,
+      "name": "Elevance Health Inc",
+      "ticker": "ELV",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 847,
+      "name": "Straumann Holding AG",
+      "ticker": "STMN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 848,
+      "name": "Camden Property Trust",
+      "ticker": "CPT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 849,
+      "name": "KKR & Co Inc",
+      "ticker": "KKR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 850,
+      "name": "Target Corp",
+      "ticker": "TGT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 851,
+      "name": "Glencore PLC",
+      "ticker": "GLEN",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 852,
+      "name": "Masco Corp",
+      "ticker": "MAS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 853,
+      "name": "Broadridge Financial Solutions",
+      "ticker": "BR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 854,
+      "name": "Hexagon AB",
+      "ticker": "HEXAB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 855,
+      "name": "Ross Stores Inc",
+      "ticker": "ROST",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 856,
+      "name": "J M Smucker Co/The",
+      "ticker": "SJM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 857,
+      "name": "AMETEK Inc",
+      "ticker": "AME",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 858,
+      "name": "Procter & Gamble Co/The",
+      "ticker": "PG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 859,
+      "name": "Agilent Technologies Inc",
+      "ticker": "A",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 860,
+      "name": "Globe Life Inc",
+      "ticker": "GL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 861,
+      "name": "Fortinet Inc",
+      "ticker": "FTNT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 862,
+      "name": "Jabil Inc",
+      "ticker": "JBL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 863,
+      "name": "Vestas Wind Systems A/S",
+      "ticker": "VWS",
+      "url": "",
+      "country": "Denmark"
+    },
+    {
+      "rank": 864,
+      "name": "Dollar General Corp",
+      "ticker": "DG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 865,
+      "name": "STERIS PLC",
+      "ticker": "STE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 866,
+      "name": "Caterpillar Inc",
+      "ticker": "CAT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 867,
+      "name": "CGI Inc",
+      "ticker": "GIB/A",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 868,
+      "name": "Veralto Corp",
+      "ticker": "VLTO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 869,
+      "name": "Dollar Tree Inc",
+      "ticker": "DLTR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 870,
+      "name": "Xylem Inc/NY",
+      "ticker": "XYL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 871,
+      "name": "PPG Industries Inc",
+      "ticker": "PPG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 872,
+      "name": "Alibaba Group Holding Ltd",
+      "ticker": "9988",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 873,
+      "name": "Franco-Nevada Corp",
+      "ticker": "FNV",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 874,
+      "name": "Commonwealth Bank of Australia",
+      "ticker": "CBA",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 875,
+      "name": "Apple Inc",
+      "ticker": "AAPL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 876,
+      "name": "Mastercard Inc",
+      "ticker": "MA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 877,
+      "name": "Expeditors International of Wa",
+      "ticker": "EXPD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 878,
+      "name": "Ecolab Inc",
+      "ticker": "ECL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 879,
+      "name": "Leidos Holdings Inc",
+      "ticker": "LDOS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 880,
+      "name": "H & M Hennes & Mauritz AB",
+      "ticker": "HMB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 881,
+      "name": "Ball Corp",
+      "ticker": "BALL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 882,
+      "name": "Roper Technologies Inc",
+      "ticker": "ROP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 883,
+      "name": "Allegion plc",
+      "ticker": "ALLE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 884,
+      "name": "VeriSign Inc",
+      "ticker": "VRSN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 885,
+      "name": "Crown Castle Inc",
+      "ticker": "CCI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 886,
+      "name": "Kintetsu Group Holdings Co Ltd",
+      "ticker": "9041",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 887,
+      "name": "Bunzl PLC",
+      "ticker": "BNZL",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 888,
+      "name": "Pandora A/S",
+      "ticker": "PNDORA",
+      "url": "",
+      "country": "Denmark"
+    },
+    {
+      "rank": 889,
+      "name": "J Sainsbury PLC",
+      "ticker": "SBRY",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 890,
+      "name": "Smiths Group PLC",
+      "ticker": "SMIN",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 891,
+      "name": "Wise PLC",
+      "ticker": "WISE",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 892,
+      "name": "PayPal Holdings Inc",
+      "ticker": "PYPL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 893,
+      "name": "Clorox Co/The",
+      "ticker": "CLX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 894,
+      "name": "Hilton Worldwide Holdings Inc",
+      "ticker": "HLT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 895,
+      "name": "Stanley Black & Decker Inc",
+      "ticker": "SWK",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 896,
+      "name": "Fomento Economico Mexicano SAB",
+      "ticker": "FEMSAUBD",
+      "url": "",
+      "country": "Mexico"
+    },
+    {
+      "rank": 897,
+      "name": "Honeywell International Inc",
+      "ticker": "HON",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 898,
+      "name": "Svenska Cellulosa AB SCA",
+      "ticker": "SCAB",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 899,
+      "name": "Marriott International Inc/MD",
+      "ticker": "MAR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 900,
+      "name": "Rockwell Automation Inc",
+      "ticker": "ROK",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 901,
+      "name": "Rentokil Initial PLC",
+      "ticker": "RTO",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 902,
+      "name": "CBRE Group Inc",
+      "ticker": "CBRE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 903,
+      "name": "eBay Inc",
+      "ticker": "EBAY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 904,
+      "name": "Constellation Brands Inc",
+      "ticker": "STZ",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 905,
+      "name": "Hannover Rueck SE",
+      "ticker": "HNR1",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 906,
+      "name": "PulteGroup Inc",
+      "ticker": "PHM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 907,
+      "name": "Lennar Corp",
+      "ticker": "LEN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 908,
+      "name": "3M Co",
+      "ticker": "MMM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 909,
+      "name": "Travelers Cos Inc/The",
+      "ticker": "TRV",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 910,
+      "name": "Adobe Inc",
+      "ticker": "ADBE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 911,
+      "name": "IQVIA Holdings Inc",
+      "ticker": "IQV",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 912,
+      "name": "JD.com Inc",
+      "ticker": "9618",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 913,
+      "name": "EPAM Systems Inc",
+      "ticker": "EPAM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 914,
+      "name": "CF Industries Holdings Inc",
+      "ticker": "CF",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 915,
+      "name": "Canadian Pacific Kansas City L",
+      "ticker": "CP",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 916,
+      "name": "Palo Alto Networks Inc",
+      "ticker": "PANW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 917,
+      "name": "Waste Management Inc",
+      "ticker": "WM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 918,
+      "name": "Molina Healthcare Inc",
+      "ticker": "MOH",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 919,
+      "name": "Align Technology Inc",
+      "ticker": "ALGN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 920,
+      "name": "JFE Holdings Inc",
+      "ticker": "5411",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 921,
+      "name": "American Express Co",
+      "ticker": "AXP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 922,
+      "name": "Targa Resources Corp",
+      "ticker": "TRGP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 923,
+      "name": "Labcorp Holdings Inc",
+      "ticker": "LH",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 924,
+      "name": "Enphase Energy Inc",
+      "ticker": "ENPH",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 925,
+      "name": "Pentair PLC",
+      "ticker": "PNR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 926,
+      "name": "Southern Copper Corp",
+      "ticker": "SCCO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 927,
+      "name": "Union Pacific Corp",
+      "ticker": "UNP",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 928,
+      "name": "Extra Space Storage Inc",
+      "ticker": "EXR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 929,
+      "name": "Intuit Inc",
+      "ticker": "INTU",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 930,
+      "name": "NXP Semiconductors NV",
+      "ticker": "NXPI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 931,
+      "name": "Steel Dynamics Inc",
+      "ticker": "STLD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 932,
+      "name": "IDEX Corp",
+      "ticker": "IEX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 933,
+      "name": "Xero Ltd",
+      "ticker": "XRO",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 934,
+      "name": "Rightmove PLC",
+      "ticker": "RMV",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 935,
+      "name": "JB Hunt Transport Services Inc",
+      "ticker": "JBHT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 936,
+      "name": "ResMed Inc",
+      "ticker": "RMD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 937,
+      "name": "Marsh & McLennan Cos Inc",
+      "ticker": "MMC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 938,
+      "name": "Teradyne Inc",
+      "ticker": "TER",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 939,
+      "name": "WSP Global Inc",
+      "ticker": "WSP",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 940,
+      "name": "Boliden AB",
+      "ticker": "BOL",
+      "url": "",
+      "country": "Sweden"
+    },
+    {
+      "rank": 941,
+      "name": "Kingfisher PLC",
+      "ticker": "KGF",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 942,
+      "name": "DR Horton Inc",
+      "ticker": "DHI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 943,
+      "name": "MEIJI Holdings Co Ltd",
+      "ticker": "2269",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 944,
+      "name": "American Tower Corp",
+      "ticker": "AMT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 945,
+      "name": "CDW Corp/DE",
+      "ticker": "CDW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 946,
+      "name": "DoorDash Inc",
+      "ticker": "DASH",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 947,
+      "name": "SoftBank Corp",
+      "ticker": "9434",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 948,
+      "name": "Iron Mountain Inc",
+      "ticker": "IRM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 949,
+      "name": "Thermo Fisher Scientific Inc",
+      "ticker": "TMO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 950,
+      "name": "Coloplast A/S",
+      "ticker": "COLOB",
+      "url": "",
+      "country": "Denmark"
+    },
+    {
+      "rank": 951,
+      "name": "Salesforce Inc",
+      "ticker": "CRM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 952,
+      "name": "Nucor Corp",
+      "ticker": "NUE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 953,
+      "name": "AvalonBay Communities Inc",
+      "ticker": "AVB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 954,
+      "name": "FactSet Research Systems Inc",
+      "ticker": "FDS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 955,
+      "name": "International Business Machine",
+      "ticker": "IBM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 956,
+      "name": "Dover Corp",
+      "ticker": "DOV",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 957,
+      "name": "Waters Corp",
+      "ticker": "WAT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 958,
+      "name": "Domino's Pizza Inc",
+      "ticker": "DPZ",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 959,
+      "name": "Jacobs Solutions Inc",
+      "ticker": "J",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 960,
+      "name": "Palantir Technologies Inc",
+      "ticker": "PLTR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 961,
+      "name": "Public Storage",
+      "ticker": "PSA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 962,
+      "name": "Stryker Corp",
+      "ticker": "SYK",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 963,
+      "name": "Muenchener Rueckversicherungs-",
+      "ticker": "MUV2",
+      "url": "",
+      "country": "Germany"
+    },
+    {
+      "rank": 964,
+      "name": "Avery Dennison Corp",
+      "ticker": "AVY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 965,
+      "name": "Willis Towers Watson PLC",
+      "ticker": "WTW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 966,
+      "name": "Sherwin-Williams Co/The",
+      "ticker": "SHW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 967,
+      "name": "Blackstone Inc",
+      "ticker": "BX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 968,
+      "name": "Old Dominion Freight Line Inc",
+      "ticker": "ODFL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 969,
+      "name": "Lowe's Cos Inc",
+      "ticker": "LOW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 970,
+      "name": "Analog Devices Inc",
+      "ticker": "ADI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 971,
+      "name": "Datadog Inc",
+      "ticker": "DDOG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 972,
+      "name": "Paycom Software Inc",
+      "ticker": "PAYC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 973,
+      "name": "Digital Realty Trust Inc",
+      "ticker": "DLR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 974,
+      "name": "Advanced Micro Devices Inc",
+      "ticker": "AMD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 975,
+      "name": "Autodesk Inc",
+      "ticker": "ADSK",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 976,
+      "name": "Illinois Tool Works Inc",
+      "ticker": "ITW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 977,
+      "name": "Generac Holdings Inc",
+      "ticker": "GNRC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 978,
+      "name": "Trade Desk Inc/The",
+      "ticker": "TTD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 979,
+      "name": "Central Japan Railway Co",
+      "ticker": "9022",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 980,
+      "name": "Jack Henry & Associates Inc",
+      "ticker": "JKHY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 981,
+      "name": "Vertex Pharmaceuticals Inc",
+      "ticker": "VRTX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 982,
+      "name": "Workday Inc",
+      "ticker": "WDAY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 983,
+      "name": "Trane Technologies PLC",
+      "ticker": "TT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 984,
+      "name": "Westinghouse Air Brake Technol",
+      "ticker": "WAB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 985,
+      "name": "Deckers Outdoor Corp",
+      "ticker": "DECK",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 986,
+      "name": "Packaging Corp of America",
+      "ticker": "PKG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 987,
+      "name": "Nordson Corp",
+      "ticker": "NDSN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 988,
+      "name": "BP PLC",
+      "ticker": "BP/",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 989,
+      "name": "Mohawk Industries Inc",
+      "ticker": "MHK",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 990,
+      "name": "Rio Tinto Ltd",
+      "ticker": "RIO",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 991,
+      "name": "Orsted AS",
+      "ticker": "ORSTED",
+      "url": "",
+      "country": "Denmark"
+    },
+    {
+      "rank": 992,
+      "name": "Pool Corp",
+      "ticker": "POOL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 993,
+      "name": "SBA Communications Corp",
+      "ticker": "SBAC",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 994,
+      "name": "Equifax Inc",
+      "ticker": "EFX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 995,
+      "name": "Arthur J Gallagher & Co",
+      "ticker": "AJG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 996,
+      "name": "Goldman Sachs Group Inc/The",
+      "ticker": "GS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 997,
+      "name": "Air Products and Chemicals Inc",
+      "ticker": "APD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 998,
+      "name": "Essex Property Trust Inc",
+      "ticker": "ESS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 999,
+      "name": "Synopsys Inc",
+      "ticker": "SNPS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1000,
+      "name": "Aker BP ASA",
+      "ticker": "AKRBP",
+      "url": "",
+      "country": "Norway"
+    },
+    {
+      "rank": 1001,
+      "name": "Aon PLC",
+      "ticker": "AON",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1002,
+      "name": "Delta Electronics Inc",
+      "ticker": "2308",
+      "url": "",
+      "country": "Taiwan"
+    },
+    {
+      "rank": 1003,
+      "name": "LY Corp",
+      "ticker": "4689",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1004,
+      "name": "Croda International PLC",
+      "ticker": "CRDA",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1005,
+      "name": "Swiss Re AG",
+      "ticker": "SREN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 1006,
+      "name": "Lockheed Martin Corp",
+      "ticker": "LMT",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1007,
+      "name": "Cummins Inc",
+      "ticker": "CMI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1008,
+      "name": "Barratt Redrow PLC",
+      "ticker": "BTRW",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1009,
+      "name": "Kikkoman Corp",
+      "ticker": "2801",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1010,
+      "name": "DSV A/S",
+      "ticker": "DSV",
+      "url": "",
+      "country": "Denmark"
+    },
+    {
+      "rank": 1011,
+      "name": "Kering SA",
+      "ticker": "KER",
+      "url": "",
+      "country": "France"
+    },
+    {
+      "rank": 1012,
+      "name": "Home Depot Inc/The",
+      "ticker": "HD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1013,
+      "name": "MSCI Inc",
+      "ticker": "MSCI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1014,
+      "name": "First Solar Inc",
+      "ticker": "FSLR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1015,
+      "name": "Williams-Sonoma Inc",
+      "ticker": "WSM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1016,
+      "name": "Nomura Holdings Inc",
+      "ticker": "8604",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1017,
+      "name": "T&D Holdings Inc",
+      "ticker": "8795",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1018,
+      "name": "Tyler Technologies Inc",
+      "ticker": "TYL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1019,
+      "name": "Snap-on Inc",
+      "ticker": "SNA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1020,
+      "name": "Nissan Motor Co Ltd",
+      "ticker": "7201",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1021,
+      "name": "Ulta Beauty Inc",
+      "ticker": "ULTA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1022,
+      "name": "Intuitive Surgical Inc",
+      "ticker": "ISRG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1023,
+      "name": "Builders FirstSource Inc",
+      "ticker": "BLDR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1024,
+      "name": "Estee Lauder Cos Inc/The",
+      "ticker": "EL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1025,
+      "name": "Keysight Technologies Inc",
+      "ticker": "KEYS",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1026,
+      "name": "Motorola Solutions Inc",
+      "ticker": "MSI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1027,
+      "name": "Hubbell Inc",
+      "ticker": "HUBB",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1028,
+      "name": "Aberdeen Group PLC",
+      "ticker": "ABDN",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1029,
+      "name": "Cochlear Ltd",
+      "ticker": "COH",
+      "url": "",
+      "country": "Australia"
+    },
+    {
+      "rank": 1030,
+      "name": "Nissin Foods Holdings Co Ltd",
+      "ticker": "2897",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1031,
+      "name": "Daiwa Securities Group Inc",
+      "ticker": "8601",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1032,
+      "name": "NetEase Inc",
+      "ticker": "9999",
+      "url": "",
+      "country": "Hong Kong"
+    },
+    {
+      "rank": 1033,
+      "name": "Lululemon Athletica Inc",
+      "ticker": "LULU",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1034,
+      "name": "WW Grainger Inc",
+      "ticker": "GWW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1035,
+      "name": "Tesla Inc",
+      "ticker": "TSLA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1036,
+      "name": "Dai-ichi Life Holdings Inc",
+      "ticker": "8750",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1037,
+      "name": "Entain PLC",
+      "ticker": "ENT",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1038,
+      "name": "Reckitt Benckiser Group PLC",
+      "ticker": "RKT",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1039,
+      "name": "Coinbase Global Inc",
+      "ticker": "COIN",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1040,
+      "name": "Shopify Inc",
+      "ticker": "SHOP",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 1041,
+      "name": "Teledyne Technologies Inc",
+      "ticker": "TDY",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1042,
+      "name": "Ralph Lauren Corp",
+      "ticker": "RL",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1043,
+      "name": "F5 Inc",
+      "ticker": "FFIV",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1044,
+      "name": "Diageo PLC",
+      "ticker": "DGE",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1045,
+      "name": "Martin Marietta Materials Inc",
+      "ticker": "MLM",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1046,
+      "name": "GE Vernova Inc",
+      "ticker": "GEV",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1047,
+      "name": "Charter Communications Inc",
+      "ticker": "CHTR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1048,
+      "name": "Zebra Technologies Corp",
+      "ticker": "ZBRA",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1049,
+      "name": "Astellas Pharma Inc",
+      "ticker": "4503",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1050,
+      "name": "Mitsui Fudosan Co Ltd",
+      "ticker": "8801",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1051,
+      "name": "Burberry Group PLC",
+      "ticker": "BRBY",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1052,
+      "name": "Unicharm Corp",
+      "ticker": "8113",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1053,
+      "name": "Berkeley Group Holdings PLC",
+      "ticker": "BKG",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1054,
+      "name": "Empresas CMPC SA",
+      "ticker": "CMPC",
+      "url": "",
+      "country": "China"
+    },
+    {
+      "rank": 1055,
+      "name": "Sage Group PLC/The",
+      "ticker": "SGE",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1056,
+      "name": "TransDigm Group Inc",
+      "ticker": "TDG",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1057,
+      "name": "Tokyu Corp",
+      "ticker": "9005",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1058,
+      "name": "West Japan Railway Co",
+      "ticker": "9021",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1059,
+      "name": "Hankyu Hanshin Holdings Inc",
+      "ticker": "9042",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1060,
+      "name": "Mettler-Toledo International I",
+      "ticker": "MTD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1061,
+      "name": "Crowdstrike Holdings Inc",
+      "ticker": "CRWD",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1062,
+      "name": "Ono Pharmaceutical Co Ltd",
+      "ticker": "4528",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1063,
+      "name": "IDEXX Laboratories Inc",
+      "ticker": "IDXX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1064,
+      "name": "Seven & i Holdings Co Ltd",
+      "ticker": "3382",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1065,
+      "name": "Ricoh Co Ltd",
+      "ticker": "7752",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1066,
+      "name": "AutoZone Inc",
+      "ticker": "AZO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1067,
+      "name": "United Rentals Inc",
+      "ticker": "URI",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1068,
+      "name": "SG Holdings Co Ltd",
+      "ticker": "9143",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1069,
+      "name": "Osaka Gas Co Ltd",
+      "ticker": "9532",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1070,
+      "name": "Lennox International Inc",
+      "ticker": "LII",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1071,
+      "name": "Axon Enterprise Inc",
+      "ticker": "AXON",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1072,
+      "name": "Daiichi Sankyo Co Ltd",
+      "ticker": "4568",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1073,
+      "name": "Weir Group PLC/The",
+      "ticker": "WEIR",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1074,
+      "name": "Parker-Hannifin Corp",
+      "ticker": "PH",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1075,
+      "name": "Nippon Steel Corp",
+      "ticker": "5401",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1076,
+      "name": "Antofagasta PLC",
+      "ticker": "ANTO",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1077,
+      "name": "Givaudan SA",
+      "ticker": "GIVN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 1078,
+      "name": "ServiceNow Inc",
+      "ticker": "NOW",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1079,
+      "name": "Equinix Inc",
+      "ticker": "EQIX",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1080,
+      "name": "Kubota Corp",
+      "ticker": "6326",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1081,
+      "name": "Barry Callebaut AG",
+      "ticker": "BARN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 1082,
+      "name": "Tapestry Inc",
+      "ticker": "TPR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1083,
+      "name": "3i Group PLC",
+      "ticker": "III",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1084,
+      "name": "East Japan Railway Co",
+      "ticker": "9020",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1085,
+      "name": "Partners Group Holding AG",
+      "ticker": "PGHN",
+      "url": "",
+      "country": "Switzerland"
+    },
+    {
+      "rank": 1086,
+      "name": "Isuzu Motors Ltd",
+      "ticker": "7202",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1087,
+      "name": "Olympus Corp",
+      "ticker": "7733",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1088,
+      "name": "GSK PLC",
+      "ticker": "GSK",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1089,
+      "name": "Honda Motor Co Ltd",
+      "ticker": "7267",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1090,
+      "name": "Yamaha Motor Co Ltd",
+      "ticker": "7272",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1091,
+      "name": "Monolithic Power Systems Inc",
+      "ticker": "MPWR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1092,
+      "name": "Japan Exchange Group Inc",
+      "ticker": "8697",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1093,
+      "name": "Constellation Software Inc/Can",
+      "ticker": "CSU",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 1094,
+      "name": "Toray Industries Inc",
+      "ticker": "3402",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1095,
+      "name": "IMI PLC",
+      "ticker": "IMI",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1096,
+      "name": "Taiwan Semiconductor Manufactu",
+      "ticker": "2330",
+      "url": "",
+      "country": "Taiwan"
+    },
+    {
+      "rank": 1097,
+      "name": "Intertek Group PLC",
+      "ticker": "ITRK",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1098,
+      "name": "Sumitomo Metal Mining Co Ltd",
+      "ticker": "5713",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1099,
+      "name": "Panasonic Holdings Corp",
+      "ticker": "6752",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1100,
+      "name": "Persimmon PLC",
+      "ticker": "PSN",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1101,
+      "name": "Asahi Group Holdings Ltd",
+      "ticker": "2502",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1102,
+      "name": "Mitsubishi Estate Co Ltd",
+      "ticker": "8802",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1103,
+      "name": "Inpex Corp",
+      "ticker": "1605",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1104,
+      "name": "Kyocera Corp",
+      "ticker": "6971",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1105,
+      "name": "Associated British Foods PLC",
+      "ticker": "ABF",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1106,
+      "name": "Daifuku Co Ltd",
+      "ticker": "6383",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1107,
+      "name": "Fair Isaac Corp",
+      "ticker": "FICO",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1108,
+      "name": "Anglo American PLC",
+      "ticker": "AAL",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1109,
+      "name": "Deere & Co",
+      "ticker": "DE",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1110,
+      "name": "Aisin Corp",
+      "ticker": "7259",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1111,
+      "name": "Nippon Paint Holdings Co Ltd",
+      "ticker": "4612",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1112,
+      "name": "Japan Tobacco Inc",
+      "ticker": "2914",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1113,
+      "name": "Shell PLC",
+      "ticker": "SHEL",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1114,
+      "name": "Murata Manufacturing Co Ltd",
+      "ticker": "6981",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1115,
+      "name": "Suzuki Motor Corp",
+      "ticker": "7269",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1116,
+      "name": "Asics Corp",
+      "ticker": "7936",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1117,
+      "name": "Fujitsu Ltd",
+      "ticker": "6702",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1118,
+      "name": "Terumo Corp",
+      "ticker": "4543",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1119,
+      "name": "Omron Corp",
+      "ticker": "6645",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1120,
+      "name": "FANUC Corp",
+      "ticker": "6954",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1121,
+      "name": "Dai Nippon Printing Co Ltd",
+      "ticker": "7912",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1122,
+      "name": "Makita Corp",
+      "ticker": "6586",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1123,
+      "name": "Obayashi Corp",
+      "ticker": "1802",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1124,
+      "name": "Denso Corp",
+      "ticker": "6902",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1125,
+      "name": "Halma PLC",
+      "ticker": "HLMA",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1126,
+      "name": "Renesas Electronics Corp",
+      "ticker": "6723",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1127,
+      "name": "Unilever PLC",
+      "ticker": "ULVR",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1128,
+      "name": "Carlsberg AS",
+      "ticker": "CARLB",
+      "url": "",
+      "country": "Denmark"
+    },
+    {
+      "rank": 1129,
+      "name": "Sompo Holdings Inc",
+      "ticker": "8630",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1130,
+      "name": "KDDI Corp",
+      "ticker": "9433",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1131,
+      "name": "Dentsu Group Inc",
+      "ticker": "4324",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1132,
+      "name": "Sony Group Corp",
+      "ticker": "6758",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1133,
+      "name": "Mitsubishi Electric Corp",
+      "ticker": "6503",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1134,
+      "name": "Mitsui & Co Ltd",
+      "ticker": "8031",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1135,
+      "name": "Japan Airlines Co Ltd",
+      "ticker": "9201",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1136,
+      "name": "Sysmex Corp",
+      "ticker": "6869",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1137,
+      "name": "Obic Co Ltd",
+      "ticker": "4684",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1138,
+      "name": "TDK Corp",
+      "ticker": "6762",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1139,
+      "name": "InterContinental Hotels Group",
+      "ticker": "IHG",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1140,
+      "name": "Shionogi & Co Ltd",
+      "ticker": "4507",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1141,
+      "name": "Mitsubishi Corp",
+      "ticker": "8058",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1142,
+      "name": "ANA Holdings Inc",
+      "ticker": "9202",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1143,
+      "name": "Toyota Motor Corp",
+      "ticker": "7203",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1144,
+      "name": "Adyen NV",
+      "ticker": "ADYEN",
+      "url": "",
+      "country": "Netherlands"
+    },
+    {
+      "rank": 1145,
+      "name": "NEC Corp",
+      "ticker": "6701",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1146,
+      "name": "Sumitomo Corp",
+      "ticker": "8053",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1147,
+      "name": "Secom Co Ltd",
+      "ticker": "9735",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1148,
+      "name": "Nippon Yusen KK",
+      "ticker": "9101",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1149,
+      "name": "Kajima Corp",
+      "ticker": "1812",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1150,
+      "name": "Tokio Marine Holdings Inc",
+      "ticker": "8766",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1151,
+      "name": "AGC Inc",
+      "ticker": "5201",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1152,
+      "name": "Marubeni Corp",
+      "ticker": "8002",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1153,
+      "name": "Canon Inc",
+      "ticker": "7751",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1154,
+      "name": "Sumitomo Electric Industries L",
+      "ticker": "5802",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1155,
+      "name": "Shiseido Co Ltd",
+      "ticker": "4911",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1156,
+      "name": "Fujikura Ltd",
+      "ticker": "5803",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1157,
+      "name": "Nintendo Co Ltd",
+      "ticker": "7974",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1158,
+      "name": "Nitto Denko Corp",
+      "ticker": "6988",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1159,
+      "name": "Daiwa House Industry Co Ltd",
+      "ticker": "1925",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1160,
+      "name": "Ajinomoto Co Inc",
+      "ticker": "2802",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1161,
+      "name": "Bridgestone Corp",
+      "ticker": "5108",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1162,
+      "name": "Subaru Corp",
+      "ticker": "7270",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1163,
+      "name": "Pan Pacific International Hold",
+      "ticker": "7532",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1164,
+      "name": "NVR Inc",
+      "ticker": "NVR",
+      "url": "",
+      "country": "United States"
+    },
+    {
+      "rank": 1165,
+      "name": "Aeon Co Ltd",
+      "ticker": "8267",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1166,
+      "name": "Hitachi Ltd",
+      "ticker": "6501",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1167,
+      "name": "Yaskawa Electric Corp",
+      "ticker": "6506",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1168,
+      "name": "Bandai Namco Holdings Inc",
+      "ticker": "7832",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1169,
+      "name": "Komatsu Ltd",
+      "ticker": "6301",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1170,
+      "name": "Chugai Pharmaceutical Co Ltd",
+      "ticker": "4519",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1171,
+      "name": "Otsuka Holdings Co Ltd",
+      "ticker": "4578",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1172,
+      "name": "Toyota Tsusho Corp",
+      "ticker": "8015",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1173,
+      "name": "Diploma PLC",
+      "ticker": "DPLM",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1174,
+      "name": "Interconexion Electrica SA ESP",
+      "ticker": "ISA",
+      "url": "",
+      "country": "Canada"
+    },
+    {
+      "rank": 1175,
+      "name": "Sumitomo Realty & Development",
+      "ticker": "8830",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1176,
+      "name": "Rio Tinto PLC",
+      "ticker": "RIO",
+      "url": "",
+      "country": "United Kingdom"
+    },
+    {
+      "rank": 1177,
+      "name": "Daito Trust Construction Co Lt",
+      "ticker": "1878",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1178,
+      "name": "Shimano Inc",
+      "ticker": "7309",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1179,
+      "name": "Mitsubishi Heavy Industries Lt",
+      "ticker": "7011",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1180,
+      "name": "Taisei Corp",
+      "ticker": "1801",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1181,
+      "name": "Konami Group Corp",
+      "ticker": "9766",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1182,
+      "name": "ITOCHU Corp",
+      "ticker": "8001",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1183,
+      "name": "Daikin Industries Ltd",
+      "ticker": "6367",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1184,
+      "name": "Samsung Electronics Co Ltd",
+      "ticker": "005930",
+      "url": "",
+      "country": "South Korea"
+    },
+    {
+      "rank": 1185,
+      "name": "Shinhan Financial Group Co Ltd",
+      "ticker": "055550",
+      "url": "",
+      "country": "South Korea"
+    },
+    {
+      "rank": 1186,
+      "name": "SCREEN Holdings Co Ltd",
+      "ticker": "7735",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1187,
+      "name": "AP Moller - Maersk A/S",
+      "ticker": "MAERSKA",
+      "url": "",
+      "country": "Denmark"
+    },
+    {
+      "rank": 1188,
+      "name": "Tokyo Electron Ltd",
+      "ticker": "8035",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1189,
+      "name": "Recruit Holdings Co Ltd",
+      "ticker": "6098",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1190,
+      "name": "NAVER Corp",
+      "ticker": "035420",
+      "url": "",
+      "country": "South Korea"
+    },
+    {
+      "rank": 1191,
+      "name": "Advantest Corp",
+      "ticker": "6857",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1192,
+      "name": "Hoya Corp",
+      "ticker": "7741",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1193,
+      "name": "Celltrion Inc",
+      "ticker": "068270",
+      "url": "",
+      "country": "South Korea"
+    },
+    {
+      "rank": 1194,
+      "name": "Keyence Corp",
+      "ticker": "6861",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1195,
+      "name": "Disco Corp",
+      "ticker": "6146",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1196,
+      "name": "Fast Retailing Co Ltd",
+      "ticker": "9983",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1197,
+      "name": "KB Financial Group Inc",
+      "ticker": "105560",
+      "url": "",
+      "country": "South Korea"
+    },
+    {
+      "rank": 1198,
+      "name": "SK Hynix Inc",
+      "ticker": "000660",
+      "url": "",
+      "country": "South Korea"
+    },
+    {
+      "rank": 1199,
+      "name": "SMC Corp",
+      "ticker": "6273",
+      "url": "",
+      "country": "Japan"
+    },
+    {
+      "rank": 1200,
+      "name": "Samsung Biologics Co Ltd",
+      "ticker": "207940",
+      "url": "",
+      "country": "South Korea"
+    }
+  ],
+  "last_updated": "2025-08-13T00:00:00Z",
+  "count": 1200,
+  "source": "csv_import"
+}

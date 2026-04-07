@@ -456,6 +456,11 @@
       color: var(--muted);
     }
 
+    .td-country {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
     .td-url a {
       font-size: 12px;
       color: var(--sage-dark);
@@ -556,6 +561,12 @@
     <div class="navbar__divider"></div>
     <span class="navbar__subtitle">Index Tracker</span>
     <div class="navbar__spacer"></div>
+    <button class="btn btn-ghost" onclick="openSourcesModal()">
+      &#x2139;&nbsp; Sources &amp; QA
+    </button>
+    <button class="btn btn-ghost" id="refresh-all-btn" onclick="refreshAll()">
+      &#x21BB;&nbsp; Refresh All
+    </button>
     <button class="btn btn-sage" onclick="exportAll()">
       &#x2193;&nbsp; Export All
     </button>
@@ -633,9 +644,85 @@
 
   <!-- Hidden CSV file input -->
   <input type="file" id="csv-input" accept=".csv,text/csv" onchange="handleFileInputChange(event)" />
+  <input type="file" id="enrich-input" accept=".csv,text/csv" onchange="handleEnrichInputChange(event)" style="display:none;" />
 
   <!-- Toast container -->
   <div class="toast-container" id="toast-container"></div>
+
+  <!-- Sources & QA modal -->
+  <div id="sources-modal" style="display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,0.4);overflow-y:auto;">
+    <div style="background:var(--white);border-radius:var(--radius);max-width:1000px;margin:40px auto;padding:0;box-shadow:0 8px 40px rgba(0,0,0,0.18);">
+      <!-- Modal header -->
+      <div style="display:flex;align-items:center;padding:18px 24px 16px;border-bottom:1px solid var(--border);">
+        <div style="flex:1;">
+          <div style="font-size:16px;font-weight:700;color:var(--ink);">Sources &amp; Data Quality</div>
+          <div style="font-size:12px;color:var(--muted);margin-top:2px;">Where the data comes from and what QA is in place</div>
+        </div>
+        <button onclick="closeSourcesModal()" style="background:none;border:none;cursor:pointer;font-size:20px;color:var(--muted);line-height:1;">&#x2715;</button>
+      </div>
+      <!-- Modal body -->
+      <div style="padding:24px;display:flex;flex-direction:column;gap:24px;">
+
+        <!-- Source type legend -->
+        <div>
+          <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted);margin-bottom:10px;">Source Types</div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+            <div style="background:var(--bg);border-radius:8px;padding:12px 14px;">
+              <div style="font-weight:600;font-size:13px;margin-bottom:4px;">Wikipedia</div>
+              <div style="font-size:12px;color:var(--muted);line-height:1.5;">Community-maintained constituent tables. Generally accurate but may lag official rebalancing by days to weeks. No ticker data for most international indices. Used for 23 of 32 indices.</div>
+            </div>
+            <div style="background:var(--bg);border-radius:8px;padding:12px 14px;">
+              <div style="font-weight:600;font-size:13px;margin-bottom:4px;">iShares ETF CSV</div>
+              <div style="font-size:12px;color:var(--muted);line-height:1.5;">BlackRock publishes daily holding snapshots for their ETFs. High confidence when the ETF tracks the exact index. Some indices use a <em>proxy ETF</em> (different index, same universe) — see notes. Includes per-company country data.</div>
+            </div>
+            <div style="background:var(--bg);border-radius:8px;padding:12px 14px;">
+              <div style="font-weight:600;font-size:13px;margin-bottom:4px;">Nasdaq Screener API</div>
+              <div style="font-size:12px;color:var(--muted);line-height:1.5;">Official Nasdaq API returning all Nasdaq-listed companies. High confidence. Count varies (~3,300–3,500) as companies list and delist. Used for Nasdaq Composite.</div>
+            </div>
+            <div style="background:var(--bg);border-radius:8px;padding:12px 14px;">
+              <div style="font-weight:600;font-size:13px;margin-bottom:4px;">50pros.com / Fortune / Forbes</div>
+              <div style="font-size:12px;color:var(--muted);line-height:1.5;">Third-party mirrors and direct API scraping. Fortune franchise API is currently broken; 50pros.com used as fallback (Fortune 500 only — Fortune 1000 incomplete). Forbes API is year-sensitive.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- QA section -->
+        <div style="background:#fff8e6;border:1px solid #f0d080;border-radius:8px;padding:14px 16px;">
+          <div style="font-weight:600;font-size:13px;margin-bottom:6px;">&#x26A0; QA Limitations</div>
+          <ul style="font-size:12px;color:var(--ink);line-height:1.8;margin:0;padding-left:18px;">
+            <li>No automated cross-validation against official index providers (FTSE Russell, S&amp;P Global, STOXX, Nasdaq, etc.)</li>
+            <li>Wikipedia-sourced indices may be days or weeks behind official rebalancing dates</li>
+            <li>iShares ETF holdings ≈ index composition but are not identical — ETF may hold slightly different weights, ADRs, or cash positions</li>
+            <li>Dual-class shares (e.g. Alphabet GOOGL/GOOG, Fox FOXA/FOX) are deduplicated to one entry per company; the A-class / first-listed ticker is kept</li>
+            <li>To validate: compare against the official index factsheet from the relevant index provider</li>
+          </ul>
+        </div>
+
+        <!-- Per-index table -->
+        <div>
+          <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted);margin-bottom:10px;">Per-Index Details</div>
+          <div style="border:1px solid var(--border);border-radius:8px;overflow:hidden;">
+            <table style="width:100%;border-collapse:collapse;font-size:12px;">
+              <thead style="background:var(--bg);">
+                <tr>
+                  <th style="padding:8px 12px;text-align:left;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;border-bottom:1px solid var(--border);">Index</th>
+                  <th style="padding:8px 12px;text-align:left;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;border-bottom:1px solid var(--border);">Source</th>
+                  <th style="padding:8px 12px;text-align:left;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;border-bottom:1px solid var(--border);">Rebalances</th>
+                  <th style="padding:8px 12px;text-align:left;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;border-bottom:1px solid var(--border);">Last Refreshed</th>
+                  <th style="padding:8px 12px;text-align:right;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;border-bottom:1px solid var(--border);">Count</th>
+                  <th style="padding:8px 12px;text-align:left;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;border-bottom:1px solid var(--border);">Status / Notes</th>
+                </tr>
+              </thead>
+              <tbody id="sources-table-body">
+                <!-- populated by JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
   <!-- ===================================================================
        JavaScript
@@ -713,6 +800,14 @@
         refreshBtn.onclick = () => refreshIndex(indexId);
         actionsEl.appendChild(refreshBtn);
       }
+
+      // Enrich button — always shown
+      const enrichBtn = document.createElement('button');
+      enrichBtn.className = 'btn btn-ghost';
+      enrichBtn.title = 'Upload a CSV with kernel_id, legal_name, account_url to enrich this index';
+      enrichBtn.innerHTML = '&#x2B;&#xFE0E;&nbsp; Enrich';
+      enrichBtn.onclick = () => triggerEnrichUpload(indexId);
+      actionsEl.appendChild(enrichBtn);
 
       // Export button (only shown when data exists)
       if (companyCount && companyCount > 0) {
@@ -838,6 +933,46 @@
       const input = document.getElementById('csv-input');
       input.value = '';
       input.click();
+    }
+
+    let enrichTargetId = null;
+
+    function triggerEnrichUpload(indexId) {
+      enrichTargetId = indexId;
+      const input = document.getElementById('enrich-input');
+      input.value = '';
+      input.click();
+    }
+
+    async function handleEnrichInputChange(event) {
+      const file = event.target.files[0];
+      if (!file || !enrichTargetId) return;
+      const indexId = enrichTargetId;
+      const meta = INDICES_MAP[indexId];
+
+      const formData = new FormData();
+      formData.append('file', file);
+
+      try {
+        const resp = await fetch('/api/enrich/' + indexId, { method: 'POST', body: formData });
+        const data = await resp.json();
+
+        if (!resp.ok || data.error) {
+          toast('Enrichment failed: ' + (data.error || 'Unknown error'), 'error');
+          return;
+        }
+
+        toast(
+          meta.name + ': enriched ' + data.matched_in_index + ' companies'
+          + ' (' + data.new + ' new, ' + data.updated + ' updated)',
+          'success'
+        );
+
+        if (activeIndexId === indexId) await selectIndex(indexId);
+
+      } catch (err) {
+        toast('Enrichment failed: ' + err.message, 'error');
+      }
     }
 
     function handleFileInputChange(event) {
@@ -1012,15 +1147,18 @@
         errorHtml = `<div class="error-banner">&#x26A0; Last refresh had a warning: ${escapeHtml(errorMsg)}</div>`;
       }
 
+      // Detect optional enrichment columns present in this dataset
+      const hasKernel = companies.some(c => c.kernel_id);
+
       const rows = companies.map(c => {
-        const name   = escapeHtml(c.name   || '');
-        const ticker = escapeHtml(c.ticker || '');
-        const url    = c.url || '';
-        const rank   = c.rank || '';
+        const name     = escapeHtml(c.name    || '');
+        const ticker   = escapeHtml(c.ticker  || '');
+        const country  = escapeHtml(c.country || '');
+        const url      = c.url || '';
+        const rank     = c.rank || '';
 
         let urlCell;
         if (url) {
-          // Try to show just the hostname
           let display = url;
           try { display = new URL(url).hostname.replace(/^www\./, ''); } catch(e) {}
           urlCell = `<a href="${escapeAttr(url)}" target="_blank" rel="noopener">${escapeHtml(display)}</a>`;
@@ -1028,14 +1166,31 @@
           urlCell = `<span class="td-null">&mdash;</span>`;
         }
 
+        const countryCell = country ? country : `<span class="td-null">&mdash;</span>`;
+
+        let kernelCells = '';
+        if (hasKernel) {
+          const kid       = escapeHtml(c.kernel_id   || '');
+          const legalName = escapeHtml(c.legal_name  || '');
+          kernelCells = `
+            <td class="td-ticker">${kid  || '<span class="td-null">&mdash;</span>'}</td>
+            <td class="td-name"  style="color:var(--muted);font-size:12px;">${legalName || '<span class="td-null">&mdash;</span>'}</td>`;
+        }
+
         return `
           <tr>
             <td class="td-rank">${rank}</td>
             <td class="td-name">${name}</td>
-            <td class="td-ticker">${ticker}</td>
+            <td class="td-ticker">${ticker || '<span class="td-null">&mdash;</span>'}</td>
+            <td class="td-country">${countryCell}</td>
             <td class="td-url">${urlCell}</td>
+            ${kernelCells}
           </tr>`;
       }).join('');
+
+      const kernelHeaders = hasKernel
+        ? '<th>Kernel ID</th><th>Legal Name</th>'
+        : '';
 
       panelBody.innerHTML = `
         ${errorHtml}
@@ -1047,7 +1202,9 @@
                   <th>#</th>
                   <th>Name</th>
                   <th>Ticker</th>
+                  <th>Country</th>
                   <th>Website</th>
+                  ${kernelHeaders}
                 </tr>
               </thead>
               <tbody>${rows}</tbody>
@@ -1095,6 +1252,151 @@
     function escapeAttr(str) {
       if (str == null) return '';
       return String(str).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    }
+
+    // -----------------------------------------------------------------------
+    // Refresh All
+    // -----------------------------------------------------------------------
+
+    async function refreshAll() {
+      const btn = document.getElementById('refresh-all-btn');
+      const autoIndices = INDICES.filter(idx => !idx.manual);
+      const total = autoIndices.length;
+      let done = 0, failed = 0;
+
+      btn.disabled = true;
+
+      for (const idx of autoIndices) {
+        btn.innerHTML = `<span class="spinner"></span>&nbsp; ${done}/${total}`;
+        setDotState(idx.id, 'loading');
+
+        try {
+          const resp = await fetch('/api/refresh/' + idx.id, { method: 'POST' });
+          const data = await resp.json();
+
+          if (!resp.ok || data.error) {
+            setDotState(idx.id, 'empty');
+            setSidebarMeta(idx.id, 'Failed');
+            failed++;
+          } else {
+            setDotState(idx.id, 'loaded');
+            const dateStr = data.last_updated ? data.last_updated.slice(0, 10) : '';
+            setSidebarMeta(idx.id, data.count + ' compan' + (data.count === 1 ? 'y' : 'ies') + ' · ' + dateStr);
+            INDICES_MAP[idx.id].has_data = true;
+            INDICES_MAP[idx.id].count = data.count;
+            done++;
+          }
+        } catch (e) {
+          setDotState(idx.id, 'empty');
+          failed++;
+        }
+
+        // If this is the currently-viewed index, reload its table
+        if (activeIndexId === idx.id) {
+          await selectIndex(idx.id);
+        }
+      }
+
+      btn.disabled = false;
+      btn.innerHTML = '&#x21BB;&nbsp; Refresh All';
+
+      if (activeIndexId) await selectIndex(activeIndexId);
+
+      if (failed === 0) {
+        toast(`All ${done} indices refreshed`, 'success');
+      } else {
+        toast(`${done} refreshed, ${failed} failed`, failed > 0 ? 'error' : 'success');
+      }
+    }
+
+    // -----------------------------------------------------------------------
+    // Sources & QA modal
+    // -----------------------------------------------------------------------
+
+    // Injected from Flask
+    const INDICES_META = {{ indices_meta | tojson }};
+
+    function openSourcesModal() {
+      populateSourcesTable();
+      document.getElementById('sources-modal').style.display = 'block';
+    }
+
+    function closeSourcesModal() {
+      document.getElementById('sources-modal').style.display = 'none';
+    }
+
+    // Close on backdrop click
+    document.getElementById('sources-modal').addEventListener('click', function(e) {
+      if (e.target === this) closeSourcesModal();
+    });
+
+    const SOURCE_LABELS = {{ source_labels | tojson }};
+
+    function populateSourcesTable() {
+      const tbody = document.getElementById('sources-table-body');
+      if (!tbody) return;
+
+      const now = new Date();
+
+      const rows = INDICES.map((idx, i) => {
+        const meta = INDICES_META[idx.id] || {};
+        const sourceLabel = (SOURCE_LABELS[meta.source] || meta.source || '—');
+        const rebalances = meta.rebalance_schedule || '—';
+        const staleDays = meta.stale_days;
+        const notes = meta.data_notes || '';
+
+        // Last refreshed + stale detection
+        let refreshedHtml = '<span style="color:var(--muted);">Never</span>';
+        let staleHtml = '';
+        if (idx.last_updated) {
+          const d = new Date(idx.last_updated);
+          const daysSince = Math.floor((now - d) / 86400000);
+          const dateStr = idx.last_updated.slice(0, 10);
+          refreshedHtml = `<span style="color:var(--muted);">${escapeHtml(dateStr)}</span><br><span style="font-size:11px;color:var(--muted);">${daysSince}d ago</span>`;
+          if (staleDays && daysSince > staleDays) {
+            staleHtml = `<span style="color:#b07000;font-size:11px;">⚠ May be stale</span>`;
+          }
+        } else if (idx.has_data === false) {
+          refreshedHtml = '<span style="color:#c0392b;font-size:11px;">No data</span>';
+        }
+
+        // Count vs expected
+        const expected = meta.expected_count;
+        let countHtml = '—';
+        if (idx.has_data) {
+          const c = (idx.count || 0).toLocaleString();
+          if (expected) {
+            const ratio = idx.count / expected;
+            const expStr = expected.toLocaleString();
+            if (ratio > 1.15 || ratio < 0.85) {
+              countHtml = `<span style="color:#c0392b;font-weight:600;">${c}</span><br><span style="font-size:11px;color:var(--muted);">exp. ${expStr}</span>`;
+            } else {
+              countHtml = `${c}<br><span style="font-size:11px;color:var(--muted);">exp. ${expStr}</span>`;
+            }
+          } else {
+            countHtml = c;
+          }
+        }
+
+        // Status/notes: combine stale flag + validation badge + notes
+        let statusBadge = '';
+        // Notes
+        const noteHtml = notes.startsWith('\u26a0')
+          ? `<span style="color:#b07000;font-size:11px;">${escapeHtml(notes)}</span>`
+          : notes ? `<span style="color:var(--muted);font-size:11px;">${escapeHtml(notes)}</span>` : '';
+
+        const border = i < INDICES.length - 1 ? 'border-bottom:1px solid var(--border);' : '';
+        return `<tr style="${border}">
+          <td style="padding:8px 12px;font-weight:600;">${escapeHtml(idx.name)}</td>
+          <td style="padding:8px 12px;color:var(--muted);white-space:nowrap;">${escapeHtml(sourceLabel)}</td>
+          <td style="padding:8px 12px;color:var(--muted);white-space:nowrap;font-size:11px;">${escapeHtml(rebalances)}</td>
+          <td style="padding:8px 12px;white-space:nowrap;">${refreshedHtml}${staleHtml ? '<br>' + staleHtml : ''}</td>
+          <td style="padding:8px 12px;text-align:right;">${countHtml}</td>
+          <td style="padding:8px 12px;max-width:240px;">${noteHtml}</td>
+        </tr>`;
+      });
+
+      tbody.innerHTML = rows.join('');
     }
   </script>
 </body>
