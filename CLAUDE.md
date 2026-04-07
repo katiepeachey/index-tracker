@@ -100,6 +100,6 @@ search_engine("FTSE 350 constituents complete list 2025 site:ftserussell.com OR 
 
 ## Deployment Notes
 
-- **Playwright is NOT available on Render** — Fortune/Forbes Playwright fallbacks only work locally
+- **Playwright on Render** — works; requires `--no-sandbox --disable-dev-shm-usage --disable-gpu` launch args (already set in all scrapers). Build command installs chromium via `playwright install chromium --with-deps`
 - `enrich_urls_with_kernel()` only runs locally (Kernel CLI not on Render)
 - `data/` directory is ephemeral on Render — data resets on each deploy

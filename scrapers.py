@@ -270,7 +270,7 @@ INDICES_CONFIG = {
         'limit': 500,
         'country_default': 'United States',
         'expected_count': 500,
-        'data_notes': 'us500.com (full Fortune 500, Walmart #1, official 2025 list). Playwright required locally; falls back to 50pros.com on Render (500 only).',
+        'data_notes': 'us500.com via Playwright (Fortune 500, Walmart #1, official 2025 list).',
         'rebalance_schedule': 'Annual (May)',
         'stale_days': 400,
     },
@@ -281,7 +281,7 @@ INDICES_CONFIG = {
         'limit': 1000,
         'country_default': 'United States',
         'expected_count': 1000,
-        'data_notes': 'us500.com via Playwright (all 1,000 companies). Walmart #1 (official 2025 list, FY2024 revenue). 4 rank numbers skipped due to Fortune ties (498×2, 665×2, 667×2, 759×2). Playwright required locally; Render falls back to 50pros.com (500 only).',
+        'data_notes': 'us500.com via Playwright (all 1,000 companies). Walmart #1 (official 2025 list, FY2024 revenue). 4 rank numbers skipped due to Fortune ties (498×2, 665×2, 667×2, 759×2).',
         'rebalance_schedule': 'Annual (May)',
         'stale_days': 400,
     },
@@ -1177,7 +1177,10 @@ def _scrape_fortune_us500_playwright(limit: int, country_default: str) -> List[d
         return companies
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(
+            headless=True,
+            args=['--no-sandbox', '--disable-dev-shm-usage', '--disable-gpu'],
+        )
         page = browser.new_page()
         page.goto('https://us500.com/fortune-1000-companies', wait_until='networkidle', timeout=60000)
         time.sleep(2)
@@ -1238,7 +1241,7 @@ def scrape_fortune(
       3. Fall back to 50pros.com (server-side rendered, covers Fortune 500 only).
     Returns a list of dicts: {rank, name, ticker, url, country}
     """
-    # 1. Try us500.com via Playwright (local only — Playwright not on Render)
+    # 1. Try us500.com via Playwright (requires chromium; installed via render.yaml build command)
     try:
         companies = _scrape_fortune_us500_playwright(limit, country_default)
         if companies:
