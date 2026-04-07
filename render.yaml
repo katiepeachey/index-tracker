@@ -2,7 +2,7 @@ services:
   - type: web
     name: index-tracker
     env: python
-    buildCommand: pip install -r requirements.txt && playwright install-deps chromium && playwright install chromium
+    buildCommand: pip install -r requirements.txt && playwright install chromium
     startCommand: gunicorn app:app
     envVars:
       - key: PYTHON_VERSION
