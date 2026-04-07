@@ -30,6 +30,7 @@ from typing import Optional, Dict
 from scrapers import scrape_index, INDICES_CONFIG
 
 app = Flask(__name__)
+app.wsgi_app = __import__('whitenoise').WhiteNoise(app.wsgi_app, root='static/', prefix='static')
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
 ENRICHMENT_DIR = os.path.join(DATA_DIR, 'enrichment')
